@@ -1,0 +1,2500 @@
+"ocamlbuild/hygiene.ml" 34 1070 1074 "ocamlbuild/hygiene.ml" 34 1070 1086
+type(
+  ('a -> 'b option) -> 'a list -> 'b list
+)
+ident(
+  def list_collect "ocamlbuild/hygiene.ml" 44 1293 1293 "_none_" 1 0 -1
+)
+"ocamlbuild/hygiene.ml" 34 1070 1087 "ocamlbuild/hygiene.ml" 34 1070 1088
+type(
+  'a -> 'b option
+)
+ident(
+  def f "ocamlbuild/hygiene.ml" 34 1070 1089 "ocamlbuild/hygiene.ml" 42 1280 1291
+)
+"ocamlbuild/hygiene.ml" 34 1070 1089 "ocamlbuild/hygiene.ml" 34 1070 1090
+type(
+  'a list
+)
+ident(
+  def l "ocamlbuild/hygiene.ml" 35 1093 1095 "ocamlbuild/hygiene.ml" 42 1280 1291
+)
+"ocamlbuild/hygiene.ml" 35 1093 1103 "ocamlbuild/hygiene.ml" 35 1093 1107
+type(
+  'b list -> 'a list -> 'b list
+)
+ident(
+  def loop "ocamlbuild/hygiene.ml" 35 1093 1095 "ocamlbuild/hygiene.ml" 42 1280 1291
+)
+"ocamlbuild/hygiene.ml" 35 1093 1108 "ocamlbuild/hygiene.ml" 35 1093 1114
+type(
+  'b list
+)
+ident(
+  def result "ocamlbuild/hygiene.ml" 35 1093 1117 "ocamlbuild/hygiene.ml" 40 1231 1274
+)
+"ocamlbuild/hygiene.ml" 36 1126 1132 "ocamlbuild/hygiene.ml" 36 1126 1134
+type(
+  'a list
+)
+"ocamlbuild/hygiene.ml" 36 1126 1138 "ocamlbuild/hygiene.ml" 36 1126 1146
+type(
+  'b list -> 'b list
+)
+ident(
+  ext_ref My_std.List.rev
+)
+"ocamlbuild/hygiene.ml" 36 1126 1147 "ocamlbuild/hygiene.ml" 36 1126 1153
+type(
+  'b list
+)
+ident(
+  int_ref result "ocamlbuild/hygiene.ml" 35 1093 1108 "ocamlbuild/hygiene.ml" 35 1093 1114
+)
+"ocamlbuild/hygiene.ml" 36 1126 1138 "ocamlbuild/hygiene.ml" 36 1126 1153
+call(
+  tail
+)
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 37 1154 1160 "ocamlbuild/hygiene.ml" 37 1154 1161
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/hygiene.ml" 38 1173 1181 "ocamlbuild/hygiene.ml" 40 1231 1274
+)
+"ocamlbuild/hygiene.ml" 37 1154 1165 "ocamlbuild/hygiene.ml" 37 1154 1169
+type(
+  'a list
+)
+ident(
+  def rest "ocamlbuild/hygiene.ml" 38 1173 1181 "ocamlbuild/hygiene.ml" 40 1231 1274
+)
+"ocamlbuild/hygiene.ml" 37 1154 1160 "ocamlbuild/hygiene.ml" 37 1154 1169
+type(
+  'a list
+)
+"ocamlbuild/hygiene.ml" 38 1173 1187 "ocamlbuild/hygiene.ml" 38 1173 1188
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "ocamlbuild/hygiene.ml" 34 1070 1087 "ocamlbuild/hygiene.ml" 34 1070 1088
+)
+"ocamlbuild/hygiene.ml" 38 1173 1189 "ocamlbuild/hygiene.ml" 38 1173 1190
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/hygiene.ml" 37 1154 1160 "ocamlbuild/hygiene.ml" 37 1154 1161
+)
+"ocamlbuild/hygiene.ml" 38 1173 1187 "ocamlbuild/hygiene.ml" 38 1173 1190
+call(
+  stack
+)
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 39 1196 1206 "ocamlbuild/hygiene.ml" 39 1196 1210
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 39 1196 1214 "ocamlbuild/hygiene.ml" 39 1196 1218
+type(
+  'b list -> 'a list -> 'b list
+)
+ident(
+  int_ref loop "ocamlbuild/hygiene.ml" 35 1093 1103 "ocamlbuild/hygiene.ml" 35 1093 1107
+)
+"ocamlbuild/hygiene.ml" 39 1196 1219 "ocamlbuild/hygiene.ml" 39 1196 1225
+type(
+  'b list
+)
+ident(
+  int_ref result "ocamlbuild/hygiene.ml" 35 1093 1108 "ocamlbuild/hygiene.ml" 35 1093 1114
+)
+"ocamlbuild/hygiene.ml" 39 1196 1226 "ocamlbuild/hygiene.ml" 39 1196 1230
+type(
+  'a list
+)
+ident(
+  int_ref rest "ocamlbuild/hygiene.ml" 37 1154 1165 "ocamlbuild/hygiene.ml" 37 1154 1169
+)
+"ocamlbuild/hygiene.ml" 39 1196 1214 "ocamlbuild/hygiene.ml" 39 1196 1230
+call(
+  tail
+)
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 40 1231 1246 "ocamlbuild/hygiene.ml" 40 1231 1247
+type(
+  'b
+)
+ident(
+  def y "ocamlbuild/hygiene.ml" 40 1231 1251 "ocamlbuild/hygiene.ml" 40 1231 1274
+)
+"ocamlbuild/hygiene.ml" 40 1231 1241 "ocamlbuild/hygiene.ml" 40 1231 1247
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 40 1231 1251 "ocamlbuild/hygiene.ml" 40 1231 1255
+type(
+  'b list -> 'a list -> 'b list
+)
+ident(
+  int_ref loop "ocamlbuild/hygiene.ml" 35 1093 1103 "ocamlbuild/hygiene.ml" 35 1093 1107
+)
+"ocamlbuild/hygiene.ml" 40 1231 1257 "ocamlbuild/hygiene.ml" 40 1231 1258
+type(
+  'b
+)
+ident(
+  int_ref y "ocamlbuild/hygiene.ml" 40 1231 1246 "ocamlbuild/hygiene.ml" 40 1231 1247
+)
+"ocamlbuild/hygiene.ml" 40 1231 1262 "ocamlbuild/hygiene.ml" 40 1231 1268
+type(
+  'b list
+)
+ident(
+  int_ref result "ocamlbuild/hygiene.ml" 35 1093 1108 "ocamlbuild/hygiene.ml" 35 1093 1114
+)
+"ocamlbuild/hygiene.ml" 40 1231 1256 "ocamlbuild/hygiene.ml" 40 1231 1269
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 40 1231 1270 "ocamlbuild/hygiene.ml" 40 1231 1274
+type(
+  'a list
+)
+ident(
+  int_ref rest "ocamlbuild/hygiene.ml" 37 1154 1165 "ocamlbuild/hygiene.ml" 37 1154 1169
+)
+"ocamlbuild/hygiene.ml" 40 1231 1251 "ocamlbuild/hygiene.ml" 40 1231 1274
+call(
+  tail
+)
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 38 1173 1181 "ocamlbuild/hygiene.ml" 40 1231 1274
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 35 1093 1117 "ocamlbuild/hygiene.ml" 40 1231 1274
+type(
+  'a list -> 'b list
+)
+"ocamlbuild/hygiene.ml" 42 1280 1282 "ocamlbuild/hygiene.ml" 42 1280 1286
+type(
+  'b list -> 'a list -> 'b list
+)
+ident(
+  int_ref loop "ocamlbuild/hygiene.ml" 35 1093 1103 "ocamlbuild/hygiene.ml" 35 1093 1107
+)
+"ocamlbuild/hygiene.ml" 42 1280 1287 "ocamlbuild/hygiene.ml" 42 1280 1289
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 42 1280 1290 "ocamlbuild/hygiene.ml" 42 1280 1291
+type(
+  'a list
+)
+ident(
+  int_ref l "ocamlbuild/hygiene.ml" 34 1070 1089 "ocamlbuild/hygiene.ml" 34 1070 1090
+)
+"ocamlbuild/hygiene.ml" 42 1280 1282 "ocamlbuild/hygiene.ml" 42 1280 1291
+call(
+  tail
+)
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 35 1093 1095 "ocamlbuild/hygiene.ml" 42 1280 1291
+type(
+  'b list
+)
+"ocamlbuild/hygiene.ml" 44 1293 1297 "ocamlbuild/hygiene.ml" 44 1293 1314
+type(
+  ('a -> 'b option) -> 'a list -> 'b option
+)
+ident(
+  def list_none_for_all "ocamlbuild/hygiene.ml" 54 1466 1466 "_none_" 1 0 -1
+)
+"ocamlbuild/hygiene.ml" 44 1293 1315 "ocamlbuild/hygiene.ml" 44 1293 1316
+type(
+  'a -> 'b option
+)
+ident(
+  def f "ocamlbuild/hygiene.ml" 44 1293 1317 "ocamlbuild/hygiene.ml" 52 1456 1464
+)
+"ocamlbuild/hygiene.ml" 44 1293 1317 "ocamlbuild/hygiene.ml" 44 1293 1318
+type(
+  'a list
+)
+ident(
+  def l "ocamlbuild/hygiene.ml" 45 1321 1323 "ocamlbuild/hygiene.ml" 52 1456 1464
+)
+"ocamlbuild/hygiene.ml" 45 1321 1331 "ocamlbuild/hygiene.ml" 45 1321 1335
+type(
+  'a list -> 'b option
+)
+ident(
+  def loop "ocamlbuild/hygiene.ml" 45 1321 1323 "ocamlbuild/hygiene.ml" 52 1456 1464
+)
+"ocamlbuild/hygiene.ml" 46 1347 1353 "ocamlbuild/hygiene.ml" 46 1347 1355
+type(
+  'a list
+)
+"ocamlbuild/hygiene.ml" 46 1347 1359 "ocamlbuild/hygiene.ml" 46 1347 1363
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 47 1364 1370 "ocamlbuild/hygiene.ml" 47 1364 1371
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/hygiene.ml" 48 1383 1391 "ocamlbuild/hygiene.ml" 50 1434 1450
+)
+"ocamlbuild/hygiene.ml" 47 1364 1375 "ocamlbuild/hygiene.ml" 47 1364 1379
+type(
+  'a list
+)
+ident(
+  def rest "ocamlbuild/hygiene.ml" 48 1383 1391 "ocamlbuild/hygiene.ml" 50 1434 1450
+)
+"ocamlbuild/hygiene.ml" 47 1364 1370 "ocamlbuild/hygiene.ml" 47 1364 1379
+type(
+  'a list
+)
+"ocamlbuild/hygiene.ml" 48 1383 1397 "ocamlbuild/hygiene.ml" 48 1383 1398
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "ocamlbuild/hygiene.ml" 44 1293 1315 "ocamlbuild/hygiene.ml" 44 1293 1316
+)
+"ocamlbuild/hygiene.ml" 48 1383 1399 "ocamlbuild/hygiene.ml" 48 1383 1400
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/hygiene.ml" 47 1364 1370 "ocamlbuild/hygiene.ml" 47 1364 1371
+)
+"ocamlbuild/hygiene.ml" 48 1383 1397 "ocamlbuild/hygiene.ml" 48 1383 1400
+call(
+  stack
+)
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 49 1406 1416 "ocamlbuild/hygiene.ml" 49 1406 1420
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 49 1406 1424 "ocamlbuild/hygiene.ml" 49 1406 1428
+type(
+  'a list -> 'b option
+)
+ident(
+  int_ref loop "ocamlbuild/hygiene.ml" 45 1321 1331 "ocamlbuild/hygiene.ml" 45 1321 1335
+)
+"ocamlbuild/hygiene.ml" 49 1406 1429 "ocamlbuild/hygiene.ml" 49 1406 1433
+type(
+  'a list
+)
+ident(
+  int_ref rest "ocamlbuild/hygiene.ml" 47 1364 1375 "ocamlbuild/hygiene.ml" 47 1364 1379
+)
+"ocamlbuild/hygiene.ml" 49 1406 1424 "ocamlbuild/hygiene.ml" 49 1406 1433
+call(
+  tail
+)
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 50 1434 1444 "ocamlbuild/hygiene.ml" 50 1434 1445
+type(
+  'b option
+)
+ident(
+  def y "ocamlbuild/hygiene.ml" 50 1434 1449 "ocamlbuild/hygiene.ml" 50 1434 1450
+)
+"ocamlbuild/hygiene.ml" 50 1434 1449 "ocamlbuild/hygiene.ml" 50 1434 1450
+type(
+  'b option
+)
+ident(
+  int_ref y "ocamlbuild/hygiene.ml" 50 1434 1444 "ocamlbuild/hygiene.ml" 50 1434 1445
+)
+"ocamlbuild/hygiene.ml" 48 1383 1391 "ocamlbuild/hygiene.ml" 50 1434 1450
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 45 1321 1338 "ocamlbuild/hygiene.ml" 50 1434 1450
+type(
+  'a list -> 'b option
+)
+"ocamlbuild/hygiene.ml" 52 1456 1458 "ocamlbuild/hygiene.ml" 52 1456 1462
+type(
+  'a list -> 'b option
+)
+ident(
+  int_ref loop "ocamlbuild/hygiene.ml" 45 1321 1331 "ocamlbuild/hygiene.ml" 45 1321 1335
+)
+"ocamlbuild/hygiene.ml" 52 1456 1463 "ocamlbuild/hygiene.ml" 52 1456 1464
+type(
+  'a list
+)
+ident(
+  int_ref l "ocamlbuild/hygiene.ml" 44 1293 1317 "ocamlbuild/hygiene.ml" 44 1293 1318
+)
+"ocamlbuild/hygiene.ml" 52 1456 1458 "ocamlbuild/hygiene.ml" 52 1456 1464
+call(
+  tail
+)
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 45 1321 1323 "ocamlbuild/hygiene.ml" 52 1456 1464
+type(
+  'b option
+)
+"ocamlbuild/hygiene.ml" 54 1466 1470 "ocamlbuild/hygiene.ml" 54 1466 1472
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  def sf "ocamlbuild/hygiene.ml" 56 1491 1491 "_none_" 1 0 -1
+)
+"ocamlbuild/hygiene.ml" 54 1466 1475 "ocamlbuild/hygiene.ml" 54 1466 1489
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/hygiene.ml" 56 1491 1503 "ocamlbuild/hygiene.ml" 56 1491 1519
+call(
+  stack
+)
+"ocamlbuild/hygiene.ml" 58 1523 1527 "ocamlbuild/hygiene.ml" 58 1523 1532
+type(
+  ?sanitize:string ->
+  law list -> bool Slurp.entry -> (law * string list) list
+)
+ident(
+  def check "ocamlbuild/hygiene.ml" 174 6022 6027 "_none_" 1 0 -1
+)
+"ocamlbuild/hygiene.ml" 58 1523 1534 "ocamlbuild/hygiene.ml" 58 1523 1542
+type(
+  string option
+)
+ident(
+  def sanitize "ocamlbuild/hygiene.ml" 58 1523 1543 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 58 1523 1543 "ocamlbuild/hygiene.ml" 58 1523 1547
+type(
+  law list
+)
+ident(
+  def laws "ocamlbuild/hygiene.ml" 58 1523 1548 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 58 1523 1548 "ocamlbuild/hygiene.ml" 58 1523 1553
+type(
+  bool Slurp.entry
+)
+ident(
+  def entry "ocamlbuild/hygiene.ml" 59 1556 1558 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 59 1556 1562 "ocamlbuild/hygiene.ml" 59 1556 1571
+type(
+  (law * string list) list ref
+)
+ident(
+  def penalties "ocamlbuild/hygiene.ml" 60 1584 1586 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 59 1556 1574 "ocamlbuild/hygiene.ml" 59 1556 1577
+type(
+  (law * string list) list -> (law * string list) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/hygiene.ml" 59 1556 1578 "ocamlbuild/hygiene.ml" 59 1556 1580
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 59 1556 1574 "ocamlbuild/hygiene.ml" 59 1556 1580
+type(
+  (law * string list) list ref
+)
+"ocamlbuild/hygiene.ml" 60 1584 1590 "ocamlbuild/hygiene.ml" 60 1584 1598
+type(
+  SS.t ref
+)
+ident(
+  def microbes "ocamlbuild/hygiene.ml" 61 1617 1619 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 60 1584 1601 "ocamlbuild/hygiene.ml" 60 1584 1604
+type(
+  SS.t -> SS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/hygiene.ml" 60 1584 1605 "ocamlbuild/hygiene.ml" 60 1584 1613
+type(
+  SS.t
+)
+ident(
+  ext_ref SS.empty
+)
+"ocamlbuild/hygiene.ml" 60 1584 1601 "ocamlbuild/hygiene.ml" 60 1584 1613
+type(
+  SS.t ref
+)
+"ocamlbuild/hygiene.ml" 61 1617 1623 "ocamlbuild/hygiene.ml" 61 1617 1625
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 62 1628 1638 "ocamlbuild/hygiene.ml" 62 1628 1646
+type(
+  string option
+)
+ident(
+  int_ref sanitize "ocamlbuild/hygiene.ml" 58 1523 1534 "ocamlbuild/hygiene.ml" 58 1523 1542
+)
+"ocamlbuild/hygiene.ml" 63 1652 1663 "ocamlbuild/hygiene.ml" 63 1652 1665
+type(
+  string
+)
+ident(
+  def fn "ocamlbuild/hygiene.ml" 63 1652 1669 "ocamlbuild/hygiene.ml" 63 1652 1709
+)
+"ocamlbuild/hygiene.ml" 63 1652 1658 "ocamlbuild/hygiene.ml" 63 1652 1665
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 63 1652 1672 "ocamlbuild/hygiene.ml" 63 1652 1687
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/hygiene.ml" 63 1652 1688 "ocamlbuild/hygiene.ml" 63 1652 1690
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 63 1652 1663 "ocamlbuild/hygiene.ml" 63 1652 1665
+)
+"ocamlbuild/hygiene.ml" 63 1652 1672 "ocamlbuild/hygiene.ml" 63 1652 1690
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 63 1652 1696 "ocamlbuild/hygiene.ml" 63 1652 1706
+type(
+  string -> unit
+)
+ident(
+  ext_ref My_std.sys_remove
+)
+"ocamlbuild/hygiene.ml" 63 1652 1707 "ocamlbuild/hygiene.ml" 63 1652 1709
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 63 1652 1663 "ocamlbuild/hygiene.ml" 63 1652 1665
+)
+"ocamlbuild/hygiene.ml" 63 1652 1696 "ocamlbuild/hygiene.ml" 63 1652 1709
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 63 1652 1669 "ocamlbuild/hygiene.ml" 63 1652 1709
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 64 1710 1716 "ocamlbuild/hygiene.ml" 64 1710 1720
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 64 1710 1724 "ocamlbuild/hygiene.ml" 64 1710 1726
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 62 1628 1632 "ocamlbuild/hygiene.ml" 64 1710 1726
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 66 1732 1738 "ocamlbuild/hygiene.ml" 66 1732 1744
+type(
+  string -> string -> unit
+)
+ident(
+  def remove "ocamlbuild/hygiene.ml" 70 1854 1856 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 66 1732 1745 "ocamlbuild/hygiene.ml" 66 1732 1749
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/hygiene.ml" 66 1732 1750 "ocamlbuild/hygiene.ml" 68 1786 1848
+)
+"ocamlbuild/hygiene.ml" 66 1732 1750 "ocamlbuild/hygiene.ml" 66 1732 1754
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/hygiene.ml" 67 1757 1761 "ocamlbuild/hygiene.ml" 68 1786 1848
+)
+"ocamlbuild/hygiene.ml" 67 1757 1764 "ocamlbuild/hygiene.ml" 67 1757 1772
+type(
+  string option
+)
+ident(
+  int_ref sanitize "ocamlbuild/hygiene.ml" 58 1523 1534 "ocamlbuild/hygiene.ml" 58 1523 1542
+)
+"ocamlbuild/hygiene.ml" 67 1757 1773 "ocamlbuild/hygiene.ml" 67 1757 1775
+type(
+  string option -> string option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocamlbuild/hygiene.ml" 67 1757 1776 "ocamlbuild/hygiene.ml" 67 1757 1780
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 67 1757 1764 "ocamlbuild/hygiene.ml" 67 1757 1780
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 68 1786 1792 "ocamlbuild/hygiene.ml" 68 1786 1800
+type(
+  SS.t ref
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 60 1584 1590 "ocamlbuild/hygiene.ml" 60 1584 1598
+)
+"ocamlbuild/hygiene.ml" 68 1786 1801 "ocamlbuild/hygiene.ml" 68 1786 1803
+type(
+  SS.t ref -> SS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocamlbuild/hygiene.ml" 68 1786 1804 "ocamlbuild/hygiene.ml" 68 1786 1810
+type(
+  SS.elt -> SS.t -> SS.t
+)
+ident(
+  ext_ref SS.add
+)
+"ocamlbuild/hygiene.ml" 68 1786 1812 "ocamlbuild/hygiene.ml" 68 1786 1827
+type(
+  string -> string -> SS.elt
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/hygiene.ml" 68 1786 1828 "ocamlbuild/hygiene.ml" 68 1786 1832
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/hygiene.ml" 66 1732 1745 "ocamlbuild/hygiene.ml" 66 1732 1749
+)
+"ocamlbuild/hygiene.ml" 68 1786 1833 "ocamlbuild/hygiene.ml" 68 1786 1837
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 66 1732 1750 "ocamlbuild/hygiene.ml" 66 1732 1754
+)
+"ocamlbuild/hygiene.ml" 68 1786 1811 "ocamlbuild/hygiene.ml" 68 1786 1838
+call(
+  stack
+)
+type(
+  SS.elt
+)
+"ocamlbuild/hygiene.ml" 68 1786 1839 "ocamlbuild/hygiene.ml" 68 1786 1840
+type(
+  SS.t ref -> SS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/hygiene.ml" 68 1786 1840 "ocamlbuild/hygiene.ml" 68 1786 1848
+type(
+  SS.t ref
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 60 1584 1590 "ocamlbuild/hygiene.ml" 60 1584 1598
+)
+"ocamlbuild/hygiene.ml" 68 1786 1839 "ocamlbuild/hygiene.ml" 68 1786 1848
+type(
+  SS.t
+)
+"ocamlbuild/hygiene.ml" 68 1786 1804 "ocamlbuild/hygiene.ml" 68 1786 1848
+call(
+  stack
+)
+type(
+  SS.t
+)
+"ocamlbuild/hygiene.ml" 68 1786 1792 "ocamlbuild/hygiene.ml" 68 1786 1848
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 67 1757 1761 "ocamlbuild/hygiene.ml" 68 1786 1848
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 70 1854 1860 "ocamlbuild/hygiene.ml" 70 1854 1870
+type(
+  bool Slurp.entry list -> rule -> string list
+)
+ident(
+  def check_rule "ocamlbuild/hygiene.ml" 114 3484 3486 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 70 1854 1877 "ocamlbuild/hygiene.ml" 70 1854 1884
+type(
+  bool Slurp.entry list
+)
+ident(
+  def entries "ocamlbuild/hygiene.ml" 70 1854 1888 "ocamlbuild/hygiene.ml" 112 3461 3478
+)
+"ocamlbuild/hygiene.ml" 71 1897 1907 "ocamlbuild/hygiene.ml" 71 1897 1913
+type(
+  pattern
+)
+ident(
+  def suffix "ocamlbuild/hygiene.ml" 72 1917 1925 "ocamlbuild/hygiene.ml" 85 2435 2452
+)
+"ocamlbuild/hygiene.ml" 71 1897 1903 "ocamlbuild/hygiene.ml" 71 1897 1913
+type(
+  rule
+)
+"ocamlbuild/hygiene.ml" 72 1917 1925 "ocamlbuild/hygiene.ml" 72 1917 1937
+type(
+  (bool Slurp.entry -> string option) -> bool Slurp.entry list -> string list
+)
+ident(
+  int_ref list_collect "ocamlbuild/hygiene.ml" 34 1070 1074 "ocamlbuild/hygiene.ml" 34 1070 1086
+)
+"ocamlbuild/hygiene.ml" 74 1963 1982 "ocamlbuild/hygiene.ml" 74 1963 1986
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/hygiene.ml" 75 2006 2022 "ocamlbuild/hygiene.ml" 82 2342 2364
+)
+"ocamlbuild/hygiene.ml" 74 1963 1988 "ocamlbuild/hygiene.ml" 74 1963 1992
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/hygiene.ml" 75 2006 2022 "ocamlbuild/hygiene.ml" 82 2342 2364
+)
+"ocamlbuild/hygiene.ml" 74 1963 1994 "ocamlbuild/hygiene.ml" 74 1963 1995
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/hygiene.ml" 74 1963 1997 "ocamlbuild/hygiene.ml" 74 1963 2001
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 74 1963 1977 "ocamlbuild/hygiene.ml" 74 1963 2002
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 75 2006 2025 "ocamlbuild/hygiene.ml" 75 2006 2046
+type(
+  string -> pattern -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"ocamlbuild/hygiene.ml" 75 2006 2047 "ocamlbuild/hygiene.ml" 75 2006 2051
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 74 1963 1988 "ocamlbuild/hygiene.ml" 74 1963 1992
+)
+"ocamlbuild/hygiene.ml" 75 2006 2052 "ocamlbuild/hygiene.ml" 75 2006 2058
+type(
+  pattern
+)
+ident(
+  int_ref suffix "ocamlbuild/hygiene.ml" 71 1897 1907 "ocamlbuild/hygiene.ml" 71 1897 1913
+)
+"ocamlbuild/hygiene.ml" 75 2006 2025 "ocamlbuild/hygiene.ml" 75 2006 2058
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 76 2059 2077 "ocamlbuild/hygiene.ml" 76 2059 2079
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocamlbuild/hygiene.ml" 76 2059 2080 "ocamlbuild/hygiene.ml" 76 2059 2083
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/hygiene.ml" 76 2059 2086 "ocamlbuild/hygiene.ml" 76 2059 2106
+type(
+  Pathname.t -> Pathname.t -> bool
+)
+ident(
+  ext_ref Pathname.link_to_dir
+)
+"ocamlbuild/hygiene.ml" 76 2059 2108 "ocamlbuild/hygiene.ml" 76 2059 2123
+type(
+  string -> string -> Pathname.t
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/hygiene.ml" 76 2059 2124 "ocamlbuild/hygiene.ml" 76 2059 2128
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/hygiene.ml" 74 1963 1982 "ocamlbuild/hygiene.ml" 74 1963 1986
+)
+"ocamlbuild/hygiene.ml" 76 2059 2129 "ocamlbuild/hygiene.ml" 76 2059 2133
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 74 1963 1988 "ocamlbuild/hygiene.ml" 74 1963 1992
+)
+"ocamlbuild/hygiene.ml" 76 2059 2107 "ocamlbuild/hygiene.ml" 76 2059 2134
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/hygiene.ml" 76 2059 2135 "ocamlbuild/hygiene.ml" 76 2059 2136
+type(
+  Pathname.t ref -> Pathname.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/hygiene.ml" 76 2059 2136 "ocamlbuild/hygiene.ml" 76 2059 2153
+type(
+  Pathname.t ref
+)
+ident(
+  ext_ref Options.build_dir
+)
+"ocamlbuild/hygiene.ml" 76 2059 2135 "ocamlbuild/hygiene.ml" 76 2059 2153
+type(
+  Pathname.t
+)
+"ocamlbuild/hygiene.ml" 76 2059 2084 "ocamlbuild/hygiene.ml" 76 2059 2155
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 76 2059 2080 "ocamlbuild/hygiene.ml" 76 2059 2155
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 75 2006 2025 "ocamlbuild/hygiene.ml" 76 2059 2155
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 78 2185 2205 "ocamlbuild/hygiene.ml" 78 2185 2211
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref remove "ocamlbuild/hygiene.ml" 66 1732 1738 "ocamlbuild/hygiene.ml" 66 1732 1744
+)
+"ocamlbuild/hygiene.ml" 78 2185 2212 "ocamlbuild/hygiene.ml" 78 2185 2216
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/hygiene.ml" 74 1963 1982 "ocamlbuild/hygiene.ml" 74 1963 1986
+)
+"ocamlbuild/hygiene.ml" 78 2185 2217 "ocamlbuild/hygiene.ml" 78 2185 2221
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 74 1963 1988 "ocamlbuild/hygiene.ml" 74 1963 1992
+)
+"ocamlbuild/hygiene.ml" 78 2185 2205 "ocamlbuild/hygiene.ml" 78 2185 2221
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 79 2223 2248 "ocamlbuild/hygiene.ml" 79 2223 2250
+type(
+  (string -> string -> pattern -> string, unit, string) format ->
+  string -> string -> pattern -> string
+)
+ident(
+  int_ref sf "ocamlbuild/hygiene.ml" 54 1466 1470 "ocamlbuild/hygiene.ml" 54 1466 1472
+)
+"ocamlbuild/hygiene.ml" 79 2223 2251 "ocamlbuild/hygiene.ml" 79 2223 2280
+type(
+  (string -> string -> pattern -> string, unit, string) format
+)
+"ocamlbuild/hygiene.ml" 79 2223 2281 "ocamlbuild/hygiene.ml" 79 2223 2285
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 74 1963 1988 "ocamlbuild/hygiene.ml" 74 1963 1992
+)
+"ocamlbuild/hygiene.ml" 79 2223 2286 "ocamlbuild/hygiene.ml" 79 2223 2290
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/hygiene.ml" 74 1963 1982 "ocamlbuild/hygiene.ml" 74 1963 1986
+)
+"ocamlbuild/hygiene.ml" 79 2223 2291 "ocamlbuild/hygiene.ml" 79 2223 2297
+type(
+  pattern
+)
+ident(
+  int_ref suffix "ocamlbuild/hygiene.ml" 71 1897 1907 "ocamlbuild/hygiene.ml" 71 1897 1913
+)
+"ocamlbuild/hygiene.ml" 79 2223 2247 "ocamlbuild/hygiene.ml" 79 2223 2298
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 79 2223 2243 "ocamlbuild/hygiene.ml" 79 2223 2298
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 77 2161 2179 "ocamlbuild/hygiene.ml" 80 2299 2320
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 82 2342 2360 "ocamlbuild/hygiene.ml" 82 2342 2364
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 75 2006 2022 "ocamlbuild/hygiene.ml" 82 2342 2364
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 83 2365 2384 "ocamlbuild/hygiene.ml" 83 2365 2385
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 83 2365 2379 "ocamlbuild/hygiene.ml" 83 2365 2385
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2392 "ocamlbuild/hygiene.ml" 83 2365 2393
+type(
+  bool Slurp.entry list Lazy.t
+)
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 83 2365 2388 "ocamlbuild/hygiene.ml" 83 2365 2393
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2379 "ocamlbuild/hygiene.ml" 83 2365 2393
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2401 "ocamlbuild/hygiene.ml" 83 2365 2402
+type(
+  exn
+)
+"ocamlbuild/hygiene.ml" 83 2365 2395 "ocamlbuild/hygiene.ml" 83 2365 2402
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2379 "ocamlbuild/hygiene.ml" 83 2365 2402
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2405 "ocamlbuild/hygiene.ml" 83 2365 2412
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2379 "ocamlbuild/hygiene.ml" 83 2365 2412
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 83 2365 2416 "ocamlbuild/hygiene.ml" 83 2365 2420
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 73 1938 1948 "ocamlbuild/hygiene.ml" 84 2421 2434
+type(
+  bool Slurp.entry -> string option
+)
+"ocamlbuild/hygiene.ml" 85 2435 2445 "ocamlbuild/hygiene.ml" 85 2435 2452
+type(
+  bool Slurp.entry list
+)
+ident(
+  int_ref entries "ocamlbuild/hygiene.ml" 70 1854 1877 "ocamlbuild/hygiene.ml" 70 1854 1884
+)
+"ocamlbuild/hygiene.ml" 72 1917 1925 "ocamlbuild/hygiene.ml" 85 2435 2452
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/hygiene.ml" 86 2453 2471 "ocamlbuild/hygiene.ml" 86 2453 2478
+type(
+  pattern
+)
+ident(
+  def suffix1 "ocamlbuild/hygiene.ml" 87 2492 2500 "ocamlbuild/hygiene.ml" 112 3461 3478
+)
+"ocamlbuild/hygiene.ml" 86 2453 2480 "ocamlbuild/hygiene.ml" 86 2453 2487
+type(
+  pattern
+)
+ident(
+  def suffix2 "ocamlbuild/hygiene.ml" 87 2492 2500 "ocamlbuild/hygiene.ml" 112 3461 3478
+)
+"ocamlbuild/hygiene.ml" 86 2453 2459 "ocamlbuild/hygiene.ml" 86 2453 2488
+type(
+  rule
+)
+"ocamlbuild/hygiene.ml" 87 2492 2500 "ocamlbuild/hygiene.ml" 87 2492 2512
+type(
+  (bool Slurp.entry -> string option) -> bool Slurp.entry list -> string list
+)
+ident(
+  int_ref list_collect "ocamlbuild/hygiene.ml" 34 1070 1074 "ocamlbuild/hygiene.ml" 34 1070 1086
+)
+"ocamlbuild/hygiene.ml" 89 2538 2557 "ocamlbuild/hygiene.ml" 89 2538 2561
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/hygiene.ml" 90 2581 2597 "ocamlbuild/hygiene.ml" 109 3367 3389
+)
+"ocamlbuild/hygiene.ml" 89 2538 2563 "ocamlbuild/hygiene.ml" 89 2538 2567
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/hygiene.ml" 90 2581 2597 "ocamlbuild/hygiene.ml" 109 3367 3389
+)
+"ocamlbuild/hygiene.ml" 89 2538 2569 "ocamlbuild/hygiene.ml" 89 2538 2570
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/hygiene.ml" 89 2538 2572 "ocamlbuild/hygiene.ml" 89 2538 2576
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 89 2538 2552 "ocamlbuild/hygiene.ml" 89 2538 2577
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 90 2581 2600 "ocamlbuild/hygiene.ml" 90 2581 2621
+type(
+  string -> pattern -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"ocamlbuild/hygiene.ml" 90 2581 2622 "ocamlbuild/hygiene.ml" 90 2581 2626
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 89 2538 2563 "ocamlbuild/hygiene.ml" 89 2538 2567
+)
+"ocamlbuild/hygiene.ml" 90 2581 2627 "ocamlbuild/hygiene.ml" 90 2581 2634
+type(
+  pattern
+)
+ident(
+  int_ref suffix1 "ocamlbuild/hygiene.ml" 86 2453 2471 "ocamlbuild/hygiene.ml" 86 2453 2478
+)
+"ocamlbuild/hygiene.ml" 90 2581 2600 "ocamlbuild/hygiene.ml" 90 2581 2634
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 92 2664 2688 "ocamlbuild/hygiene.ml" 92 2664 2692
+type(
+  string
+)
+ident(
+  def base "ocamlbuild/hygiene.ml" 93 2732 2752 "ocamlbuild/hygiene.ml" 106 3297 3323
+)
+"ocamlbuild/hygiene.ml" 92 2664 2695 "ocamlbuild/hygiene.ml" 92 2664 2715
+type(
+  string -> pattern -> string
+)
+ident(
+  ext_ref Filename.chop_suffix
+)
+"ocamlbuild/hygiene.ml" 92 2664 2716 "ocamlbuild/hygiene.ml" 92 2664 2720
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 89 2538 2563 "ocamlbuild/hygiene.ml" 89 2538 2567
+)
+"ocamlbuild/hygiene.ml" 92 2664 2721 "ocamlbuild/hygiene.ml" 92 2664 2728
+type(
+  pattern
+)
+ident(
+  int_ref suffix1 "ocamlbuild/hygiene.ml" 86 2453 2471 "ocamlbuild/hygiene.ml" 86 2453 2478
+)
+"ocamlbuild/hygiene.ml" 92 2664 2695 "ocamlbuild/hygiene.ml" 92 2664 2728
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 93 2732 2756 "ocamlbuild/hygiene.ml" 93 2732 2761
+type(
+  string
+)
+ident(
+  def name' "ocamlbuild/hygiene.ml" 94 2782 2802 "ocamlbuild/hygiene.ml" 106 3297 3323
+)
+"ocamlbuild/hygiene.ml" 93 2732 2764 "ocamlbuild/hygiene.ml" 93 2732 2768
+type(
+  string
+)
+ident(
+  int_ref base "ocamlbuild/hygiene.ml" 92 2664 2688 "ocamlbuild/hygiene.ml" 92 2664 2692
+)
+"ocamlbuild/hygiene.ml" 93 2732 2769 "ocamlbuild/hygiene.ml" 93 2732 2770
+type(
+  string -> pattern -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocamlbuild/hygiene.ml" 93 2732 2771 "ocamlbuild/hygiene.ml" 93 2732 2778
+type(
+  pattern
+)
+ident(
+  int_ref suffix2 "ocamlbuild/hygiene.ml" 86 2453 2480 "ocamlbuild/hygiene.ml" 86 2453 2487
+)
+"ocamlbuild/hygiene.ml" 93 2732 2764 "ocamlbuild/hygiene.ml" 93 2732 2778
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 94 2782 2805 "ocamlbuild/hygiene.ml" 94 2782 2816
+type(
+  (bool Slurp.entry -> bool) -> bool Slurp.entry list -> bool
+)
+ident(
+  ext_ref My_std.List.exists
+)
+"ocamlbuild/hygiene.ml" 96 2855 2887 "ocamlbuild/hygiene.ml" 96 2855 2888
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 96 2855 2890 "ocamlbuild/hygiene.ml" 96 2855 2896
+type(
+  string
+)
+ident(
+  def name'' "ocamlbuild/hygiene.ml" 96 2855 2910 "ocamlbuild/hygiene.ml" 96 2855 2924
+)
+"ocamlbuild/hygiene.ml" 96 2855 2898 "ocamlbuild/hygiene.ml" 96 2855 2899
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/hygiene.ml" 96 2855 2901 "ocamlbuild/hygiene.ml" 96 2855 2905
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 96 2855 2882 "ocamlbuild/hygiene.ml" 96 2855 2906
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 96 2855 2910 "ocamlbuild/hygiene.ml" 96 2855 2915
+type(
+  string
+)
+ident(
+  int_ref name' "ocamlbuild/hygiene.ml" 93 2732 2756 "ocamlbuild/hygiene.ml" 93 2732 2761
+)
+"ocamlbuild/hygiene.ml" 96 2855 2916 "ocamlbuild/hygiene.ml" 96 2855 2917
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/hygiene.ml" 96 2855 2918 "ocamlbuild/hygiene.ml" 96 2855 2924
+type(
+  string
+)
+ident(
+  int_ref name'' "ocamlbuild/hygiene.ml" 96 2855 2890 "ocamlbuild/hygiene.ml" 96 2855 2896
+)
+"ocamlbuild/hygiene.ml" 96 2855 2910 "ocamlbuild/hygiene.ml" 96 2855 2924
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 97 2925 2957 "ocamlbuild/hygiene.ml" 97 2925 2958
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 97 2925 2952 "ocamlbuild/hygiene.ml" 97 2925 2958
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2965 "ocamlbuild/hygiene.ml" 97 2925 2966
+type(
+  bool Slurp.entry list Lazy.t
+)
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 97 2925 2961 "ocamlbuild/hygiene.ml" 97 2925 2966
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2952 "ocamlbuild/hygiene.ml" 97 2925 2966
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2975 "ocamlbuild/hygiene.ml" 97 2925 2976
+type(
+  exn
+)
+"ocamlbuild/hygiene.ml" 97 2925 2969 "ocamlbuild/hygiene.ml" 97 2925 2976
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2952 "ocamlbuild/hygiene.ml" 97 2925 2976
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2979 "ocamlbuild/hygiene.ml" 97 2925 2986
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2952 "ocamlbuild/hygiene.ml" 97 2925 2986
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 97 2925 2990 "ocamlbuild/hygiene.ml" 97 2925 2995
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 95 2817 2840 "ocamlbuild/hygiene.ml" 98 2996 3022
+type(
+  bool Slurp.entry -> bool
+)
+"ocamlbuild/hygiene.ml" 99 3023 3046 "ocamlbuild/hygiene.ml" 99 3023 3053
+type(
+  bool Slurp.entry list
+)
+ident(
+  int_ref entries "ocamlbuild/hygiene.ml" 70 1854 1877 "ocamlbuild/hygiene.ml" 70 1854 1884
+)
+"ocamlbuild/hygiene.ml" 94 2782 2805 "ocamlbuild/hygiene.ml" 99 3023 3053
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 102 3107 3131 "ocamlbuild/hygiene.ml" 102 3107 3137
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref remove "ocamlbuild/hygiene.ml" 66 1732 1738 "ocamlbuild/hygiene.ml" 66 1732 1744
+)
+"ocamlbuild/hygiene.ml" 102 3107 3138 "ocamlbuild/hygiene.ml" 102 3107 3142
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/hygiene.ml" 89 2538 2557 "ocamlbuild/hygiene.ml" 89 2538 2561
+)
+"ocamlbuild/hygiene.ml" 102 3107 3143 "ocamlbuild/hygiene.ml" 102 3107 3148
+type(
+  string
+)
+ident(
+  int_ref name' "ocamlbuild/hygiene.ml" 93 2732 2756 "ocamlbuild/hygiene.ml" 93 2732 2761
+)
+"ocamlbuild/hygiene.ml" 102 3107 3131 "ocamlbuild/hygiene.ml" 102 3107 3148
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 103 3150 3179 "ocamlbuild/hygiene.ml" 103 3150 3181
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref sf "ocamlbuild/hygiene.ml" 54 1466 1470 "ocamlbuild/hygiene.ml" 54 1466 1472
+)
+"ocamlbuild/hygiene.ml" 103 3150 3182 "ocamlbuild/hygiene.ml" 103 3150 3228
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ocamlbuild/hygiene.ml" 103 3150 3229 "ocamlbuild/hygiene.ml" 103 3150 3233
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/hygiene.ml" 89 2538 2563 "ocamlbuild/hygiene.ml" 89 2538 2567
+)
+"ocamlbuild/hygiene.ml" 103 3150 3234 "ocamlbuild/hygiene.ml" 103 3150 3239
+type(
+  string
+)
+ident(
+  int_ref name' "ocamlbuild/hygiene.ml" 93 2732 2756 "ocamlbuild/hygiene.ml" 93 2732 2761
+)
+"ocamlbuild/hygiene.ml" 103 3150 3240 "ocamlbuild/hygiene.ml" 103 3150 3244
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/hygiene.ml" 89 2538 2557 "ocamlbuild/hygiene.ml" 89 2538 2561
+)
+"ocamlbuild/hygiene.ml" 103 3150 3178 "ocamlbuild/hygiene.ml" 103 3150 3245
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 103 3150 3174 "ocamlbuild/hygiene.ml" 103 3150 3245
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 101 3079 3101 "ocamlbuild/hygiene.ml" 104 3246 3271
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 106 3297 3319 "ocamlbuild/hygiene.ml" 106 3297 3323
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 94 2782 2802 "ocamlbuild/hygiene.ml" 106 3297 3323
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 93 2732 2752 "ocamlbuild/hygiene.ml" 106 3297 3323
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 91 2640 2658 "ocamlbuild/hygiene.ml" 107 3324 3345
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 109 3367 3385 "ocamlbuild/hygiene.ml" 109 3367 3389
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 90 2581 2597 "ocamlbuild/hygiene.ml" 109 3367 3389
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 110 3390 3409 "ocamlbuild/hygiene.ml" 110 3390 3410
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 110 3390 3404 "ocamlbuild/hygiene.ml" 110 3390 3410
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3417 "ocamlbuild/hygiene.ml" 110 3390 3418
+type(
+  bool Slurp.entry list Lazy.t
+)
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 110 3390 3413 "ocamlbuild/hygiene.ml" 110 3390 3418
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3404 "ocamlbuild/hygiene.ml" 110 3390 3418
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3427 "ocamlbuild/hygiene.ml" 110 3390 3428
+type(
+  exn
+)
+"ocamlbuild/hygiene.ml" 110 3390 3421 "ocamlbuild/hygiene.ml" 110 3390 3428
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3404 "ocamlbuild/hygiene.ml" 110 3390 3428
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3431 "ocamlbuild/hygiene.ml" 110 3390 3438
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3404 "ocamlbuild/hygiene.ml" 110 3390 3438
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 110 3390 3442 "ocamlbuild/hygiene.ml" 110 3390 3446
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 88 2513 2523 "ocamlbuild/hygiene.ml" 111 3447 3460
+type(
+  bool Slurp.entry -> string option
+)
+"ocamlbuild/hygiene.ml" 112 3461 3471 "ocamlbuild/hygiene.ml" 112 3461 3478
+type(
+  bool Slurp.entry list
+)
+ident(
+  int_ref entries "ocamlbuild/hygiene.ml" 70 1854 1877 "ocamlbuild/hygiene.ml" 70 1854 1884
+)
+"ocamlbuild/hygiene.ml" 87 2492 2500 "ocamlbuild/hygiene.ml" 112 3461 3478
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/hygiene.ml" 70 1854 1888 "ocamlbuild/hygiene.ml" 112 3461 3478
+type(
+  rule -> string list
+)
+"ocamlbuild/hygiene.ml" 70 1854 1873 "ocamlbuild/hygiene.ml" 112 3461 3478
+type(
+  bool Slurp.entry list -> rule -> string list
+)
+"ocamlbuild/hygiene.ml" 114 3484 3494 "ocamlbuild/hygiene.ml" 114 3484 3505
+type(
+  bool Slurp.entry -> unit
+)
+ident(
+  def check_entry "ocamlbuild/hygiene.ml" 114 3484 3486 "ocamlbuild/hygiene.ml" 174 6022 6027
+)
+"ocamlbuild/hygiene.ml" 115 3517 3527 "ocamlbuild/hygiene.ml" 115 3517 3528
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 115 3517 3529 "ocamlbuild/hygiene.ml" 115 3517 3530
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 115 3517 3531 "ocamlbuild/hygiene.ml" 115 3517 3532
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/hygiene.ml" 115 3517 3533 "ocamlbuild/hygiene.ml" 115 3517 3537
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 115 3517 3538 "ocamlbuild/hygiene.ml" 115 3517 3545
+type(
+  bool Slurp.entry list Lazy.t
+)
+ident(
+  def entries "ocamlbuild/hygiene.ml" 116 3550 3558 "ocamlbuild/hygiene.ml" 124 3822 3861
+)
+"ocamlbuild/hygiene.ml" 115 3517 3523 "ocamlbuild/hygiene.ml" 115 3517 3546
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 116 3550 3558 "ocamlbuild/hygiene.ml" 116 3550 3567
+type(
+  (law -> unit) -> law list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/hygiene.ml" 117 3568 3588 "ocamlbuild/hygiene.ml" 117 3568 3591
+type(
+  law
+)
+ident(
+  def law "ocamlbuild/hygiene.ml" 118 3595 3607 "ocamlbuild/hygiene.ml" 121 3731 3791
+)
+"ocamlbuild/hygiene.ml" 118 3595 3613 "ocamlbuild/hygiene.ml" 118 3595 3624
+type(
+  string list list -> string list
+)
+ident(
+  ext_ref My_std.List.concat
+)
+"ocamlbuild/hygiene.ml" 118 3595 3626 "ocamlbuild/hygiene.ml" 118 3595 3634
+type(
+  (rule -> string list) -> rule list -> string list list
+)
+ident(
+  ext_ref My_std.List.map
+)
+"ocamlbuild/hygiene.ml" 118 3595 3636 "ocamlbuild/hygiene.ml" 118 3595 3646
+type(
+  bool Slurp.entry list -> rule -> string list
+)
+ident(
+  int_ref check_rule "ocamlbuild/hygiene.ml" 70 1854 1860 "ocamlbuild/hygiene.ml" 70 1854 1870
+)
+"ocamlbuild/hygiene.ml" 118 3595 3647 "ocamlbuild/hygiene.ml" 118 3595 3649
+type(
+  bool Slurp.entry list Lazy.t -> bool Slurp.entry list
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/hygiene.ml" 118 3595 3649 "ocamlbuild/hygiene.ml" 118 3595 3656
+type(
+  bool Slurp.entry list Lazy.t
+)
+ident(
+  int_ref entries "ocamlbuild/hygiene.ml" 115 3517 3538 "ocamlbuild/hygiene.ml" 115 3517 3545
+)
+"ocamlbuild/hygiene.ml" 118 3595 3647 "ocamlbuild/hygiene.ml" 118 3595 3656
+call(
+  stack
+)
+type(
+  bool Slurp.entry list
+)
+"ocamlbuild/hygiene.ml" 118 3595 3635 "ocamlbuild/hygiene.ml" 118 3595 3657
+call(
+  stack
+)
+type(
+  rule -> string list
+)
+"ocamlbuild/hygiene.ml" 118 3595 3658 "ocamlbuild/hygiene.ml" 118 3595 3661
+type(
+  law
+)
+ident(
+  int_ref law "ocamlbuild/hygiene.ml" 117 3568 3588 "ocamlbuild/hygiene.ml" 117 3568 3591
+)
+"ocamlbuild/hygiene.ml" 118 3595 3658 "ocamlbuild/hygiene.ml" 118 3595 3671
+type(
+  rule list
+)
+"ocamlbuild/hygiene.ml" 118 3595 3625 "ocamlbuild/hygiene.ml" 118 3595 3672
+call(
+  stack
+)
+type(
+  string list list
+)
+"ocamlbuild/hygiene.ml" 118 3595 3613 "ocamlbuild/hygiene.ml" 118 3595 3672
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/hygiene.ml" 119 3678 3692 "ocamlbuild/hygiene.ml" 119 3678 3694
+type(
+  string list
+)
+"ocamlbuild/hygiene.ml" 119 3678 3698 "ocamlbuild/hygiene.ml" 119 3678 3700
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 120 3701 3715 "ocamlbuild/hygiene.ml" 120 3701 3727
+type(
+  string list
+)
+ident(
+  def explanations "ocamlbuild/hygiene.ml" 121 3731 3745 "ocamlbuild/hygiene.ml" 121 3731 3791
+)
+"ocamlbuild/hygiene.ml" 121 3731 3745 "ocamlbuild/hygiene.ml" 121 3731 3754
+type(
+  (law * string list) list ref
+)
+ident(
+  int_ref penalties "ocamlbuild/hygiene.ml" 59 1556 1562 "ocamlbuild/hygiene.ml" 59 1556 1571
+)
+"ocamlbuild/hygiene.ml" 121 3731 3755 "ocamlbuild/hygiene.ml" 121 3731 3757
+type(
+  (law * string list) list ref -> (law * string list) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocamlbuild/hygiene.ml" 121 3731 3759 "ocamlbuild/hygiene.ml" 121 3731 3762
+type(
+  law
+)
+ident(
+  int_ref law "ocamlbuild/hygiene.ml" 117 3568 3588 "ocamlbuild/hygiene.ml" 117 3568 3591
+)
+"ocamlbuild/hygiene.ml" 121 3731 3764 "ocamlbuild/hygiene.ml" 121 3731 3776
+type(
+  string list
+)
+ident(
+  int_ref explanations "ocamlbuild/hygiene.ml" 120 3701 3715 "ocamlbuild/hygiene.ml" 120 3701 3727
+)
+"ocamlbuild/hygiene.ml" 121 3731 3758 "ocamlbuild/hygiene.ml" 121 3731 3777
+type(
+  law * string list
+)
+"ocamlbuild/hygiene.ml" 121 3731 3781 "ocamlbuild/hygiene.ml" 121 3731 3782
+type(
+  (law * string list) list ref -> (law * string list) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/hygiene.ml" 121 3731 3782 "ocamlbuild/hygiene.ml" 121 3731 3791
+type(
+  (law * string list) list ref
+)
+ident(
+  int_ref penalties "ocamlbuild/hygiene.ml" 59 1556 1562 "ocamlbuild/hygiene.ml" 59 1556 1571
+)
+"ocamlbuild/hygiene.ml" 121 3731 3781 "ocamlbuild/hygiene.ml" 121 3731 3791
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 121 3731 3758 "ocamlbuild/hygiene.ml" 121 3731 3791
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 121 3731 3745 "ocamlbuild/hygiene.ml" 121 3731 3791
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 118 3595 3607 "ocamlbuild/hygiene.ml" 121 3731 3791
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 117 3568 3578 "ocamlbuild/hygiene.ml" 122 3792 3805
+type(
+  law -> unit
+)
+"ocamlbuild/hygiene.ml" 123 3806 3816 "ocamlbuild/hygiene.ml" 123 3806 3820
+type(
+  law list
+)
+ident(
+  int_ref laws "ocamlbuild/hygiene.ml" 58 1523 1543 "ocamlbuild/hygiene.ml" 58 1523 1547
+)
+"ocamlbuild/hygiene.ml" 116 3550 3558 "ocamlbuild/hygiene.ml" 123 3806 3820
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 124 3822 3830 "ocamlbuild/hygiene.ml" 124 3822 3839
+type(
+  (bool Slurp.entry -> unit) -> bool Slurp.entry list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/hygiene.ml" 124 3822 3840 "ocamlbuild/hygiene.ml" 124 3822 3851
+type(
+  bool Slurp.entry -> unit
+)
+ident(
+  int_ref check_entry "ocamlbuild/hygiene.ml" 114 3484 3494 "ocamlbuild/hygiene.ml" 114 3484 3505
+)
+"ocamlbuild/hygiene.ml" 124 3822 3852 "ocamlbuild/hygiene.ml" 124 3822 3854
+type(
+  bool Slurp.entry list Lazy.t -> bool Slurp.entry list
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/hygiene.ml" 124 3822 3854 "ocamlbuild/hygiene.ml" 124 3822 3861
+type(
+  bool Slurp.entry list Lazy.t
+)
+ident(
+  int_ref entries "ocamlbuild/hygiene.ml" 115 3517 3538 "ocamlbuild/hygiene.ml" 115 3517 3545
+)
+"ocamlbuild/hygiene.ml" 124 3822 3852 "ocamlbuild/hygiene.ml" 124 3822 3861
+call(
+  stack
+)
+type(
+  bool Slurp.entry list
+)
+"ocamlbuild/hygiene.ml" 124 3822 3830 "ocamlbuild/hygiene.ml" 124 3822 3861
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 116 3550 3558 "ocamlbuild/hygiene.ml" 124 3822 3861
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 125 3862 3872 "ocamlbuild/hygiene.ml" 125 3862 3873
+type(
+  bool Slurp.entry list Lazy.t
+)
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 125 3862 3868 "ocamlbuild/hygiene.ml" 125 3862 3873
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3881 "ocamlbuild/hygiene.ml" 125 3862 3882
+type(
+  bool
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 125 3862 3876 "ocamlbuild/hygiene.ml" 125 3862 3882
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3868 "ocamlbuild/hygiene.ml" 125 3862 3882
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3891 "ocamlbuild/hygiene.ml" 125 3862 3892
+type(
+  exn
+)
+"ocamlbuild/hygiene.ml" 125 3862 3885 "ocamlbuild/hygiene.ml" 125 3862 3892
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3868 "ocamlbuild/hygiene.ml" 125 3862 3892
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3895 "ocamlbuild/hygiene.ml" 125 3862 3902
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3868 "ocamlbuild/hygiene.ml" 125 3862 3902
+type(
+  bool Slurp.entry
+)
+"ocamlbuild/hygiene.ml" 125 3862 3906 "ocamlbuild/hygiene.ml" 125 3862 3908
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 114 3484 3508 "ocamlbuild/hygiene.ml" 125 3862 3908
+type(
+  bool Slurp.entry -> unit
+)
+"ocamlbuild/hygiene.ml" 127 3914 3916 "ocamlbuild/hygiene.ml" 127 3914 3927
+type(
+  bool Slurp.entry -> unit
+)
+ident(
+  int_ref check_entry "ocamlbuild/hygiene.ml" 114 3484 3494 "ocamlbuild/hygiene.ml" 114 3484 3505
+)
+"ocamlbuild/hygiene.ml" 127 3914 3928 "ocamlbuild/hygiene.ml" 127 3914 3933
+type(
+  bool Slurp.entry
+)
+ident(
+  int_ref entry "ocamlbuild/hygiene.ml" 58 1523 1548 "ocamlbuild/hygiene.ml" 58 1523 1553
+)
+"ocamlbuild/hygiene.ml" 127 3914 3916 "ocamlbuild/hygiene.ml" 127 3914 3933
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 129 3943 3951 "ocamlbuild/hygiene.ml" 129 3943 3959
+type(
+  SS.t
+)
+ident(
+  def microbes "ocamlbuild/hygiene.ml" 130 3975 3979 "ocamlbuild/hygiene.ml" 173 6007 6021
+)
+"ocamlbuild/hygiene.ml" 129 3943 3962 "ocamlbuild/hygiene.ml" 129 3943 3963
+type(
+  SS.t ref -> SS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/hygiene.ml" 129 3943 3963 "ocamlbuild/hygiene.ml" 129 3943 3971
+type(
+  SS.t ref
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 60 1584 1590 "ocamlbuild/hygiene.ml" 60 1584 1598
+)
+"ocamlbuild/hygiene.ml" 129 3943 3962 "ocamlbuild/hygiene.ml" 129 3943 3971
+type(
+  SS.t
+)
+"ocamlbuild/hygiene.ml" 130 3975 3982 "ocamlbuild/hygiene.ml" 130 3975 3985
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/hygiene.ml" 130 3975 3987 "ocamlbuild/hygiene.ml" 130 3975 3998
+type(
+  SS.t -> bool
+)
+ident(
+  ext_ref SS.is_empty
+)
+"ocamlbuild/hygiene.ml" 130 3975 3999 "ocamlbuild/hygiene.ml" 130 3975 4007
+type(
+  SS.t
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 129 3943 3951 "ocamlbuild/hygiene.ml" 129 3943 3959
+)
+"ocamlbuild/hygiene.ml" 130 3975 3986 "ocamlbuild/hygiene.ml" 130 3975 4008
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 130 3975 3982 "ocamlbuild/hygiene.ml" 130 3975 4008
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 132 4026 4040 "ocamlbuild/hygiene.ml" 132 4026 4048
+type(
+  string option
+)
+ident(
+  int_ref sanitize "ocamlbuild/hygiene.ml" 58 1523 1534 "ocamlbuild/hygiene.ml" 58 1523 1542
+)
+"ocamlbuild/hygiene.ml" 133 4054 4064 "ocamlbuild/hygiene.ml" 133 4054 4068
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 134 4072 4084 "ocamlbuild/hygiene.ml" 134 4072 4095
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Log.eprintf
+)
+"ocamlbuild/hygiene.ml" 134 4072 4096 "ocamlbuild/hygiene.ml" 135 4170 4210
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/hygiene.ml" 134 4072 4084 "ocamlbuild/hygiene.ml" 135 4170 4210
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 136 4212 4224 "ocamlbuild/hygiene.ml" 136 4212 4231
+type(
+  (SS.elt -> unit) -> SS.t -> unit
+)
+ident(
+  ext_ref SS.iter
+)
+"ocamlbuild/hygiene.ml" 137 4232 4256 "ocamlbuild/hygiene.ml" 137 4232 4258
+type(
+  SS.elt
+)
+ident(
+  def fn "ocamlbuild/hygiene.ml" 138 4262 4278 "ocamlbuild/hygiene.ml" 138 4262 4298
+)
+"ocamlbuild/hygiene.ml" 138 4262 4278 "ocamlbuild/hygiene.ml" 138 4262 4289
+type(
+  (SS.elt -> unit, Format.formatter, unit) format -> SS.elt -> unit
+)
+ident(
+  ext_ref Log.eprintf
+)
+"ocamlbuild/hygiene.ml" 138 4262 4290 "ocamlbuild/hygiene.ml" 138 4262 4295
+type(
+  (SS.elt -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/hygiene.ml" 138 4262 4296 "ocamlbuild/hygiene.ml" 138 4262 4298
+type(
+  SS.elt
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 137 4232 4256 "ocamlbuild/hygiene.ml" 137 4232 4258
+)
+"ocamlbuild/hygiene.ml" 138 4262 4278 "ocamlbuild/hygiene.ml" 138 4262 4298
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 137 4232 4246 "ocamlbuild/hygiene.ml" 139 4299 4316
+type(
+  SS.elt -> unit
+)
+"ocamlbuild/hygiene.ml" 140 4317 4331 "ocamlbuild/hygiene.ml" 140 4317 4339
+type(
+  SS.t
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 129 3943 3951 "ocamlbuild/hygiene.ml" 129 3943 3959
+)
+"ocamlbuild/hygiene.ml" 136 4212 4224 "ocamlbuild/hygiene.ml" 140 4317 4339
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 141 4341 4353 "ocamlbuild/hygiene.ml" 141 4341 4364
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Log.eprintf
+)
+"ocamlbuild/hygiene.ml" 141 4341 4365 "ocamlbuild/hygiene.ml" 142 4446 4536
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/hygiene.ml" 141 4341 4353 "ocamlbuild/hygiene.ml" 142 4446 4536
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 143 4538 4550 "ocamlbuild/hygiene.ml" 143 4538 4555
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/hygiene.ml" 143 4538 4556 "ocamlbuild/hygiene.ml" 143 4538 4579
+type(
+  exn
+)
+"ocamlbuild/hygiene.ml" 143 4538 4550 "ocamlbuild/hygiene.ml" 143 4538 4579
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 141 4341 4353 "ocamlbuild/hygiene.ml" 143 4538 4579
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 136 4212 4224 "ocamlbuild/hygiene.ml" 143 4538 4579
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 134 4072 4084 "ocamlbuild/hygiene.ml" 143 4538 4579
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 144 4580 4595 "ocamlbuild/hygiene.ml" 144 4580 4597
+type(
+  string
+)
+ident(
+  def fn "ocamlbuild/hygiene.ml" 145 4601 4613 "ocamlbuild/hygiene.ml" 171 5971 5995
+)
+"ocamlbuild/hygiene.ml" 144 4580 4590 "ocamlbuild/hygiene.ml" 144 4580 4597
+type(
+  string option
+)
+"ocamlbuild/hygiene.ml" 145 4601 4617 "ocamlbuild/hygiene.ml" 145 4601 4618
+type(
+  int
+)
+ident(
+  def m "ocamlbuild/hygiene.ml" 146 4645 4657 "ocamlbuild/hygiene.ml" 171 5971 5995
+)
+"ocamlbuild/hygiene.ml" 145 4601 4621 "ocamlbuild/hygiene.ml" 145 4601 4632
+type(
+  SS.t -> int
+)
+ident(
+  ext_ref SS.cardinal
+)
+"ocamlbuild/hygiene.ml" 145 4601 4633 "ocamlbuild/hygiene.ml" 145 4601 4641
+type(
+  SS.t
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 129 3943 3951 "ocamlbuild/hygiene.ml" 129 3943 3959
+)
+"ocamlbuild/hygiene.ml" 145 4601 4621 "ocamlbuild/hygiene.ml" 145 4601 4641
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/hygiene.ml" 146 4645 4657 "ocamlbuild/hygiene.ml" 146 4645 4668
+type(
+  (int -> string -> string -> unit, Format.formatter, unit) format ->
+  int -> string -> string -> unit
+)
+ident(
+  ext_ref Log.eprintf
+)
+"ocamlbuild/hygiene.ml" 147 4669 4683 "ocamlbuild/hygiene.ml" 152 5054 5111
+type(
+  (int -> string -> string -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/hygiene.ml" 153 5112 5127 "ocamlbuild/hygiene.ml" 153 5112 5128
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/hygiene.ml" 145 4601 4617 "ocamlbuild/hygiene.ml" 145 4601 4618
+)
+"ocamlbuild/hygiene.ml" 153 5112 5133 "ocamlbuild/hygiene.ml" 153 5112 5134
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/hygiene.ml" 145 4601 4617 "ocamlbuild/hygiene.ml" 145 4601 4618
+)
+"ocamlbuild/hygiene.ml" 153 5112 5135 "ocamlbuild/hygiene.ml" 153 5112 5136
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/hygiene.ml" 153 5112 5137 "ocamlbuild/hygiene.ml" 153 5112 5138
+type(
+  int
+)
+"ocamlbuild/hygiene.ml" 153 5112 5133 "ocamlbuild/hygiene.ml" 153 5112 5138
+type(
+  bool
+)
+"ocamlbuild/hygiene.ml" 153 5112 5144 "ocamlbuild/hygiene.ml" 153 5112 5146
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 153 5112 5152 "ocamlbuild/hygiene.ml" 153 5112 5155
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 153 5112 5129 "ocamlbuild/hygiene.ml" 153 5112 5156
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 153 5112 5157 "ocamlbuild/hygiene.ml" 153 5112 5159
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 144 4580 4595 "ocamlbuild/hygiene.ml" 144 4580 4597
+)
+"ocamlbuild/hygiene.ml" 146 4645 4657 "ocamlbuild/hygiene.ml" 153 5112 5159
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 154 5161 5177 "ocamlbuild/hygiene.ml" 154 5161 5179
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/hygiene.ml" 157 5405 5417 "ocamlbuild/hygiene.ml" 171 5971 5995
+)
+"ocamlbuild/hygiene.ml" 154 5161 5182 "ocamlbuild/hygiene.ml" 154 5161 5194
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"ocamlbuild/hygiene.ml" 154 5161 5196 "ocamlbuild/hygiene.ml" 154 5161 5207
+type(
+  open_flag
+)
+"ocamlbuild/hygiene.ml" 154 5161 5209 "ocamlbuild/hygiene.ml" 154 5161 5219
+type(
+  open_flag
+)
+"ocamlbuild/hygiene.ml" 154 5161 5221 "ocamlbuild/hygiene.ml" 154 5161 5231
+type(
+  open_flag
+)
+"ocamlbuild/hygiene.ml" 154 5161 5233 "ocamlbuild/hygiene.ml" 154 5161 5244
+type(
+  open_flag
+)
+"ocamlbuild/hygiene.ml" 154 5161 5195 "ocamlbuild/hygiene.ml" 154 5161 5245
+type(
+  open_flag list
+)
+"ocamlbuild/hygiene.ml" 154 5161 5246 "ocamlbuild/hygiene.ml" 154 5161 5251
+type(
+  int
+)
+"ocamlbuild/hygiene.ml" 154 5161 5252 "ocamlbuild/hygiene.ml" 154 5161 5254
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 144 4580 4595 "ocamlbuild/hygiene.ml" 144 4580 4597
+)
+"ocamlbuild/hygiene.ml" 154 5161 5182 "ocamlbuild/hygiene.ml" 154 5161 5254
+call(
+  stack
+)
+type(
+  out_channel
+)
+"ocamlbuild/hygiene.ml" 157 5405 5421 "ocamlbuild/hygiene.ml" 157 5405 5423
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def fp "ocamlbuild/hygiene.ml" 158 5444 5456 "ocamlbuild/hygiene.ml" 171 5971 5995
+)
+"ocamlbuild/hygiene.ml" 157 5405 5426 "ocamlbuild/hygiene.ml" 157 5405 5440
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"ocamlbuild/hygiene.ml" 158 5444 5456 "ocamlbuild/hygiene.ml" 158 5444 5458
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/hygiene.ml" 157 5405 5421 "ocamlbuild/hygiene.ml" 157 5405 5423
+)
+"ocamlbuild/hygiene.ml" 158 5444 5459 "ocamlbuild/hygiene.ml" 158 5444 5461
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/hygiene.ml" 154 5161 5177 "ocamlbuild/hygiene.ml" 154 5161 5179
+)
+"ocamlbuild/hygiene.ml" 158 5444 5462 "ocamlbuild/hygiene.ml" 162 5580 5602
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ocamlbuild/hygiene.ml" 162 5580 5604 "ocamlbuild/hygiene.ml" 162 5580 5634
+type(
+  Pathname.t -> string
+)
+ident(
+  ext_ref Shell.quote_filename_if_needed
+)
+"ocamlbuild/hygiene.ml" 162 5580 5635 "ocamlbuild/hygiene.ml" 162 5580 5647
+type(
+  Pathname.t
+)
+ident(
+  ext_ref Pathname.pwd
+)
+"ocamlbuild/hygiene.ml" 162 5580 5603 "ocamlbuild/hygiene.ml" 162 5580 5648
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 158 5444 5456 "ocamlbuild/hygiene.ml" 162 5580 5648
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 163 5650 5662 "ocamlbuild/hygiene.ml" 163 5650 5669
+type(
+  (SS.elt -> unit) -> SS.t -> unit
+)
+ident(
+  ext_ref SS.iter
+)
+"ocamlbuild/hygiene.ml" 164 5670 5694 "ocamlbuild/hygiene.ml" 164 5670 5696
+type(
+  SS.elt
+)
+ident(
+  def fn "ocamlbuild/hygiene.ml" 165 5700 5716 "ocamlbuild/hygiene.ml" 165 5700 5770
+)
+"ocamlbuild/hygiene.ml" 165 5700 5716 "ocamlbuild/hygiene.ml" 165 5700 5718
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/hygiene.ml" 157 5405 5421 "ocamlbuild/hygiene.ml" 157 5405 5423
+)
+"ocamlbuild/hygiene.ml" 165 5700 5719 "ocamlbuild/hygiene.ml" 165 5700 5721
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/hygiene.ml" 154 5161 5177 "ocamlbuild/hygiene.ml" 154 5161 5179
+)
+"ocamlbuild/hygiene.ml" 165 5700 5722 "ocamlbuild/hygiene.ml" 165 5700 5734
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ocamlbuild/hygiene.ml" 165 5700 5736 "ocamlbuild/hygiene.ml" 165 5700 5766
+type(
+  SS.elt -> string
+)
+ident(
+  ext_ref Shell.quote_filename_if_needed
+)
+"ocamlbuild/hygiene.ml" 165 5700 5767 "ocamlbuild/hygiene.ml" 165 5700 5769
+type(
+  SS.elt
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 164 5670 5694 "ocamlbuild/hygiene.ml" 164 5670 5696
+)
+"ocamlbuild/hygiene.ml" 165 5700 5735 "ocamlbuild/hygiene.ml" 165 5700 5770
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 165 5700 5716 "ocamlbuild/hygiene.ml" 165 5700 5770
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 164 5670 5684 "ocamlbuild/hygiene.ml" 166 5771 5788
+type(
+  SS.elt -> unit
+)
+"ocamlbuild/hygiene.ml" 167 5789 5803 "ocamlbuild/hygiene.ml" 167 5789 5811
+type(
+  SS.t
+)
+ident(
+  int_ref microbes "ocamlbuild/hygiene.ml" 129 3943 3951 "ocamlbuild/hygiene.ml" 129 3943 3959
+)
+"ocamlbuild/hygiene.ml" 163 5650 5662 "ocamlbuild/hygiene.ml" 167 5789 5811
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 169 5849 5861 "ocamlbuild/hygiene.ml" 169 5849 5863
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/hygiene.ml" 157 5405 5421 "ocamlbuild/hygiene.ml" 157 5405 5423
+)
+"ocamlbuild/hygiene.ml" 169 5849 5864 "ocamlbuild/hygiene.ml" 169 5849 5866
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/hygiene.ml" 154 5161 5177 "ocamlbuild/hygiene.ml" 154 5161 5179
+)
+"ocamlbuild/hygiene.ml" 169 5849 5867 "ocamlbuild/hygiene.ml" 169 5849 5901
+type(
+  (unit, out_channel, unit) format
+)
+"ocamlbuild/hygiene.ml" 169 5849 5861 "ocamlbuild/hygiene.ml" 169 5849 5901
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 170 5903 5915 "ocamlbuild/hygiene.ml" 170 5903 5917
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/hygiene.ml" 157 5405 5421 "ocamlbuild/hygiene.ml" 157 5405 5423
+)
+"ocamlbuild/hygiene.ml" 170 5903 5918 "ocamlbuild/hygiene.ml" 170 5903 5920
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/hygiene.ml" 154 5161 5177 "ocamlbuild/hygiene.ml" 154 5161 5179
+)
+"ocamlbuild/hygiene.ml" 170 5903 5921 "ocamlbuild/hygiene.ml" 170 5903 5933
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ocamlbuild/hygiene.ml" 170 5903 5935 "ocamlbuild/hygiene.ml" 170 5903 5965
+type(
+  string -> string
+)
+ident(
+  ext_ref Shell.quote_filename_if_needed
+)
+"ocamlbuild/hygiene.ml" 170 5903 5966 "ocamlbuild/hygiene.ml" 170 5903 5968
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/hygiene.ml" 144 4580 4595 "ocamlbuild/hygiene.ml" 144 4580 4597
+)
+"ocamlbuild/hygiene.ml" 170 5903 5934 "ocamlbuild/hygiene.ml" 170 5903 5969
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/hygiene.ml" 170 5903 5915 "ocamlbuild/hygiene.ml" 170 5903 5969
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 171 5971 5983 "ocamlbuild/hygiene.ml" 171 5971 5992
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"ocamlbuild/hygiene.ml" 171 5971 5993 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/hygiene.ml" 154 5161 5177 "ocamlbuild/hygiene.ml" 154 5161 5179
+)
+"ocamlbuild/hygiene.ml" 171 5971 5983 "ocamlbuild/hygiene.ml" 171 5971 5995
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 170 5903 5915 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 169 5849 5861 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 163 5650 5662 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 158 5444 5456 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 157 5405 5417 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 154 5161 5173 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 146 4645 4657 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 145 4601 4613 "ocamlbuild/hygiene.ml" 171 5971 5995
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 131 4014 4020 "ocamlbuild/hygiene.ml" 172 5996 6005
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 130 3975 3979 "ocamlbuild/hygiene.ml" 172 5996 6005
+type(
+  unit
+)
+"ocamlbuild/hygiene.ml" 173 6007 6011 "ocamlbuild/hygiene.ml" 173 6007 6012
+type(
+  (law * string list) list ref -> (law * string list) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/hygiene.ml" 173 6007 6012 "ocamlbuild/hygiene.ml" 173 6007 6021
+type(
+  (law * string list) list ref
+)
+ident(
+  int_ref penalties "ocamlbuild/hygiene.ml" 59 1556 1562 "ocamlbuild/hygiene.ml" 59 1556 1571
+)
+"ocamlbuild/hygiene.ml" 173 6007 6011 "ocamlbuild/hygiene.ml" 173 6007 6021
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 130 3975 3979 "ocamlbuild/hygiene.ml" 173 6007 6021
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 128 3935 3937 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 127 3914 3916 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 114 3484 3486 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 70 1854 1856 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 66 1732 1734 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 61 1617 1619 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 60 1584 1586 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)
+"ocamlbuild/hygiene.ml" 59 1556 1558 "ocamlbuild/hygiene.ml" 174 6022 6027
+type(
+  (law * string list) list
+)

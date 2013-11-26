@@ -1,0 +1,6 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+homepage: "http://mjambon.com/cppo.html"
+author: "Martin Jambon"
+license: "BSD-3-Clause"
+build: [make]

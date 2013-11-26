@@ -1,0 +1,7 @@
+version = "1.3.2"
+description = "Js_of_ocaml compiler library"
+archive(byte) = "compiler.cma"
+archive(byte,plugin) = "compiler.cma"
+archive(native) = "compiler.cmxa"
+archive(native,plugin) = "compiler.cmxs"
+requires = "str findlib"

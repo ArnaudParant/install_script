@@ -1,0 +1,3 @@
+version = "3.7.3"
+requires = "nethttpd"
+description = "Ocamlnet - HTTP daemon - Compat name for nethttpd"

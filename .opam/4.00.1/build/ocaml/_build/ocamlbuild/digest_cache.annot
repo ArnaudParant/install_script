@@ -1,0 +1,525 @@
+"ocamlbuild/digest_cache.ml" 17 820 824 "ocamlbuild/digest_cache.ml" 17 820 831
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def digests "ocamlbuild/digest_cache.ml" 19 854 854 "_none_" 1 0 -1
+)
+"ocamlbuild/digest_cache.ml" 17 820 834 "ocamlbuild/digest_cache.ml" 17 820 848
+type(
+  ?random:bool -> int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/digest_cache.ml" 17 820 849 "ocamlbuild/digest_cache.ml" 17 820 852
+type(
+  int
+)
+"ocamlbuild/digest_cache.ml" 17 820 834 "ocamlbuild/digest_cache.ml" 17 820 852
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"ocamlbuild/digest_cache.ml" 19 854 858 "ocamlbuild/digest_cache.ml" 19 854 861
+type(
+  string -> string
+)
+ident(
+  def get "ocamlbuild/digest_cache.ml" 21 886 886 "_none_" 1 0 -1
+)
+"ocamlbuild/digest_cache.ml" 19 854 864 "ocamlbuild/digest_cache.ml" 19 854 876
+type(
+  (string, string) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/digest_cache.ml" 19 854 877 "ocamlbuild/digest_cache.ml" 19 854 884
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref digests "ocamlbuild/digest_cache.ml" 17 820 824 "ocamlbuild/digest_cache.ml" 17 820 831
+)
+"ocamlbuild/digest_cache.ml" 19 854 864 "ocamlbuild/digest_cache.ml" 19 854 884
+call(
+  stack
+)
+type(
+  string -> string
+)
+"ocamlbuild/digest_cache.ml" 21 886 890 "ocamlbuild/digest_cache.ml" 21 886 893
+type(
+  string -> string -> unit
+)
+ident(
+  def put "ocamlbuild/digest_cache.ml" 23 921 921 "_none_" 1 0 -1
+)
+"ocamlbuild/digest_cache.ml" 21 886 896 "ocamlbuild/digest_cache.ml" 21 886 911
+type(
+  (string, string) Hashtbl.t -> string -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/digest_cache.ml" 21 886 912 "ocamlbuild/digest_cache.ml" 21 886 919
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref digests "ocamlbuild/digest_cache.ml" 17 820 824 "ocamlbuild/digest_cache.ml" 17 820 831
+)
+"ocamlbuild/digest_cache.ml" 21 886 896 "ocamlbuild/digest_cache.ml" 21 886 919
+call(
+  stack
+)
+type(
+  string -> string -> unit
+)
+"ocamlbuild/digest_cache.ml" 23 921 925 "ocamlbuild/digest_cache.ml" 23 921 933
+type(
+  Pathname.t lazy_t
+)
+ident(
+  def _digests "ocamlbuild/digest_cache.ml" 25 990 990 "_none_" 1 0 -1
+)
+"ocamlbuild/digest_cache.ml" 23 921 942 "ocamlbuild/digest_cache.ml" 23 921 943
+type(
+  Pathname.t ref -> Pathname.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/digest_cache.ml" 23 921 943 "ocamlbuild/digest_cache.ml" 23 921 960
+type(
+  Pathname.t ref
+)
+ident(
+  ext_ref Options.build_dir
+)
+"ocamlbuild/digest_cache.ml" 23 921 942 "ocamlbuild/digest_cache.ml" 23 921 960
+type(
+  Pathname.t
+)
+"ocamlbuild/digest_cache.ml" 23 921 961 "ocamlbuild/digest_cache.ml" 23 921 962
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/digest_cache.ml" 23 921 964 "ocamlbuild/digest_cache.ml" 23 921 975
+type(
+  string -> Pathname.t
+)
+ident(
+  ext_ref Pathname.mk
+)
+"ocamlbuild/digest_cache.ml" 23 921 976 "ocamlbuild/digest_cache.ml" 23 921 986
+type(
+  string
+)
+"ocamlbuild/digest_cache.ml" 23 921 963 "ocamlbuild/digest_cache.ml" 23 921 987
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/digest_cache.ml" 23 921 941 "ocamlbuild/digest_cache.ml" 23 921 988
+call(
+  tail
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/digest_cache.ml" 23 921 936 "ocamlbuild/digest_cache.ml" 23 921 988
+type(
+  Pathname.t lazy_t
+)
+"ocamlbuild/digest_cache.ml" 25 990 994 "ocamlbuild/digest_cache.ml" 25 990 1002
+type(
+  unit -> unit
+)
+ident(
+  def finalize "ocamlbuild/digest_cache.ml" 32 1166 1166 "_none_" 1 0 -1
+)
+"ocamlbuild/digest_cache.ml" 25 990 1003 "ocamlbuild/digest_cache.ml" 25 990 1005
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1010 "ocamlbuild/digest_cache.ml" 26 1008 1026
+type(
+  ?bin:bool -> Pathname.t -> (out_channel -> unit) -> unit
+)
+ident(
+  ext_ref My_std.with_output_file
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1027 "ocamlbuild/digest_cache.ml" 26 1008 1029
+type(
+  Pathname.t Lazy.t -> Pathname.t
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1029 "ocamlbuild/digest_cache.ml" 26 1008 1037
+type(
+  Pathname.t Lazy.t
+)
+ident(
+  int_ref _digests "ocamlbuild/digest_cache.ml" 23 921 925 "ocamlbuild/digest_cache.ml" 23 921 933
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1027 "ocamlbuild/digest_cache.ml" 26 1008 1037
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1048 "ocamlbuild/digest_cache.ml" 26 1008 1050
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/digest_cache.ml" 27 1054 1058 "ocamlbuild/digest_cache.ml" 29 1143 1158
+)
+"ocamlbuild/digest_cache.ml" 27 1054 1058 "ocamlbuild/digest_cache.ml" 27 1054 1070
+type(
+  (string -> string -> unit) -> (string, string) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"ocamlbuild/digest_cache.ml" 27 1054 1081 "ocamlbuild/digest_cache.ml" 27 1054 1085
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/digest_cache.ml" 27 1054 1086 "ocamlbuild/digest_cache.ml" 28 1096 1142
+)
+"ocamlbuild/digest_cache.ml" 27 1054 1086 "ocamlbuild/digest_cache.ml" 27 1054 1092
+type(
+  string
+)
+ident(
+  def digest "ocamlbuild/digest_cache.ml" 28 1096 1102 "ocamlbuild/digest_cache.ml" 28 1096 1142
+)
+"ocamlbuild/digest_cache.ml" 28 1096 1102 "ocamlbuild/digest_cache.ml" 28 1096 1116
+type(
+  out_channel ->
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"ocamlbuild/digest_cache.ml" 28 1096 1117 "ocamlbuild/digest_cache.ml" 28 1096 1119
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/digest_cache.ml" 26 1008 1048 "ocamlbuild/digest_cache.ml" 26 1008 1050
+)
+"ocamlbuild/digest_cache.ml" 28 1096 1120 "ocamlbuild/digest_cache.ml" 28 1096 1130
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"ocamlbuild/digest_cache.ml" 28 1096 1131 "ocamlbuild/digest_cache.ml" 28 1096 1135
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/digest_cache.ml" 27 1054 1081 "ocamlbuild/digest_cache.ml" 27 1054 1085
+)
+"ocamlbuild/digest_cache.ml" 28 1096 1136 "ocamlbuild/digest_cache.ml" 28 1096 1142
+type(
+  string
+)
+ident(
+  int_ref digest "ocamlbuild/digest_cache.ml" 27 1054 1086 "ocamlbuild/digest_cache.ml" 27 1054 1092
+)
+"ocamlbuild/digest_cache.ml" 28 1096 1102 "ocamlbuild/digest_cache.ml" 28 1096 1142
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 27 1054 1071 "ocamlbuild/digest_cache.ml" 29 1143 1150
+type(
+  string -> string -> unit
+)
+"ocamlbuild/digest_cache.ml" 29 1143 1151 "ocamlbuild/digest_cache.ml" 29 1143 1158
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref digests "ocamlbuild/digest_cache.ml" 17 820 824 "ocamlbuild/digest_cache.ml" 17 820 831
+)
+"ocamlbuild/digest_cache.ml" 27 1054 1058 "ocamlbuild/digest_cache.ml" 29 1143 1158
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1038 "ocamlbuild/digest_cache.ml" 30 1159 1164
+type(
+  out_channel -> unit
+)
+"ocamlbuild/digest_cache.ml" 26 1008 1010 "ocamlbuild/digest_cache.ml" 30 1159 1164
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 32 1166 1170 "ocamlbuild/digest_cache.ml" 32 1166 1174
+type(
+  unit -> unit
+)
+ident(
+  def init "ocamlbuild/digest_cache.ml" 41 1434 1465 "_none_" 1 0 -1
+)
+"ocamlbuild/digest_cache.ml" 32 1166 1175 "ocamlbuild/digest_cache.ml" 32 1166 1177
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 33 1180 1182 "ocamlbuild/digest_cache.ml" 33 1180 1193
+type(
+  string -> unit
+)
+ident(
+  ext_ref Shell.chdir
+)
+"ocamlbuild/digest_cache.ml" 33 1180 1194 "ocamlbuild/digest_cache.ml" 33 1180 1195
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/digest_cache.ml" 33 1180 1195 "ocamlbuild/digest_cache.ml" 33 1180 1212
+type(
+  string ref
+)
+ident(
+  ext_ref Options.build_dir
+)
+"ocamlbuild/digest_cache.ml" 33 1180 1194 "ocamlbuild/digest_cache.ml" 33 1180 1212
+type(
+  string
+)
+"ocamlbuild/digest_cache.ml" 33 1180 1182 "ocamlbuild/digest_cache.ml" 33 1180 1212
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1219 "ocamlbuild/digest_cache.ml" 34 1214 1234
+type(
+  Pathname.t -> bool
+)
+ident(
+  ext_ref Pathname.exists
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1235 "ocamlbuild/digest_cache.ml" 34 1214 1237
+type(
+  Pathname.t Lazy.t -> Pathname.t
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1237 "ocamlbuild/digest_cache.ml" 34 1214 1245
+type(
+  Pathname.t Lazy.t
+)
+ident(
+  int_ref _digests "ocamlbuild/digest_cache.ml" 23 921 925 "ocamlbuild/digest_cache.ml" 23 921 933
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1235 "ocamlbuild/digest_cache.ml" 34 1214 1245
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1219 "ocamlbuild/digest_cache.ml" 34 1214 1245
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1255 "ocamlbuild/digest_cache.ml" 35 1251 1270
+type(
+  ?bin:bool -> Pathname.t -> (in_channel -> unit) -> unit
+)
+ident(
+  ext_ref My_std.with_input_file
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1271 "ocamlbuild/digest_cache.ml" 35 1251 1273
+type(
+  Pathname.t Lazy.t -> Pathname.t
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1273 "ocamlbuild/digest_cache.ml" 35 1251 1281
+type(
+  Pathname.t Lazy.t
+)
+ident(
+  int_ref _digests "ocamlbuild/digest_cache.ml" 23 921 925 "ocamlbuild/digest_cache.ml" 23 921 933
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1271 "ocamlbuild/digest_cache.ml" 35 1251 1281
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1292 "ocamlbuild/digest_cache.ml" 35 1251 1294
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/digest_cache.ml" 36 1298 1304 "ocamlbuild/digest_cache.ml" 39 1391 1424
+)
+"ocamlbuild/digest_cache.ml" 36 1298 1314 "ocamlbuild/digest_cache.ml" 36 1298 1318
+type(
+  bool
+)
+"ocamlbuild/digest_cache.ml" 37 1322 1334 "ocamlbuild/digest_cache.ml" 37 1322 1335
+type(
+  string
+)
+ident(
+  def l "ocamlbuild/digest_cache.ml" 38 1355 1363 "ocamlbuild/digest_cache.ml" 38 1355 1390
+)
+"ocamlbuild/digest_cache.ml" 37 1322 1338 "ocamlbuild/digest_cache.ml" 37 1322 1348
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"ocamlbuild/digest_cache.ml" 37 1322 1349 "ocamlbuild/digest_cache.ml" 37 1322 1351
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/digest_cache.ml" 35 1251 1292 "ocamlbuild/digest_cache.ml" 35 1251 1294
+)
+"ocamlbuild/digest_cache.ml" 37 1322 1338 "ocamlbuild/digest_cache.ml" 37 1322 1351
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/digest_cache.ml" 38 1355 1363 "ocamlbuild/digest_cache.ml" 38 1355 1375
+type(
+  string ->
+  (string -> string -> unit, '_a, (string -> string -> unit) -> unit, unit)
+  Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"ocamlbuild/digest_cache.ml" 38 1355 1376 "ocamlbuild/digest_cache.ml" 38 1355 1377
+type(
+  string
+)
+ident(
+  int_ref l "ocamlbuild/digest_cache.ml" 37 1322 1334 "ocamlbuild/digest_cache.ml" 37 1322 1335
+)
+"ocamlbuild/digest_cache.ml" 38 1355 1378 "ocamlbuild/digest_cache.ml" 38 1355 1386
+type(
+  (string -> string -> unit, Scanf.Scanning.in_channel, '_a,
+   (string -> string -> unit) -> unit, (string -> string -> unit) -> unit,
+   unit)
+  format6
+)
+"ocamlbuild/digest_cache.ml" 38 1355 1387 "ocamlbuild/digest_cache.ml" 38 1355 1390
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref put "ocamlbuild/digest_cache.ml" 21 886 890 "ocamlbuild/digest_cache.ml" 21 886 893
+)
+"ocamlbuild/digest_cache.ml" 38 1355 1363 "ocamlbuild/digest_cache.ml" 38 1355 1390
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 37 1322 1330 "ocamlbuild/digest_cache.ml" 38 1355 1390
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 36 1298 1308 "ocamlbuild/digest_cache.ml" 39 1391 1401
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 39 1391 1407 "ocamlbuild/digest_cache.ml" 39 1391 1418
+type(
+  exn
+)
+"ocamlbuild/digest_cache.ml" 39 1391 1422 "ocamlbuild/digest_cache.ml" 39 1391 1424
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 36 1298 1304 "ocamlbuild/digest_cache.ml" 39 1391 1424
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1282 "ocamlbuild/digest_cache.ml" 40 1425 1432
+type(
+  in_channel -> unit
+)
+"ocamlbuild/digest_cache.ml" 35 1251 1255 "ocamlbuild/digest_cache.ml" 40 1425 1432
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1216 "ocamlbuild/digest_cache.ml" 40 1425 1432
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 41 1434 1436 "ocamlbuild/digest_cache.ml" 41 1434 1456
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref My_unix.at_exit_once
+)
+"ocamlbuild/digest_cache.ml" 41 1434 1457 "ocamlbuild/digest_cache.ml" 41 1434 1465
+type(
+  unit -> unit
+)
+ident(
+  int_ref finalize "ocamlbuild/digest_cache.ml" 25 990 994 "ocamlbuild/digest_cache.ml" 25 990 1002
+)
+"ocamlbuild/digest_cache.ml" 41 1434 1436 "ocamlbuild/digest_cache.ml" 41 1434 1465
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 34 1214 1216 "ocamlbuild/digest_cache.ml" 41 1434 1465
+type(
+  unit
+)
+"ocamlbuild/digest_cache.ml" 33 1180 1182 "ocamlbuild/digest_cache.ml" 41 1434 1465
+type(
+  unit
+)

@@ -1,0 +1,15 @@
+opam-version: "1"
+maintainer: "zol@benozol.de"
+build: [
+  ["%{make}%"]
+  ["%{make}%" "install" "BINDIR=%{bin}%"]
+]
+remove: [
+  ["ocamlfind" "remove" "js_of_ocaml"]
+  ["ocamlfind" "remove" "js_of_ocaml_compiler"]
+]
+depends: [
+  "ocamlfind"
+  "deriving"
+  "lwt" {>= "2.4"}
+]

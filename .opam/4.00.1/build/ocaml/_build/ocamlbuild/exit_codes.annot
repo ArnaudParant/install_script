@@ -1,0 +1,165 @@
+"ocamlbuild/exit_codes.ml" 12 741 745 "ocamlbuild/exit_codes.ml" 12 741 750
+type(
+  int
+)
+ident(
+  def rc_ok "ocamlbuild/exit_codes.ml" 13 784 784 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 12 741 782 "ocamlbuild/exit_codes.ml" 12 741 783
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 13 784 788 "ocamlbuild/exit_codes.ml" 13 784 796
+type(
+  int
+)
+ident(
+  def rc_usage "ocamlbuild/exit_codes.ml" 14 827 827 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 13 784 825 "ocamlbuild/exit_codes.ml" 13 784 826
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 14 827 831 "ocamlbuild/exit_codes.ml" 14 827 841
+type(
+  int
+)
+ident(
+  def rc_failure "ocamlbuild/exit_codes.ml" 15 870 870 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 14 827 868 "ocamlbuild/exit_codes.ml" 14 827 869
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 15 870 874 "ocamlbuild/exit_codes.ml" 15 870 893
+type(
+  int
+)
+ident(
+  def rc_invalid_argument "ocamlbuild/exit_codes.ml" 16 913 913 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 15 870 911 "ocamlbuild/exit_codes.ml" 15 870 912
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 16 913 917 "ocamlbuild/exit_codes.ml" 16 913 932
+type(
+  int
+)
+ident(
+  def rc_system_error "ocamlbuild/exit_codes.ml" 17 956 956 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 16 913 954 "ocamlbuild/exit_codes.ml" 16 913 955
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 17 956 960 "ocamlbuild/exit_codes.ml" 17 956 970
+type(
+  int
+)
+ident(
+  def rc_hygiene "ocamlbuild/exit_codes.ml" 18 999 999 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 17 956 997 "ocamlbuild/exit_codes.ml" 17 956 998
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 18 999 1003 "ocamlbuild/exit_codes.ml" 18 999 1017
+type(
+  int
+)
+ident(
+  def rc_circularity "ocamlbuild/exit_codes.ml" 19 1042 1042 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 18 999 1040 "ocamlbuild/exit_codes.ml" 18 999 1041
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 19 1042 1046 "ocamlbuild/exit_codes.ml" 19 1042 1062
+type(
+  int
+)
+ident(
+  def rc_solver_failed "ocamlbuild/exit_codes.ml" 20 1085 1085 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 19 1042 1083 "ocamlbuild/exit_codes.ml" 19 1042 1084
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 20 1085 1089 "ocamlbuild/exit_codes.ml" 20 1085 1106
+type(
+  int
+)
+ident(
+  def rc_ocamldep_error "ocamlbuild/exit_codes.ml" 21 1128 1128 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 20 1085 1126 "ocamlbuild/exit_codes.ml" 20 1085 1127
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 21 1128 1132 "ocamlbuild/exit_codes.ml" 21 1128 1147
+type(
+  int
+)
+ident(
+  def rc_lexing_error "ocamlbuild/exit_codes.ml" 22 1171 1171 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 21 1128 1169 "ocamlbuild/exit_codes.ml" 21 1128 1170
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 22 1171 1175 "ocamlbuild/exit_codes.ml" 22 1171 1189
+type(
+  int
+)
+ident(
+  def rc_build_error "ocamlbuild/exit_codes.ml" 23 1214 1214 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 22 1171 1212 "ocamlbuild/exit_codes.ml" 22 1171 1213
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 23 1214 1218 "ocamlbuild/exit_codes.ml" 23 1214 1247
+type(
+  int
+)
+ident(
+  def rc_executor_subcommand_failed "ocamlbuild/exit_codes.ml" 24 1258 1258 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 23 1214 1255 "ocamlbuild/exit_codes.ml" 23 1214 1257
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 24 1258 1262 "ocamlbuild/exit_codes.ml" 24 1258 1295
+type(
+  int
+)
+ident(
+  def rc_executor_subcommand_got_signal "ocamlbuild/exit_codes.ml" 25 1302 1302 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 24 1258 1299 "ocamlbuild/exit_codes.ml" 24 1258 1301
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 25 1302 1306 "ocamlbuild/exit_codes.ml" 25 1302 1326
+type(
+  int
+)
+ident(
+  def rc_executor_io_error "ocamlbuild/exit_codes.ml" 26 1346 1346 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 25 1302 1343 "ocamlbuild/exit_codes.ml" 25 1302 1345
+type(
+  int
+)
+"ocamlbuild/exit_codes.ml" 26 1346 1350 "ocamlbuild/exit_codes.ml" 26 1346 1384
+type(
+  int
+)
+ident(
+  def rc_executor_excetptional_condition "ocamlbuild/exit_codes.ml" 26 1346 1389 "_none_" 1 0 -1
+)
+"ocamlbuild/exit_codes.ml" 26 1346 1387 "ocamlbuild/exit_codes.ml" 26 1346 1389
+type(
+  int
+)

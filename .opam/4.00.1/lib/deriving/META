@@ -1,0 +1,44 @@
+version = "0.5"
+description = "Deriving (patched for the Ocsigen project)"
+archive(byte) = "deriving.cma"
+archive(native) = "deriving.cmxa"
+archive(byte,pkg_num) = "deriving_num.cma"
+archive(native,pkg_num) = "deriving_num.cmxa"
+
+package "syntax" (
+exists_if = "pa_deriving.cma"
+description = "Deriving syntax extension"
+version = "[distributed with deriving]"
+requires(syntax) = "camlp4,unix"
+requires(syntax,toploop) += "deriving"
+archive(preprocessor,syntax) = "pa_deriving.cma"
+archive(syntax,toploop) = "pa_deriving.cma"
+
+package "base" (
+requires(syntax) = "camlp4"
+archive(preprocessor,syntax) = "pa_deriving_common.cmo pa_deriving.cmo"
+archive(syntax,toploop) = "pa_deriving_common.cmo pa_deriving.cmo"
+)
+)
+
+package "syntax_tc" (
+version = "[distributed with deriving]"
+exists_if = "pa_deriving_tc.cma"
+requires(syntax) = "camlp4,unix,"
+requires(syntax,toploop) += "deriving"
+archive(preprocessor,syntax) = "pa_deriving_tc.cma"
+archive(syntax,toploop) = "pa_deriving_tc.cma"
+
+package "base" (
+version = "[distributed with deriving]"
+requires(syntax) = "camlp4"
+archive(preprocessor,syntax) = "pa_deriving_common.cmo pa_deriving_tc.cmo"
+archive(syntax,toploop) = "pa_deriving_common.cmo pa_deriving_tc.cmo"
+)
+)
+
+package "base" (
+description = "(deprecated)"
+version = "[distributed with deriving]"
+requires = "deriving"
+)

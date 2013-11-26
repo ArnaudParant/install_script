@@ -1,0 +1,14 @@
+opam-version: "1"
+maintainer: "blue-prawn"
+homepage: "http://www.pcre.org/"
+author: [
+  "Philip Hazel"
+  "Zoltan Herczeg"
+]
+license: "BSD-3-Clause"
+build: ["pkg-config" "libpcre"]
+depexts: [
+  ["debian" "libpcre3-dev"]
+  ["mageia" "libpcre-devel"]
+  ["ubuntu" "libpcre3-dev"]
+]

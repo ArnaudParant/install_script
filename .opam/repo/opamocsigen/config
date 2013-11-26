@@ -1,0 +1,5 @@
+name: "opamocsigen"
+address: "http://ocsigen.org/opam"
+kind: "http"
+priority: 10
+root: "/home/labeip/.opam/repo/opamocsigen"

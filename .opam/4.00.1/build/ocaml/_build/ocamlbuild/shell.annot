@@ -1,0 +1,1695 @@
+"ocamlbuild/shell.ml" 16 796 800 "ocamlbuild/shell.ml" 16 796 818
+type(
+  string -> bool
+)
+ident(
+  def is_simple_filename "ocamlbuild/shell.ml" 25 1074 1074 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 16 796 819 "ocamlbuild/shell.ml" 16 796 820
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/shell.ml" 17 823 825 "ocamlbuild/shell.ml" 24 1065 1073
+)
+"ocamlbuild/shell.ml" 17 823 829 "ocamlbuild/shell.ml" 17 823 831
+type(
+  int
+)
+ident(
+  def ls "ocamlbuild/shell.ml" 18 853 855 "ocamlbuild/shell.ml" 24 1065 1073
+)
+"ocamlbuild/shell.ml" 17 823 834 "ocamlbuild/shell.ml" 17 823 847
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.String.length
+)
+"ocamlbuild/shell.ml" 17 823 848 "ocamlbuild/shell.ml" 17 823 849
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/shell.ml" 16 796 819 "ocamlbuild/shell.ml" 16 796 820
+)
+"ocamlbuild/shell.ml" 17 823 834 "ocamlbuild/shell.ml" 17 823 849
+type(
+  int
+)
+"ocamlbuild/shell.ml" 18 853 855 "ocamlbuild/shell.ml" 18 853 857
+type(
+  int
+)
+ident(
+  int_ref ls "ocamlbuild/shell.ml" 17 823 829 "ocamlbuild/shell.ml" 17 823 831
+)
+"ocamlbuild/shell.ml" 18 853 858 "ocamlbuild/shell.ml" 18 853 860
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocamlbuild/shell.ml" 18 853 861 "ocamlbuild/shell.ml" 18 853 862
+type(
+  int
+)
+"ocamlbuild/shell.ml" 18 853 855 "ocamlbuild/shell.ml" 18 853 862
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 18 853 863 "ocamlbuild/shell.ml" 18 853 865
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocamlbuild/shell.ml" 19 866 876 "ocamlbuild/shell.ml" 19 866 880
+type(
+  int -> bool
+)
+ident(
+  def loop "ocamlbuild/shell.ml" 19 866 868 "ocamlbuild/shell.ml" 24 1065 1073
+)
+"ocamlbuild/shell.ml" 19 866 881 "ocamlbuild/shell.ml" 19 866 884
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/shell.ml" 20 887 891 "ocamlbuild/shell.ml" 23 1045 1061
+)
+"ocamlbuild/shell.ml" 20 887 894 "ocamlbuild/shell.ml" 20 887 897
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/shell.ml" 19 866 881 "ocamlbuild/shell.ml" 19 866 884
+)
+"ocamlbuild/shell.ml" 20 887 898 "ocamlbuild/shell.ml" 20 887 900
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ocamlbuild/shell.ml" 20 887 901 "ocamlbuild/shell.ml" 20 887 903
+type(
+  int
+)
+ident(
+  int_ref ls "ocamlbuild/shell.ml" 17 823 829 "ocamlbuild/shell.ml" 17 823 831
+)
+"ocamlbuild/shell.ml" 20 887 894 "ocamlbuild/shell.ml" 20 887 903
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 20 887 909 "ocamlbuild/shell.ml" 20 887 913
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 21 919 929 "ocamlbuild/shell.ml" 21 919 930
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/shell.ml" 16 796 819 "ocamlbuild/shell.ml" 16 796 820
+)
+"ocamlbuild/shell.ml" 21 919 932 "ocamlbuild/shell.ml" 21 919 935
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/shell.ml" 19 866 881 "ocamlbuild/shell.ml" 19 866 884
+)
+"ocamlbuild/shell.ml" 21 919 929 "ocamlbuild/shell.ml" 21 919 936
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 956
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 959 "ocamlbuild/shell.ml" 22 942 967
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 967
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 970 "ocamlbuild/shell.ml" 22 942 978
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 978
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 981 "ocamlbuild/shell.ml" 22 942 984
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 984
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 987 "ocamlbuild/shell.ml" 22 942 990
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 990
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 993 "ocamlbuild/shell.ml" 22 942 996
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 996
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 999 "ocamlbuild/shell.ml" 22 942 1002
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 1002
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 1005 "ocamlbuild/shell.ml" 22 942 1008
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 1008
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 1011 "ocamlbuild/shell.ml" 22 942 1014
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 1014
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 1017 "ocamlbuild/shell.ml" 22 942 1020
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 1020
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 1023 "ocamlbuild/shell.ml" 22 942 1026
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 948 "ocamlbuild/shell.ml" 22 942 1026
+type(
+  char
+)
+"ocamlbuild/shell.ml" 22 942 1030 "ocamlbuild/shell.ml" 22 942 1034
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/shell.ml" 19 866 876 "ocamlbuild/shell.ml" 19 866 880
+)
+"ocamlbuild/shell.ml" 22 942 1036 "ocamlbuild/shell.ml" 22 942 1039
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/shell.ml" 19 866 881 "ocamlbuild/shell.ml" 19 866 884
+)
+"ocamlbuild/shell.ml" 22 942 1040 "ocamlbuild/shell.ml" 22 942 1041
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ocamlbuild/shell.ml" 22 942 1042 "ocamlbuild/shell.ml" 22 942 1043
+type(
+  int
+)
+"ocamlbuild/shell.ml" 22 942 1035 "ocamlbuild/shell.ml" 22 942 1044
+type(
+  int
+)
+"ocamlbuild/shell.ml" 22 942 1030 "ocamlbuild/shell.ml" 22 942 1044
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 23 1045 1051 "ocamlbuild/shell.ml" 23 1045 1052
+type(
+  char
+)
+"ocamlbuild/shell.ml" 23 1045 1056 "ocamlbuild/shell.ml" 23 1045 1061
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 21 919 923 "ocamlbuild/shell.ml" 23 1045 1061
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 20 887 891 "ocamlbuild/shell.ml" 23 1045 1061
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 24 1065 1067 "ocamlbuild/shell.ml" 24 1065 1071
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/shell.ml" 19 866 876 "ocamlbuild/shell.ml" 19 866 880
+)
+"ocamlbuild/shell.ml" 24 1065 1072 "ocamlbuild/shell.ml" 24 1065 1073
+type(
+  int
+)
+"ocamlbuild/shell.ml" 24 1065 1067 "ocamlbuild/shell.ml" 24 1065 1073
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 19 866 868 "ocamlbuild/shell.ml" 24 1065 1073
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 18 853 855 "ocamlbuild/shell.ml" 24 1065 1073
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 17 823 825 "ocamlbuild/shell.ml" 24 1065 1073
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 25 1074 1078 "ocamlbuild/shell.ml" 25 1074 1102
+type(
+  string -> string
+)
+ident(
+  def quote_filename_if_needed "ocamlbuild/shell.ml" 32 1427 1427 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 25 1074 1103 "ocamlbuild/shell.ml" 25 1074 1104
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/shell.ml" 26 1107 1109 "ocamlbuild/shell.ml" 31 1403 1426
+)
+"ocamlbuild/shell.ml" 26 1107 1112 "ocamlbuild/shell.ml" 26 1107 1130
+type(
+  string -> bool
+)
+ident(
+  int_ref is_simple_filename "ocamlbuild/shell.ml" 16 796 800 "ocamlbuild/shell.ml" 16 796 818
+)
+"ocamlbuild/shell.ml" 26 1107 1131 "ocamlbuild/shell.ml" 26 1107 1132
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/shell.ml" 25 1074 1103 "ocamlbuild/shell.ml" 25 1074 1104
+)
+"ocamlbuild/shell.ml" 26 1107 1112 "ocamlbuild/shell.ml" 26 1107 1132
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 26 1107 1138 "ocamlbuild/shell.ml" 26 1107 1139
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/shell.ml" 25 1074 1103 "ocamlbuild/shell.ml" 25 1074 1104
+)
+"ocamlbuild/shell.ml" 30 1342 1352 "ocamlbuild/shell.ml" 30 1342 1363
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"ocamlbuild/shell.ml" 30 1342 1364 "ocamlbuild/shell.ml" 30 1342 1365
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/shell.ml" 30 1342 1366 "ocamlbuild/shell.ml" 30 1342 1373
+type(
+  string
+)
+"ocamlbuild/shell.ml" 30 1342 1352 "ocamlbuild/shell.ml" 30 1342 1373
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 30 1342 1379 "ocamlbuild/shell.ml" 30 1342 1393
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/shell.ml" 30 1342 1394 "ocamlbuild/shell.ml" 30 1342 1400
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/shell.ml" 30 1342 1401 "ocamlbuild/shell.ml" 30 1342 1402
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/shell.ml" 25 1074 1103 "ocamlbuild/shell.ml" 25 1074 1104
+)
+"ocamlbuild/shell.ml" 30 1342 1379 "ocamlbuild/shell.ml" 30 1342 1402
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 31 1403 1410 "ocamlbuild/shell.ml" 31 1403 1424
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocamlbuild/shell.ml" 31 1403 1425 "ocamlbuild/shell.ml" 31 1403 1426
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/shell.ml" 25 1074 1103 "ocamlbuild/shell.ml" 25 1074 1104
+)
+"ocamlbuild/shell.ml" 31 1403 1410 "ocamlbuild/shell.ml" 31 1403 1426
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 30 1342 1349 "ocamlbuild/shell.ml" 31 1403 1426
+type(
+  string
+)
+"ocamlbuild/shell.ml" 26 1107 1109 "ocamlbuild/shell.ml" 31 1403 1426
+type(
+  string
+)
+"ocamlbuild/shell.ml" 32 1427 1431 "ocamlbuild/shell.ml" 32 1427 1436
+type(
+  string -> unit
+)
+ident(
+  def chdir "ocamlbuild/shell.ml" 35 1485 1485 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 32 1427 1437 "ocamlbuild/shell.ml" 32 1427 1440
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/shell.ml" 33 1443 1445 "ocamlbuild/shell.ml" 34 1469 1484
+)
+"ocamlbuild/shell.ml" 33 1443 1445 "ocamlbuild/shell.ml" 33 1443 1464
+type(
+  unit -> unit
+)
+ident(
+  ext_ref My_std.reset_filesys_cache
+)
+"ocamlbuild/shell.ml" 33 1443 1465 "ocamlbuild/shell.ml" 33 1443 1467
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 33 1443 1445 "ocamlbuild/shell.ml" 33 1443 1467
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 34 1469 1471 "ocamlbuild/shell.ml" 34 1469 1480
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.chdir
+)
+"ocamlbuild/shell.ml" 34 1469 1481 "ocamlbuild/shell.ml" 34 1469 1484
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 32 1427 1437 "ocamlbuild/shell.ml" 32 1427 1440
+)
+"ocamlbuild/shell.ml" 34 1469 1471 "ocamlbuild/shell.ml" 34 1469 1484
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 33 1443 1445 "ocamlbuild/shell.ml" 34 1469 1484
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 35 1485 1489 "ocamlbuild/shell.ml" 35 1485 1492
+type(
+  string list -> string -> unit
+)
+ident(
+  def run "ocamlbuild/shell.ml" 52 2115 2115 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 35 1485 1493 "ocamlbuild/shell.ml" 35 1485 1497
+type(
+  string list
+)
+ident(
+  def args "ocamlbuild/shell.ml" 35 1485 1498 "ocamlbuild/shell.ml" 51 2026 2114
+)
+"ocamlbuild/shell.ml" 35 1485 1498 "ocamlbuild/shell.ml" 35 1485 1504
+type(
+  string
+)
+ident(
+  def target "ocamlbuild/shell.ml" 36 1507 1509 "ocamlbuild/shell.ml" 51 2026 2114
+)
+"ocamlbuild/shell.ml" 36 1507 1509 "ocamlbuild/shell.ml" 36 1507 1528
+type(
+  unit -> unit
+)
+ident(
+  ext_ref My_std.reset_readdir_cache
+)
+"ocamlbuild/shell.ml" 36 1507 1529 "ocamlbuild/shell.ml" 36 1507 1531
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 36 1507 1509 "ocamlbuild/shell.ml" 36 1507 1531
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 37 1533 1539 "ocamlbuild/shell.ml" 37 1533 1542
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/shell.ml" 38 1607 1609 "ocamlbuild/shell.ml" 51 2026 2114
+)
+"ocamlbuild/shell.ml" 37 1533 1545 "ocamlbuild/shell.ml" 37 1533 1558
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref My_std.String.concat
+)
+"ocamlbuild/shell.ml" 37 1533 1559 "ocamlbuild/shell.ml" 37 1533 1562
+type(
+  string
+)
+"ocamlbuild/shell.ml" 37 1533 1564 "ocamlbuild/shell.ml" 37 1533 1572
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref My_std.List.map
+)
+"ocamlbuild/shell.ml" 37 1533 1573 "ocamlbuild/shell.ml" 37 1533 1597
+type(
+  string -> string
+)
+ident(
+  int_ref quote_filename_if_needed "ocamlbuild/shell.ml" 25 1074 1078 "ocamlbuild/shell.ml" 25 1074 1102
+)
+"ocamlbuild/shell.ml" 37 1533 1598 "ocamlbuild/shell.ml" 37 1533 1602
+type(
+  string list
+)
+ident(
+  int_ref args "ocamlbuild/shell.ml" 35 1485 1493 "ocamlbuild/shell.ml" 35 1485 1497
+)
+"ocamlbuild/shell.ml" 37 1533 1563 "ocamlbuild/shell.ml" 37 1533 1603
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/shell.ml" 37 1533 1545 "ocamlbuild/shell.ml" 37 1533 1603
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 38 1607 1612 "ocamlbuild/shell.ml" 38 1607 1614
+type(
+  bool Lazy.t -> bool
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/shell.ml" 38 1607 1614 "ocamlbuild/shell.ml" 38 1607 1633
+type(
+  bool Lazy.t
+)
+ident(
+  ext_ref My_unix.is_degraded
+)
+"ocamlbuild/shell.ml" 38 1607 1612 "ocamlbuild/shell.ml" 38 1607 1633
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 38 1607 1634 "ocamlbuild/shell.ml" 38 1607 1636
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocamlbuild/shell.ml" 38 1607 1637 "ocamlbuild/shell.ml" 38 1607 1648
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"ocamlbuild/shell.ml" 38 1607 1649 "ocamlbuild/shell.ml" 38 1607 1650
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/shell.ml" 38 1607 1651 "ocamlbuild/shell.ml" 38 1607 1658
+type(
+  string
+)
+"ocamlbuild/shell.ml" 38 1607 1637 "ocamlbuild/shell.ml" 38 1607 1658
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 38 1607 1612 "ocamlbuild/shell.ml" 38 1607 1658
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 40 1674 1680 "ocamlbuild/shell.ml" 40 1674 1689
+type(
+  ?pretend:bool -> string -> string -> Tags.t -> unit
+)
+ident(
+  ext_ref Log.event
+)
+"ocamlbuild/shell.ml" 40 1674 1690 "ocamlbuild/shell.ml" 40 1674 1693
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/shell.ml" 37 1533 1539 "ocamlbuild/shell.ml" 37 1533 1542
+)
+"ocamlbuild/shell.ml" 40 1674 1694 "ocamlbuild/shell.ml" 40 1674 1700
+type(
+  string
+)
+ident(
+  int_ref target "ocamlbuild/shell.ml" 35 1485 1498 "ocamlbuild/shell.ml" 35 1485 1504
+)
+"ocamlbuild/shell.ml" 40 1674 1701 "ocamlbuild/shell.ml" 40 1674 1711
+type(
+  Tags.t
+)
+ident(
+  ext_ref Tags.empty
+)
+"ocamlbuild/shell.ml" 40 1674 1680 "ocamlbuild/shell.ml" 40 1674 1711
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 41 1713 1723 "ocamlbuild/shell.ml" 41 1713 1725
+type(
+  int
+)
+ident(
+  def st "ocamlbuild/shell.ml" 42 1747 1753 "ocamlbuild/shell.ml" 45 1867 1877
+)
+"ocamlbuild/shell.ml" 41 1713 1728 "ocamlbuild/shell.ml" 41 1713 1739
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.sys_command
+)
+"ocamlbuild/shell.ml" 41 1713 1740 "ocamlbuild/shell.ml" 41 1713 1743
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/shell.ml" 37 1533 1539 "ocamlbuild/shell.ml" 37 1533 1542
+)
+"ocamlbuild/shell.ml" 41 1713 1728 "ocamlbuild/shell.ml" 41 1713 1743
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/shell.ml" 42 1747 1756 "ocamlbuild/shell.ml" 42 1747 1758
+type(
+  int
+)
+ident(
+  int_ref st "ocamlbuild/shell.ml" 41 1713 1723 "ocamlbuild/shell.ml" 41 1713 1725
+)
+"ocamlbuild/shell.ml" 42 1747 1759 "ocamlbuild/shell.ml" 42 1747 1761
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ocamlbuild/shell.ml" 42 1747 1762 "ocamlbuild/shell.ml" 42 1747 1763
+type(
+  int
+)
+"ocamlbuild/shell.ml" 42 1747 1756 "ocamlbuild/shell.ml" 42 1747 1763
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 43 1769 1777 "ocamlbuild/shell.ml" 43 1769 1785
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ocamlbuild/shell.ml" 43 1769 1787 "ocamlbuild/shell.ml" 43 1769 1801
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/shell.ml" 43 1769 1802 "ocamlbuild/shell.ml" 43 1769 1847
+type(
+  (string -> int -> string, unit, string) format
+)
+"ocamlbuild/shell.ml" 43 1769 1848 "ocamlbuild/shell.ml" 43 1769 1851
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/shell.ml" 37 1533 1539 "ocamlbuild/shell.ml" 37 1533 1542
+)
+"ocamlbuild/shell.ml" 43 1769 1852 "ocamlbuild/shell.ml" 43 1769 1854
+type(
+  int
+)
+ident(
+  int_ref st "ocamlbuild/shell.ml" 41 1713 1723 "ocamlbuild/shell.ml" 41 1713 1725
+)
+"ocamlbuild/shell.ml" 43 1769 1786 "ocamlbuild/shell.ml" 43 1769 1855
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 43 1769 1777 "ocamlbuild/shell.ml" 43 1769 1855
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 45 1867 1875 "ocamlbuild/shell.ml" 45 1867 1877
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 42 1747 1753 "ocamlbuild/shell.ml" 45 1867 1877
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 41 1713 1719 "ocamlbuild/shell.ml" 45 1867 1877
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 39 1664 1668 "ocamlbuild/shell.ml" 46 1878 1885
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 48 1893 1903 "ocamlbuild/shell.ml" 48 1893 1923
+type(
+  ?max_jobs:int ->
+  ?ticker:(unit -> unit) ->
+  ?period:float ->
+  ?display:((out_channel -> unit) -> unit) ->
+  (unit -> string) list list -> (bool list * exn) option
+)
+ident(
+  ext_ref My_unix.execute_many
+)
+"ocamlbuild/shell.ml" 48 1893 1932 "ocamlbuild/shell.ml" 48 1893 1942
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Log.update
+)
+"ocamlbuild/shell.ml" 48 1893 1952 "ocamlbuild/shell.ml" 48 1893 1963
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  ext_ref Log.display
+)
+"ocamlbuild/shell.ml" 48 1893 1971 "ocamlbuild/shell.ml" 48 1893 1973
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 48 1893 1977 "ocamlbuild/shell.ml" 48 1893 1980
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/shell.ml" 37 1533 1539 "ocamlbuild/shell.ml" 37 1533 1542
+)
+"ocamlbuild/shell.ml" 48 1893 1966 "ocamlbuild/shell.ml" 48 1893 1981
+type(
+  unit -> string
+)
+"ocamlbuild/shell.ml" 48 1893 1965 "ocamlbuild/shell.ml" 48 1893 1982
+type(
+  (unit -> string) list
+)
+"ocamlbuild/shell.ml" 48 1893 1964 "ocamlbuild/shell.ml" 48 1893 1983
+type(
+  (unit -> string) list list
+)
+"ocamlbuild/shell.ml" 48 1893 1903 "ocamlbuild/shell.ml" 48 1893 1983
+call(
+  stack
+)
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/shell.ml" 49 1989 1995 "ocamlbuild/shell.ml" 49 1989 1999
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/shell.ml" 49 1989 2003 "ocamlbuild/shell.ml" 49 1989 2005
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 50 2006 2017 "ocamlbuild/shell.ml" 50 2006 2018
+type(
+  bool list
+)
+"ocamlbuild/shell.ml" 50 2006 2020 "ocamlbuild/shell.ml" 50 2006 2021
+type(
+  exn
+)
+ident(
+  def x "ocamlbuild/shell.ml" 51 2026 2032 "ocamlbuild/shell.ml" 51 2026 2114
+)
+"ocamlbuild/shell.ml" 50 2006 2016 "ocamlbuild/shell.ml" 50 2006 2022
+type(
+  bool list * exn
+)
+"ocamlbuild/shell.ml" 50 2006 2012 "ocamlbuild/shell.ml" 50 2006 2022
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/shell.ml" 51 2026 2032 "ocamlbuild/shell.ml" 51 2026 2040
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ocamlbuild/shell.ml" 51 2026 2042 "ocamlbuild/shell.ml" 51 2026 2056
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/shell.ml" 51 2026 2057 "ocamlbuild/shell.ml" 51 2026 2086
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocamlbuild/shell.ml" 51 2026 2087 "ocamlbuild/shell.ml" 51 2026 2090
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/shell.ml" 37 1533 1539 "ocamlbuild/shell.ml" 37 1533 1542
+)
+"ocamlbuild/shell.ml" 51 2026 2092 "ocamlbuild/shell.ml" 51 2026 2110
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"ocamlbuild/shell.ml" 51 2026 2111 "ocamlbuild/shell.ml" 51 2026 2112
+type(
+  exn
+)
+ident(
+  int_ref x "ocamlbuild/shell.ml" 50 2006 2020 "ocamlbuild/shell.ml" 50 2006 2021
+)
+"ocamlbuild/shell.ml" 51 2026 2091 "ocamlbuild/shell.ml" 51 2026 2113
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 51 2026 2041 "ocamlbuild/shell.ml" 51 2026 2114
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 51 2026 2032 "ocamlbuild/shell.ml" 51 2026 2114
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 48 1893 1897 "ocamlbuild/shell.ml" 51 2026 2114
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 38 1607 1609 "ocamlbuild/shell.ml" 51 2026 2114
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 37 1533 1535 "ocamlbuild/shell.ml" 51 2026 2114
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 36 1507 1509 "ocamlbuild/shell.ml" 51 2026 2114
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 52 2115 2119 "ocamlbuild/shell.ml" 52 2115 2121
+type(
+  string -> unit
+)
+ident(
+  def rm "ocamlbuild/shell.ml" 53 2135 2135 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 52 2115 2124 "ocamlbuild/shell.ml" 52 2115 2134
+type(
+  string -> unit
+)
+ident(
+  ext_ref My_std.sys_remove
+)
+"ocamlbuild/shell.ml" 53 2135 2139 "ocamlbuild/shell.ml" 53 2135 2143
+type(
+  string -> unit
+)
+ident(
+  def rm_f "ocamlbuild/shell.ml" 55 2181 2181 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 53 2135 2144 "ocamlbuild/shell.ml" 53 2135 2145
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/shell.ml" 54 2148 2150 "ocamlbuild/shell.ml" 54 2148 2180
+)
+"ocamlbuild/shell.ml" 54 2148 2153 "ocamlbuild/shell.ml" 54 2148 2168
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/shell.ml" 54 2148 2169 "ocamlbuild/shell.ml" 54 2148 2170
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/shell.ml" 53 2135 2144 "ocamlbuild/shell.ml" 53 2135 2145
+)
+"ocamlbuild/shell.ml" 54 2148 2153 "ocamlbuild/shell.ml" 54 2148 2170
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 54 2148 2176 "ocamlbuild/shell.ml" 54 2148 2178
+type(
+  string -> unit
+)
+ident(
+  int_ref rm "ocamlbuild/shell.ml" 52 2115 2119 "ocamlbuild/shell.ml" 52 2115 2121
+)
+"ocamlbuild/shell.ml" 54 2148 2179 "ocamlbuild/shell.ml" 54 2148 2180
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/shell.ml" 53 2135 2144 "ocamlbuild/shell.ml" 53 2135 2145
+)
+"ocamlbuild/shell.ml" 54 2148 2176 "ocamlbuild/shell.ml" 54 2148 2180
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 54 2148 2150 "ocamlbuild/shell.ml" 54 2148 2180
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 55 2181 2185 "ocamlbuild/shell.ml" 55 2181 2190
+type(
+  string -> unit
+)
+ident(
+  def mkdir "ocamlbuild/shell.ml" 59 2302 2302 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 55 2181 2191 "ocamlbuild/shell.ml" 55 2181 2194
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/shell.ml" 56 2197 2199 "ocamlbuild/shell.ml" 58 2277 2301
+)
+"ocamlbuild/shell.ml" 56 2197 2199 "ocamlbuild/shell.ml" 56 2197 2227
+type(
+  string -> unit
+)
+ident(
+  ext_ref My_std.reset_filesys_cache_for_file
+)
+"ocamlbuild/shell.ml" 56 2197 2228 "ocamlbuild/shell.ml" 56 2197 2231
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 55 2181 2191 "ocamlbuild/shell.ml" 55 2181 2194
+)
+"ocamlbuild/shell.ml" 56 2197 2199 "ocamlbuild/shell.ml" 56 2197 2231
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 58 2277 2279 "ocamlbuild/shell.ml" 58 2277 2282
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref run "ocamlbuild/shell.ml" 35 1485 1489 "ocamlbuild/shell.ml" 35 1485 1492
+)
+"ocamlbuild/shell.ml" 58 2277 2284 "ocamlbuild/shell.ml" 58 2277 2291
+type(
+  string
+)
+"ocamlbuild/shell.ml" 58 2277 2293 "ocamlbuild/shell.ml" 58 2277 2296
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 55 2181 2191 "ocamlbuild/shell.ml" 55 2181 2194
+)
+"ocamlbuild/shell.ml" 58 2277 2283 "ocamlbuild/shell.ml" 58 2277 2297
+type(
+  string list
+)
+"ocamlbuild/shell.ml" 58 2277 2298 "ocamlbuild/shell.ml" 58 2277 2301
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 55 2181 2191 "ocamlbuild/shell.ml" 55 2181 2194
+)
+"ocamlbuild/shell.ml" 58 2277 2279 "ocamlbuild/shell.ml" 58 2277 2301
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 56 2197 2199 "ocamlbuild/shell.ml" 58 2277 2301
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 59 2302 2306 "ocamlbuild/shell.ml" 59 2302 2315
+type(
+  string -> unit
+)
+ident(
+  def try_mkdir "ocamlbuild/shell.ml" 60 2366 2366 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 59 2302 2316 "ocamlbuild/shell.ml" 59 2302 2319
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/shell.ml" 59 2302 2322 "ocamlbuild/shell.ml" 59 2302 2365
+)
+"ocamlbuild/shell.ml" 59 2302 2325 "ocamlbuild/shell.ml" 59 2302 2328
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/shell.ml" 59 2302 2330 "ocamlbuild/shell.ml" 59 2302 2345
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/shell.ml" 59 2302 2346 "ocamlbuild/shell.ml" 59 2302 2349
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 59 2302 2316 "ocamlbuild/shell.ml" 59 2302 2319
+)
+"ocamlbuild/shell.ml" 59 2302 2329 "ocamlbuild/shell.ml" 59 2302 2350
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 59 2302 2325 "ocamlbuild/shell.ml" 59 2302 2350
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 59 2302 2356 "ocamlbuild/shell.ml" 59 2302 2361
+type(
+  string -> unit
+)
+ident(
+  int_ref mkdir "ocamlbuild/shell.ml" 55 2181 2185 "ocamlbuild/shell.ml" 55 2181 2190
+)
+"ocamlbuild/shell.ml" 59 2302 2362 "ocamlbuild/shell.ml" 59 2302 2365
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 59 2302 2316 "ocamlbuild/shell.ml" 59 2302 2319
+)
+"ocamlbuild/shell.ml" 59 2302 2356 "ocamlbuild/shell.ml" 59 2302 2365
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 59 2302 2322 "ocamlbuild/shell.ml" 59 2302 2365
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 60 2366 2374 "ocamlbuild/shell.ml" 60 2366 2381
+type(
+  string -> unit
+)
+ident(
+  def mkdir_p "ocamlbuild/shell.ml" 60 2366 2366 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 60 2366 2382 "ocamlbuild/shell.ml" 60 2366 2385
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/shell.ml" 61 2388 2390 "ocamlbuild/shell.ml" 62 2421 2471
+)
+"ocamlbuild/shell.ml" 61 2388 2393 "ocamlbuild/shell.ml" 61 2388 2408
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/shell.ml" 61 2388 2409 "ocamlbuild/shell.ml" 61 2388 2412
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 60 2366 2382 "ocamlbuild/shell.ml" 60 2366 2385
+)
+"ocamlbuild/shell.ml" 61 2388 2393 "ocamlbuild/shell.ml" 61 2388 2412
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 61 2388 2418 "ocamlbuild/shell.ml" 61 2388 2420
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 62 2421 2429 "ocamlbuild/shell.ml" 62 2421 2436
+type(
+  string -> unit
+)
+ident(
+  int_ref mkdir_p "ocamlbuild/shell.ml" 60 2366 2374 "ocamlbuild/shell.ml" 60 2366 2381
+)
+"ocamlbuild/shell.ml" 62 2421 2438 "ocamlbuild/shell.ml" 62 2421 2454
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/shell.ml" 62 2421 2455 "ocamlbuild/shell.ml" 62 2421 2458
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 60 2366 2382 "ocamlbuild/shell.ml" 60 2366 2385
+)
+"ocamlbuild/shell.ml" 62 2421 2437 "ocamlbuild/shell.ml" 62 2421 2459
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/shell.ml" 62 2421 2429 "ocamlbuild/shell.ml" 62 2421 2459
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 62 2421 2461 "ocamlbuild/shell.ml" 62 2421 2466
+type(
+  string -> unit
+)
+ident(
+  int_ref mkdir "ocamlbuild/shell.ml" 55 2181 2185 "ocamlbuild/shell.ml" 55 2181 2190
+)
+"ocamlbuild/shell.ml" 62 2421 2467 "ocamlbuild/shell.ml" 62 2421 2470
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/shell.ml" 60 2366 2382 "ocamlbuild/shell.ml" 60 2366 2385
+)
+"ocamlbuild/shell.ml" 62 2421 2461 "ocamlbuild/shell.ml" 62 2421 2470
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 62 2421 2428 "ocamlbuild/shell.ml" 62 2421 2471
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 61 2388 2390 "ocamlbuild/shell.ml" 62 2421 2471
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 64 2473 2477 "ocamlbuild/shell.ml" 64 2473 2482
+type(
+  string -> string -> unit
+)
+ident(
+  def cp_pf "ocamlbuild/shell.ml" 71 2725 2725 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 64 2473 2483 "ocamlbuild/shell.ml" 64 2473 2486
+type(
+  string
+)
+ident(
+  def src "ocamlbuild/shell.ml" 64 2473 2487 "ocamlbuild/shell.ml" 66 2531 2562
+)
+"ocamlbuild/shell.ml" 64 2473 2487 "ocamlbuild/shell.ml" 64 2473 2491
+type(
+  string
+)
+ident(
+  def dest "ocamlbuild/shell.ml" 65 2494 2496 "ocamlbuild/shell.ml" 66 2531 2562
+)
+"ocamlbuild/shell.ml" 65 2494 2496 "ocamlbuild/shell.ml" 65 2494 2524
+type(
+  string -> unit
+)
+ident(
+  ext_ref My_std.reset_filesys_cache_for_file
+)
+"ocamlbuild/shell.ml" 65 2494 2525 "ocamlbuild/shell.ml" 65 2494 2529
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/shell.ml" 64 2473 2487 "ocamlbuild/shell.ml" 64 2473 2491
+)
+"ocamlbuild/shell.ml" 65 2494 2496 "ocamlbuild/shell.ml" 65 2494 2529
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 66 2531 2533 "ocamlbuild/shell.ml" 66 2531 2536
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref run "ocamlbuild/shell.ml" 35 1485 1489 "ocamlbuild/shell.ml" 35 1485 1492
+)
+"ocamlbuild/shell.ml" 66 2531 2537 "ocamlbuild/shell.ml" 66 2531 2541
+type(
+  string
+)
+"ocamlbuild/shell.ml" 66 2531 2542 "ocamlbuild/shell.ml" 66 2531 2547
+type(
+  string
+)
+"ocamlbuild/shell.ml" 66 2531 2548 "ocamlbuild/shell.ml" 66 2531 2551
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/shell.ml" 64 2473 2483 "ocamlbuild/shell.ml" 64 2473 2486
+)
+"ocamlbuild/shell.ml" 66 2531 2552 "ocamlbuild/shell.ml" 66 2531 2556
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/shell.ml" 64 2473 2487 "ocamlbuild/shell.ml" 64 2473 2491
+)
+"ocamlbuild/shell.ml" 66 2531 2536 "ocamlbuild/shell.ml" 66 2531 2557
+type(
+  string list
+)
+"ocamlbuild/shell.ml" 66 2531 2558 "ocamlbuild/shell.ml" 66 2531 2562
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/shell.ml" 64 2473 2487 "ocamlbuild/shell.ml" 64 2473 2491
+)
+"ocamlbuild/shell.ml" 66 2531 2533 "ocamlbuild/shell.ml" 66 2531 2562
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 65 2494 2496 "ocamlbuild/shell.ml" 66 2531 2562
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 71 2725 2729 "ocamlbuild/shell.ml" 71 2725 2731
+type(
+  string -> string -> unit
+)
+ident(
+  def cp "ocamlbuild/shell.ml" 78 2893 2893 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 71 2725 2732 "ocamlbuild/shell.ml" 71 2725 2735
+type(
+  string
+)
+ident(
+  def src "ocamlbuild/shell.ml" 71 2725 2736 "ocamlbuild/shell.ml" 76 2867 2891
+)
+"ocamlbuild/shell.ml" 71 2725 2736 "ocamlbuild/shell.ml" 71 2725 2739
+type(
+  string
+)
+ident(
+  def dst "ocamlbuild/shell.ml" 72 2742 2744 "ocamlbuild/shell.ml" 76 2867 2891
+)
+"ocamlbuild/shell.ml" 72 2742 2747 "ocamlbuild/shell.ml" 72 2742 2768
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"ocamlbuild/shell.ml" 72 2742 2769 "ocamlbuild/shell.ml" 72 2742 2772
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/shell.ml" 71 2725 2732 "ocamlbuild/shell.ml" 71 2725 2735
+)
+"ocamlbuild/shell.ml" 72 2742 2773 "ocamlbuild/shell.ml" 72 2742 2777
+type(
+  string
+)
+"ocamlbuild/shell.ml" 72 2742 2747 "ocamlbuild/shell.ml" 72 2742 2777
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 73 2778 2780 "ocamlbuild/shell.ml" 73 2778 2782
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocamlbuild/shell.ml" 73 2778 2783 "ocamlbuild/shell.ml" 73 2778 2804
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Filename.check_suffix
+)
+"ocamlbuild/shell.ml" 73 2778 2805 "ocamlbuild/shell.ml" 73 2778 2808
+type(
+  string
+)
+ident(
+  int_ref dst "ocamlbuild/shell.ml" 71 2725 2736 "ocamlbuild/shell.ml" 71 2725 2739
+)
+"ocamlbuild/shell.ml" 73 2778 2809 "ocamlbuild/shell.ml" 73 2778 2813
+type(
+  string
+)
+"ocamlbuild/shell.ml" 73 2778 2783 "ocamlbuild/shell.ml" 73 2778 2813
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 72 2742 2747 "ocamlbuild/shell.ml" 73 2778 2813
+type(
+  bool
+)
+"ocamlbuild/shell.ml" 74 2814 2821 "ocamlbuild/shell.ml" 74 2814 2826
+type(
+  string -> string -> unit
+)
+ident(
+  int_ref cp_pf "ocamlbuild/shell.ml" 64 2473 2477 "ocamlbuild/shell.ml" 64 2473 2482
+)
+"ocamlbuild/shell.ml" 74 2814 2827 "ocamlbuild/shell.ml" 74 2814 2830
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/shell.ml" 71 2725 2732 "ocamlbuild/shell.ml" 71 2725 2735
+)
+"ocamlbuild/shell.ml" 74 2814 2831 "ocamlbuild/shell.ml" 74 2814 2834
+type(
+  string
+)
+ident(
+  int_ref dst "ocamlbuild/shell.ml" 71 2725 2736 "ocamlbuild/shell.ml" 71 2725 2739
+)
+"ocamlbuild/shell.ml" 74 2814 2821 "ocamlbuild/shell.ml" 74 2814 2834
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 76 2867 2874 "ocamlbuild/shell.ml" 76 2867 2883
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref My_std.copy_file
+)
+"ocamlbuild/shell.ml" 76 2867 2884 "ocamlbuild/shell.ml" 76 2867 2887
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/shell.ml" 71 2725 2732 "ocamlbuild/shell.ml" 71 2725 2735
+)
+"ocamlbuild/shell.ml" 76 2867 2888 "ocamlbuild/shell.ml" 76 2867 2891
+type(
+  string
+)
+ident(
+  int_ref dst "ocamlbuild/shell.ml" 71 2725 2736 "ocamlbuild/shell.ml" 71 2725 2739
+)
+"ocamlbuild/shell.ml" 76 2867 2874 "ocamlbuild/shell.ml" 76 2867 2891
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 72 2742 2744 "ocamlbuild/shell.ml" 76 2867 2891
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 78 2893 2897 "ocamlbuild/shell.ml" 78 2893 2905
+type(
+  string -> string
+)
+ident(
+  def readlink "ocamlbuild/shell.ml" 79 2925 2925 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 78 2893 2908 "ocamlbuild/shell.ml" 78 2893 2924
+type(
+  string -> string
+)
+ident(
+  ext_ref My_unix.readlink
+)
+"ocamlbuild/shell.ml" 79 2925 2929 "ocamlbuild/shell.ml" 79 2925 2936
+type(
+  string -> bool
+)
+ident(
+  def is_link "ocamlbuild/shell.ml" 80 2955 2955 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 79 2925 2939 "ocamlbuild/shell.ml" 79 2925 2954
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_unix.is_link
+)
+"ocamlbuild/shell.ml" 80 2955 2959 "ocamlbuild/shell.ml" 80 2955 2964
+type(
+  string -> unit
+)
+ident(
+  def rm_rf "ocamlbuild/shell.ml" 83 3017 3017 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 80 2955 2965 "ocamlbuild/shell.ml" 80 2955 2966
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/shell.ml" 81 2969 2971 "ocamlbuild/shell.ml" 82 2995 3016
+)
+"ocamlbuild/shell.ml" 81 2969 2971 "ocamlbuild/shell.ml" 81 2969 2990
+type(
+  unit -> unit
+)
+ident(
+  ext_ref My_std.reset_filesys_cache
+)
+"ocamlbuild/shell.ml" 81 2969 2991 "ocamlbuild/shell.ml" 81 2969 2993
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 81 2969 2971 "ocamlbuild/shell.ml" 81 2969 2993
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 82 2995 2997 "ocamlbuild/shell.ml" 82 2995 3000
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref run "ocamlbuild/shell.ml" 35 1485 1489 "ocamlbuild/shell.ml" 35 1485 1492
+)
+"ocamlbuild/shell.ml" 82 2995 3001 "ocamlbuild/shell.ml" 82 2995 3005
+type(
+  string
+)
+"ocamlbuild/shell.ml" 82 2995 3006 "ocamlbuild/shell.ml" 82 2995 3011
+type(
+  string
+)
+"ocamlbuild/shell.ml" 82 2995 3012 "ocamlbuild/shell.ml" 82 2995 3013
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/shell.ml" 80 2955 2965 "ocamlbuild/shell.ml" 80 2955 2966
+)
+"ocamlbuild/shell.ml" 82 2995 3000 "ocamlbuild/shell.ml" 82 2995 3014
+type(
+  string list
+)
+"ocamlbuild/shell.ml" 82 2995 3015 "ocamlbuild/shell.ml" 82 2995 3016
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/shell.ml" 80 2955 2965 "ocamlbuild/shell.ml" 80 2955 2966
+)
+"ocamlbuild/shell.ml" 82 2995 2997 "ocamlbuild/shell.ml" 82 2995 3016
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 81 2969 2971 "ocamlbuild/shell.ml" 82 2995 3016
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 83 3017 3021 "ocamlbuild/shell.ml" 83 3017 3023
+type(
+  string -> string -> unit
+)
+ident(
+  def mv "ocamlbuild/shell.ml" 86 3108 3135 "_none_" 1 0 -1
+)
+"ocamlbuild/shell.ml" 83 3017 3024 "ocamlbuild/shell.ml" 83 3017 3027
+type(
+  string
+)
+ident(
+  def src "ocamlbuild/shell.ml" 83 3017 3028 "ocamlbuild/shell.ml" 86 3108 3135
+)
+"ocamlbuild/shell.ml" 83 3017 3028 "ocamlbuild/shell.ml" 83 3017 3032
+type(
+  string
+)
+ident(
+  def dest "ocamlbuild/shell.ml" 84 3035 3037 "ocamlbuild/shell.ml" 86 3108 3135
+)
+"ocamlbuild/shell.ml" 84 3035 3037 "ocamlbuild/shell.ml" 84 3035 3065
+type(
+  string -> unit
+)
+ident(
+  ext_ref My_std.reset_filesys_cache_for_file
+)
+"ocamlbuild/shell.ml" 84 3035 3066 "ocamlbuild/shell.ml" 84 3035 3069
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/shell.ml" 83 3017 3024 "ocamlbuild/shell.ml" 83 3017 3027
+)
+"ocamlbuild/shell.ml" 84 3035 3037 "ocamlbuild/shell.ml" 84 3035 3069
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 85 3071 3073 "ocamlbuild/shell.ml" 85 3071 3101
+type(
+  string -> unit
+)
+ident(
+  ext_ref My_std.reset_filesys_cache_for_file
+)
+"ocamlbuild/shell.ml" 85 3071 3102 "ocamlbuild/shell.ml" 85 3071 3106
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/shell.ml" 83 3017 3028 "ocamlbuild/shell.ml" 83 3017 3032
+)
+"ocamlbuild/shell.ml" 85 3071 3073 "ocamlbuild/shell.ml" 85 3071 3106
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 86 3108 3110 "ocamlbuild/shell.ml" 86 3108 3113
+type(
+  string list -> string -> unit
+)
+ident(
+  int_ref run "ocamlbuild/shell.ml" 35 1485 1489 "ocamlbuild/shell.ml" 35 1485 1492
+)
+"ocamlbuild/shell.ml" 86 3108 3114 "ocamlbuild/shell.ml" 86 3108 3118
+type(
+  string
+)
+"ocamlbuild/shell.ml" 86 3108 3120 "ocamlbuild/shell.ml" 86 3108 3123
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/shell.ml" 83 3017 3024 "ocamlbuild/shell.ml" 83 3017 3027
+)
+"ocamlbuild/shell.ml" 86 3108 3125 "ocamlbuild/shell.ml" 86 3108 3129
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/shell.ml" 83 3017 3028 "ocamlbuild/shell.ml" 83 3017 3032
+)
+"ocamlbuild/shell.ml" 86 3108 3113 "ocamlbuild/shell.ml" 86 3108 3130
+type(
+  string list
+)
+"ocamlbuild/shell.ml" 86 3108 3131 "ocamlbuild/shell.ml" 86 3108 3135
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/shell.ml" 83 3017 3028 "ocamlbuild/shell.ml" 83 3017 3032
+)
+"ocamlbuild/shell.ml" 86 3108 3110 "ocamlbuild/shell.ml" 86 3108 3135
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 85 3071 3073 "ocamlbuild/shell.ml" 86 3108 3135
+type(
+  unit
+)
+"ocamlbuild/shell.ml" 84 3035 3037 "ocamlbuild/shell.ml" 86 3108 3135
+type(
+  unit
+)

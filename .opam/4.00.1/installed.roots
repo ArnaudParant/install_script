@@ -1,0 +1,7 @@
+base-bigarray base
+base-threads base
+base-unix base
+dbm 1.0
+eliom 9999
+menhir 20130912
+yojson 1.1.6

@@ -1,0 +1,786 @@
+"ocamlbuild/param_tags.ml" 15 780 799 "ocamlbuild/param_tags.ml" 15 780 815
+call(
+  stack
+)
+"ocamlbuild/param_tags.ml" 18 863 867 "ocamlbuild/param_tags.ml" 18 863 880
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t
+)
+ident(
+  def declared_tags "ocamlbuild/param_tags.ml" 20 902 902 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 18 863 883 "ocamlbuild/param_tags.ml" 18 863 897
+type(
+  ?random:bool -> int -> (string, StringSet.elt -> unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/param_tags.ml" 18 863 898 "ocamlbuild/param_tags.ml" 18 863 900
+type(
+  int
+)
+"ocamlbuild/param_tags.ml" 18 863 883 "ocamlbuild/param_tags.ml" 18 863 900
+call(
+  stack
+)
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t
+)
+"ocamlbuild/param_tags.ml" 20 902 906 "ocamlbuild/param_tags.ml" 20 902 923
+type(
+  (string * StringSet.elt option) list ref
+)
+ident(
+  def acknowledged_tags "ocamlbuild/param_tags.ml" 22 934 934 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 20 902 926 "ocamlbuild/param_tags.ml" 20 902 929
+type(
+  (string * StringSet.elt option) list ->
+  (string * StringSet.elt option) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/param_tags.ml" 20 902 930 "ocamlbuild/param_tags.ml" 20 902 932
+type(
+  (string * StringSet.elt option) list
+)
+"ocamlbuild/param_tags.ml" 20 902 926 "ocamlbuild/param_tags.ml" 20 902 932
+type(
+  (string * StringSet.elt option) list ref
+)
+"ocamlbuild/param_tags.ml" 22 934 938 "ocamlbuild/param_tags.ml" 22 934 947
+type(
+  (StringSet.elt -> unit) -> StringSet.elt -> unit
+)
+ident(
+  def only_once "ocamlbuild/param_tags.ml" 31 1143 1143 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 22 934 948 "ocamlbuild/param_tags.ml" 22 934 949
+type(
+  StringSet.elt -> unit
+)
+ident(
+  def f "ocamlbuild/param_tags.ml" 23 952 954 "ocamlbuild/param_tags.ml" 29 1134 1141
+)
+"ocamlbuild/param_tags.ml" 23 952 958 "ocamlbuild/param_tags.ml" 23 952 967
+type(
+  StringSet.t ref
+)
+ident(
+  def instances "ocamlbuild/param_tags.ml" 24 993 995 "ocamlbuild/param_tags.ml" 29 1134 1141
+)
+"ocamlbuild/param_tags.ml" 23 952 970 "ocamlbuild/param_tags.ml" 23 952 973
+type(
+  StringSet.t -> StringSet.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/param_tags.ml" 23 952 974 "ocamlbuild/param_tags.ml" 23 952 989
+type(
+  StringSet.t
+)
+ident(
+  ext_ref StringSet.empty
+)
+"ocamlbuild/param_tags.ml" 23 952 970 "ocamlbuild/param_tags.ml" 23 952 989
+type(
+  StringSet.t ref
+)
+"ocamlbuild/param_tags.ml" 24 993 999 "ocamlbuild/param_tags.ml" 24 993 1004
+type(
+  StringSet.elt
+)
+ident(
+  def param "ocamlbuild/param_tags.ml" 25 1008 1012 "ocamlbuild/param_tags.ml" 29 1134 1141
+)
+"ocamlbuild/param_tags.ml" 25 1008 1015 "ocamlbuild/param_tags.ml" 25 1008 1028
+type(
+  StringSet.elt -> StringSet.t -> bool
+)
+ident(
+  ext_ref StringSet.mem
+)
+"ocamlbuild/param_tags.ml" 25 1008 1029 "ocamlbuild/param_tags.ml" 25 1008 1034
+type(
+  StringSet.elt
+)
+ident(
+  int_ref param "ocamlbuild/param_tags.ml" 24 993 999 "ocamlbuild/param_tags.ml" 24 993 1004
+)
+"ocamlbuild/param_tags.ml" 25 1008 1035 "ocamlbuild/param_tags.ml" 25 1008 1036
+type(
+  StringSet.t ref -> StringSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/param_tags.ml" 25 1008 1036 "ocamlbuild/param_tags.ml" 25 1008 1045
+type(
+  StringSet.t ref
+)
+ident(
+  int_ref instances "ocamlbuild/param_tags.ml" 23 952 958 "ocamlbuild/param_tags.ml" 23 952 967
+)
+"ocamlbuild/param_tags.ml" 25 1008 1035 "ocamlbuild/param_tags.ml" 25 1008 1045
+type(
+  StringSet.t
+)
+"ocamlbuild/param_tags.ml" 25 1008 1015 "ocamlbuild/param_tags.ml" 25 1008 1045
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/param_tags.ml" 25 1008 1051 "ocamlbuild/param_tags.ml" 25 1008 1053
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 27 1069 1075 "ocamlbuild/param_tags.ml" 27 1069 1084
+type(
+  StringSet.t ref
+)
+ident(
+  int_ref instances "ocamlbuild/param_tags.ml" 23 952 958 "ocamlbuild/param_tags.ml" 23 952 967
+)
+"ocamlbuild/param_tags.ml" 27 1069 1085 "ocamlbuild/param_tags.ml" 27 1069 1087
+type(
+  StringSet.t ref -> StringSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocamlbuild/param_tags.ml" 27 1069 1088 "ocamlbuild/param_tags.ml" 27 1069 1101
+type(
+  StringSet.elt -> StringSet.t -> StringSet.t
+)
+ident(
+  ext_ref StringSet.add
+)
+"ocamlbuild/param_tags.ml" 27 1069 1102 "ocamlbuild/param_tags.ml" 27 1069 1107
+type(
+  StringSet.elt
+)
+ident(
+  int_ref param "ocamlbuild/param_tags.ml" 24 993 999 "ocamlbuild/param_tags.ml" 24 993 1004
+)
+"ocamlbuild/param_tags.ml" 27 1069 1108 "ocamlbuild/param_tags.ml" 27 1069 1109
+type(
+  StringSet.t ref -> StringSet.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/param_tags.ml" 27 1069 1109 "ocamlbuild/param_tags.ml" 27 1069 1118
+type(
+  StringSet.t ref
+)
+ident(
+  int_ref instances "ocamlbuild/param_tags.ml" 23 952 958 "ocamlbuild/param_tags.ml" 23 952 967
+)
+"ocamlbuild/param_tags.ml" 27 1069 1108 "ocamlbuild/param_tags.ml" 27 1069 1118
+type(
+  StringSet.t
+)
+"ocamlbuild/param_tags.ml" 27 1069 1088 "ocamlbuild/param_tags.ml" 27 1069 1118
+call(
+  stack
+)
+type(
+  StringSet.t
+)
+"ocamlbuild/param_tags.ml" 27 1069 1075 "ocamlbuild/param_tags.ml" 27 1069 1118
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 28 1120 1126 "ocamlbuild/param_tags.ml" 28 1120 1127
+type(
+  StringSet.elt -> unit
+)
+ident(
+  int_ref f "ocamlbuild/param_tags.ml" 22 934 948 "ocamlbuild/param_tags.ml" 22 934 949
+)
+"ocamlbuild/param_tags.ml" 28 1120 1128 "ocamlbuild/param_tags.ml" 28 1120 1133
+type(
+  StringSet.elt
+)
+ident(
+  int_ref param "ocamlbuild/param_tags.ml" 24 993 999 "ocamlbuild/param_tags.ml" 24 993 1004
+)
+"ocamlbuild/param_tags.ml" 28 1120 1126 "ocamlbuild/param_tags.ml" 28 1120 1133
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 26 1054 1063 "ocamlbuild/param_tags.ml" 29 1134 1141
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 25 1008 1012 "ocamlbuild/param_tags.ml" 29 1134 1141
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 24 993 995 "ocamlbuild/param_tags.ml" 29 1134 1141
+type(
+  StringSet.elt -> unit
+)
+"ocamlbuild/param_tags.ml" 23 952 954 "ocamlbuild/param_tags.ml" 29 1134 1141
+type(
+  StringSet.elt -> unit
+)
+"ocamlbuild/param_tags.ml" 31 1143 1147 "ocamlbuild/param_tags.ml" 31 1143 1154
+type(
+  string -> (StringSet.elt -> unit) -> unit
+)
+ident(
+  def declare "ocamlbuild/param_tags.ml" 34 1222 1222 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 31 1143 1155 "ocamlbuild/param_tags.ml" 31 1143 1159
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/param_tags.ml" 31 1143 1160 "ocamlbuild/param_tags.ml" 32 1169 1220
+)
+"ocamlbuild/param_tags.ml" 31 1143 1160 "ocamlbuild/param_tags.ml" 31 1143 1166
+type(
+  StringSet.elt -> unit
+)
+ident(
+  def action "ocamlbuild/param_tags.ml" 32 1169 1171 "ocamlbuild/param_tags.ml" 32 1169 1220
+)
+"ocamlbuild/param_tags.ml" 32 1169 1171 "ocamlbuild/param_tags.ml" 32 1169 1182
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t ->
+  string -> (StringSet.elt -> unit) -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocamlbuild/param_tags.ml" 32 1169 1183 "ocamlbuild/param_tags.ml" 32 1169 1196
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t
+)
+ident(
+  int_ref declared_tags "ocamlbuild/param_tags.ml" 18 863 867 "ocamlbuild/param_tags.ml" 18 863 880
+)
+"ocamlbuild/param_tags.ml" 32 1169 1197 "ocamlbuild/param_tags.ml" 32 1169 1201
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/param_tags.ml" 31 1143 1155 "ocamlbuild/param_tags.ml" 31 1143 1159
+)
+"ocamlbuild/param_tags.ml" 32 1169 1203 "ocamlbuild/param_tags.ml" 32 1169 1212
+type(
+  (StringSet.elt -> unit) -> StringSet.elt -> unit
+)
+ident(
+  int_ref only_once "ocamlbuild/param_tags.ml" 22 934 938 "ocamlbuild/param_tags.ml" 22 934 947
+)
+"ocamlbuild/param_tags.ml" 32 1169 1213 "ocamlbuild/param_tags.ml" 32 1169 1219
+type(
+  StringSet.elt -> unit
+)
+ident(
+  int_ref action "ocamlbuild/param_tags.ml" 31 1143 1160 "ocamlbuild/param_tags.ml" 31 1143 1166
+)
+"ocamlbuild/param_tags.ml" 32 1169 1202 "ocamlbuild/param_tags.ml" 32 1169 1220
+call(
+  stack
+)
+type(
+  StringSet.elt -> unit
+)
+"ocamlbuild/param_tags.ml" 32 1169 1171 "ocamlbuild/param_tags.ml" 32 1169 1220
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 34 1222 1226 "ocamlbuild/param_tags.ml" 34 1222 1237
+type(
+  string -> unit
+)
+ident(
+  def acknowledge "ocamlbuild/param_tags.ml" 39 1350 1350 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 34 1222 1238 "ocamlbuild/param_tags.ml" 34 1222 1241
+type(
+  string
+)
+ident(
+  def tag "ocamlbuild/param_tags.ml" 35 1244 1246 "ocamlbuild/param_tags.ml" 36 1299 1347
+)
+"ocamlbuild/param_tags.ml" 35 1244 1250 "ocamlbuild/param_tags.ml" 35 1244 1253
+type(
+  string * string option
+)
+ident(
+  def tag "ocamlbuild/param_tags.ml" 36 1299 1301 "ocamlbuild/param_tags.ml" 36 1299 1347
+)
+"ocamlbuild/param_tags.ml" 35 1244 1256 "ocamlbuild/param_tags.ml" 35 1244 1270
+type(
+  Lexing.lexbuf -> string * string option
+)
+ident(
+  ext_ref Lexers.tag_gen
+)
+"ocamlbuild/param_tags.ml" 35 1244 1272 "ocamlbuild/param_tags.ml" 35 1244 1290
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"ocamlbuild/param_tags.ml" 35 1244 1291 "ocamlbuild/param_tags.ml" 35 1244 1294
+type(
+  string
+)
+ident(
+  int_ref tag "ocamlbuild/param_tags.ml" 34 1222 1238 "ocamlbuild/param_tags.ml" 34 1222 1241
+)
+"ocamlbuild/param_tags.ml" 35 1244 1271 "ocamlbuild/param_tags.ml" 35 1244 1295
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/param_tags.ml" 35 1244 1256 "ocamlbuild/param_tags.ml" 35 1244 1295
+call(
+  stack
+)
+type(
+  string * string option
+)
+"ocamlbuild/param_tags.ml" 36 1299 1301 "ocamlbuild/param_tags.ml" 36 1299 1318
+type(
+  (string * StringSet.elt option) list ref
+)
+ident(
+  int_ref acknowledged_tags "ocamlbuild/param_tags.ml" 20 902 906 "ocamlbuild/param_tags.ml" 20 902 923
+)
+"ocamlbuild/param_tags.ml" 36 1299 1319 "ocamlbuild/param_tags.ml" 36 1299 1321
+type(
+  (string * StringSet.elt option) list ref ->
+  (string * StringSet.elt option) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocamlbuild/param_tags.ml" 36 1299 1322 "ocamlbuild/param_tags.ml" 36 1299 1325
+type(
+  string * StringSet.elt option
+)
+ident(
+  int_ref tag "ocamlbuild/param_tags.ml" 35 1244 1250 "ocamlbuild/param_tags.ml" 35 1244 1253
+)
+"ocamlbuild/param_tags.ml" 36 1299 1329 "ocamlbuild/param_tags.ml" 36 1299 1330
+type(
+  (string * StringSet.elt option) list ref ->
+  (string * StringSet.elt option) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/param_tags.ml" 36 1299 1330 "ocamlbuild/param_tags.ml" 36 1299 1347
+type(
+  (string * StringSet.elt option) list ref
+)
+ident(
+  int_ref acknowledged_tags "ocamlbuild/param_tags.ml" 20 902 906 "ocamlbuild/param_tags.ml" 20 902 923
+)
+"ocamlbuild/param_tags.ml" 36 1299 1329 "ocamlbuild/param_tags.ml" 36 1299 1347
+type(
+  (string * StringSet.elt option) list
+)
+"ocamlbuild/param_tags.ml" 36 1299 1322 "ocamlbuild/param_tags.ml" 36 1299 1347
+type(
+  (string * StringSet.elt option) list
+)
+"ocamlbuild/param_tags.ml" 36 1299 1301 "ocamlbuild/param_tags.ml" 36 1299 1347
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 35 1244 1246 "ocamlbuild/param_tags.ml" 36 1299 1347
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 39 1350 1354 "ocamlbuild/param_tags.ml" 39 1350 1372
+type(
+  string * StringSet.elt option -> unit
+)
+ident(
+  def really_acknowledge "ocamlbuild/param_tags.ml" 50 1812 1812 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 39 1350 1374 "ocamlbuild/param_tags.ml" 39 1350 1378
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/param_tags.ml" 40 1389 1391 "ocamlbuild/param_tags.ml" 48 1766 1810
+)
+"ocamlbuild/param_tags.ml" 39 1350 1380 "ocamlbuild/param_tags.ml" 39 1350 1385
+type(
+  StringSet.elt option
+)
+ident(
+  def param "ocamlbuild/param_tags.ml" 40 1389 1391 "ocamlbuild/param_tags.ml" 48 1766 1810
+)
+"ocamlbuild/param_tags.ml" 39 1350 1373 "ocamlbuild/param_tags.ml" 39 1350 1386
+type(
+  string * StringSet.elt option
+)
+"ocamlbuild/param_tags.ml" 40 1389 1397 "ocamlbuild/param_tags.ml" 40 1389 1402
+type(
+  StringSet.elt option
+)
+ident(
+  int_ref param "ocamlbuild/param_tags.ml" 39 1350 1380 "ocamlbuild/param_tags.ml" 39 1350 1385
+)
+"ocamlbuild/param_tags.ml" 41 1408 1414 "ocamlbuild/param_tags.ml" 41 1408 1418
+type(
+  StringSet.elt option
+)
+"ocamlbuild/param_tags.ml" 42 1422 1433 "ocamlbuild/param_tags.ml" 42 1422 1444
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"ocamlbuild/param_tags.ml" 42 1422 1445 "ocamlbuild/param_tags.ml" 42 1422 1458
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t
+)
+ident(
+  int_ref declared_tags "ocamlbuild/param_tags.ml" 18 863 867 "ocamlbuild/param_tags.ml" 18 863 880
+)
+"ocamlbuild/param_tags.ml" 42 1422 1459 "ocamlbuild/param_tags.ml" 42 1422 1463
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/param_tags.ml" 39 1350 1374 "ocamlbuild/param_tags.ml" 39 1350 1378
+)
+"ocamlbuild/param_tags.ml" 42 1422 1433 "ocamlbuild/param_tags.ml" 42 1422 1463
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/param_tags.ml" 43 1469 1479 "ocamlbuild/param_tags.ml" 43 1469 1490
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Log.eprintf
+)
+"ocamlbuild/param_tags.ml" 43 1469 1491 "ocamlbuild/param_tags.ml" 43 1469 1528
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/param_tags.ml" 43 1469 1529 "ocamlbuild/param_tags.ml" 43 1469 1533
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/param_tags.ml" 39 1350 1374 "ocamlbuild/param_tags.ml" 39 1350 1378
+)
+"ocamlbuild/param_tags.ml" 43 1469 1479 "ocamlbuild/param_tags.ml" 43 1469 1533
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 42 1422 1430 "ocamlbuild/param_tags.ml" 43 1469 1533
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 44 1534 1545 "ocamlbuild/param_tags.ml" 44 1534 1550
+type(
+  StringSet.elt
+)
+ident(
+  def param "ocamlbuild/param_tags.ml" 45 1554 1562 "ocamlbuild/param_tags.ml" 48 1766 1810
+)
+"ocamlbuild/param_tags.ml" 44 1534 1540 "ocamlbuild/param_tags.ml" 44 1534 1550
+type(
+  StringSet.elt option
+)
+"ocamlbuild/param_tags.ml" 45 1554 1566 "ocamlbuild/param_tags.ml" 45 1554 1573
+type(
+  (StringSet.elt -> unit) list
+)
+ident(
+  def actions "ocamlbuild/param_tags.ml" 46 1626 1634 "ocamlbuild/param_tags.ml" 48 1766 1810
+)
+"ocamlbuild/param_tags.ml" 45 1554 1576 "ocamlbuild/param_tags.ml" 45 1554 1584
+type(
+  (StringSet.elt -> unit) list -> (StringSet.elt -> unit) list
+)
+ident(
+  ext_ref List.rev
+)
+"ocamlbuild/param_tags.ml" 45 1554 1586 "ocamlbuild/param_tags.ml" 45 1554 1602
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t ->
+  string -> (StringSet.elt -> unit) list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ocamlbuild/param_tags.ml" 45 1554 1603 "ocamlbuild/param_tags.ml" 45 1554 1616
+type(
+  (string, StringSet.elt -> unit) Hashtbl.t
+)
+ident(
+  int_ref declared_tags "ocamlbuild/param_tags.ml" 18 863 867 "ocamlbuild/param_tags.ml" 18 863 880
+)
+"ocamlbuild/param_tags.ml" 45 1554 1617 "ocamlbuild/param_tags.ml" 45 1554 1621
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/param_tags.ml" 39 1350 1374 "ocamlbuild/param_tags.ml" 39 1350 1378
+)
+"ocamlbuild/param_tags.ml" 45 1554 1585 "ocamlbuild/param_tags.ml" 45 1554 1622
+call(
+  stack
+)
+type(
+  (StringSet.elt -> unit) list
+)
+"ocamlbuild/param_tags.ml" 45 1554 1576 "ocamlbuild/param_tags.ml" 45 1554 1622
+call(
+  stack
+)
+type(
+  (StringSet.elt -> unit) list
+)
+"ocamlbuild/param_tags.ml" 46 1626 1637 "ocamlbuild/param_tags.ml" 46 1626 1644
+type(
+  (StringSet.elt -> unit) list
+)
+ident(
+  int_ref actions "ocamlbuild/param_tags.ml" 45 1554 1566 "ocamlbuild/param_tags.ml" 45 1554 1573
+)
+"ocamlbuild/param_tags.ml" 46 1626 1645 "ocamlbuild/param_tags.ml" 46 1626 1646
+type(
+  (StringSet.elt -> unit) list -> (StringSet.elt -> unit) list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/param_tags.ml" 46 1626 1647 "ocamlbuild/param_tags.ml" 46 1626 1649
+type(
+  (StringSet.elt -> unit) list
+)
+"ocamlbuild/param_tags.ml" 46 1626 1637 "ocamlbuild/param_tags.ml" 46 1626 1649
+type(
+  bool
+)
+"ocamlbuild/param_tags.ml" 47 1655 1665 "ocamlbuild/param_tags.ml" 47 1655 1676
+type(
+  (string -> StringSet.elt -> unit, Format.formatter, unit) format ->
+  string -> StringSet.elt -> unit
+)
+ident(
+  ext_ref Log.eprintf
+)
+"ocamlbuild/param_tags.ml" 47 1655 1677 "ocamlbuild/param_tags.ml" 47 1655 1753
+type(
+  (string -> StringSet.elt -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/param_tags.ml" 47 1655 1754 "ocamlbuild/param_tags.ml" 47 1655 1758
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/param_tags.ml" 39 1350 1374 "ocamlbuild/param_tags.ml" 39 1350 1378
+)
+"ocamlbuild/param_tags.ml" 47 1655 1759 "ocamlbuild/param_tags.ml" 47 1655 1764
+type(
+  StringSet.elt
+)
+ident(
+  int_ref param "ocamlbuild/param_tags.ml" 44 1534 1545 "ocamlbuild/param_tags.ml" 44 1534 1550
+)
+"ocamlbuild/param_tags.ml" 47 1655 1665 "ocamlbuild/param_tags.ml" 47 1655 1764
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 46 1626 1634 "ocamlbuild/param_tags.ml" 47 1655 1764
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 48 1766 1774 "ocamlbuild/param_tags.ml" 48 1766 1783
+type(
+  ((StringSet.elt -> unit) -> unit) -> (StringSet.elt -> unit) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocamlbuild/param_tags.ml" 48 1766 1789 "ocamlbuild/param_tags.ml" 48 1766 1790
+type(
+  StringSet.elt -> unit
+)
+ident(
+  def f "ocamlbuild/param_tags.ml" 48 1766 1794 "ocamlbuild/param_tags.ml" 48 1766 1801
+)
+"ocamlbuild/param_tags.ml" 48 1766 1794 "ocamlbuild/param_tags.ml" 48 1766 1795
+type(
+  StringSet.elt -> unit
+)
+ident(
+  int_ref f "ocamlbuild/param_tags.ml" 48 1766 1789 "ocamlbuild/param_tags.ml" 48 1766 1790
+)
+"ocamlbuild/param_tags.ml" 48 1766 1796 "ocamlbuild/param_tags.ml" 48 1766 1801
+type(
+  StringSet.elt
+)
+ident(
+  int_ref param "ocamlbuild/param_tags.ml" 44 1534 1545 "ocamlbuild/param_tags.ml" 44 1534 1550
+)
+"ocamlbuild/param_tags.ml" 48 1766 1794 "ocamlbuild/param_tags.ml" 48 1766 1801
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 48 1766 1784 "ocamlbuild/param_tags.ml" 48 1766 1802
+type(
+  (StringSet.elt -> unit) -> unit
+)
+"ocamlbuild/param_tags.ml" 48 1766 1803 "ocamlbuild/param_tags.ml" 48 1766 1810
+type(
+  (StringSet.elt -> unit) list
+)
+ident(
+  int_ref actions "ocamlbuild/param_tags.ml" 45 1554 1566 "ocamlbuild/param_tags.ml" 45 1554 1573
+)
+"ocamlbuild/param_tags.ml" 48 1766 1774 "ocamlbuild/param_tags.ml" 48 1766 1810
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 46 1626 1634 "ocamlbuild/param_tags.ml" 48 1766 1810
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 45 1554 1562 "ocamlbuild/param_tags.ml" 48 1766 1810
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 40 1389 1391 "ocamlbuild/param_tags.ml" 48 1766 1810
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 50 1812 1816 "ocamlbuild/param_tags.ml" 50 1812 1820
+type(
+  unit -> unit
+)
+ident(
+  def init "ocamlbuild/param_tags.ml" 53 1906 1906 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 50 1812 1821 "ocamlbuild/param_tags.ml" 50 1812 1823
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 51 1826 1828 "ocamlbuild/param_tags.ml" 51 1826 1837
+type(
+  (string * StringSet.elt option -> unit) ->
+  (string * StringSet.elt option) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocamlbuild/param_tags.ml" 51 1826 1838 "ocamlbuild/param_tags.ml" 51 1826 1856
+type(
+  string * StringSet.elt option -> unit
+)
+ident(
+  int_ref really_acknowledge "ocamlbuild/param_tags.ml" 39 1350 1354 "ocamlbuild/param_tags.ml" 39 1350 1372
+)
+"ocamlbuild/param_tags.ml" 51 1826 1858 "ocamlbuild/param_tags.ml" 51 1826 1884
+type(
+  (string * StringSet.elt option) list ->
+  (string * StringSet.elt option) list
+)
+ident(
+  ext_ref My_std.List.ordered_unique
+)
+"ocamlbuild/param_tags.ml" 51 1826 1885 "ocamlbuild/param_tags.ml" 51 1826 1886
+type(
+  (string * StringSet.elt option) list ref ->
+  (string * StringSet.elt option) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/param_tags.ml" 51 1826 1886 "ocamlbuild/param_tags.ml" 51 1826 1903
+type(
+  (string * StringSet.elt option) list ref
+)
+ident(
+  int_ref acknowledged_tags "ocamlbuild/param_tags.ml" 20 902 906 "ocamlbuild/param_tags.ml" 20 902 923
+)
+"ocamlbuild/param_tags.ml" 51 1826 1885 "ocamlbuild/param_tags.ml" 51 1826 1903
+type(
+  (string * StringSet.elt option) list
+)
+"ocamlbuild/param_tags.ml" 51 1826 1857 "ocamlbuild/param_tags.ml" 51 1826 1904
+call(
+  stack
+)
+type(
+  (string * StringSet.elt option) list
+)
+"ocamlbuild/param_tags.ml" 51 1826 1828 "ocamlbuild/param_tags.ml" 51 1826 1904
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/param_tags.ml" 53 1906 1910 "ocamlbuild/param_tags.ml" 53 1906 1914
+type(
+  string -> string -> string
+)
+ident(
+  def make "ocamlbuild/param_tags.ml" 53 1906 1940 "_none_" 1 0 -1
+)
+"ocamlbuild/param_tags.ml" 53 1906 1917 "ocamlbuild/param_tags.ml" 53 1906 1931
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/param_tags.ml" 53 1906 1932 "ocamlbuild/param_tags.ml" 53 1906 1940
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocamlbuild/param_tags.ml" 53 1906 1917 "ocamlbuild/param_tags.ml" 53 1906 1940
+call(
+  stack
+)
+type(
+  string -> string -> string
+)

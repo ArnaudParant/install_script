@@ -1,0 +1,17 @@
+opam-version: "1"
+maintainer: "dev@ocsigen.org"
+build: [
+  ["%{make}%"]
+  ["%{make}%" "install"]
+]
+remove: [
+  ["ocamlfind" "remove" "eliom-base-app"]
+]
+depends: [
+  "ocamlfind"
+  "imagemagick"
+  "pgocaml"
+  "macaque"
+  "eliom"
+  "eliom-widgets"
+]

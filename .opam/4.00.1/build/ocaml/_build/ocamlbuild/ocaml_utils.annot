@@ -1,0 +1,3835 @@
+"ocamlbuild/ocaml_utils.ml" 24 899 910 "ocamlbuild/ocaml_utils.ml" 24 899 926
+call(
+  stack
+)
+"ocamlbuild/ocaml_utils.ml" 26 928 932 "ocamlbuild/ocaml_utils.ml" 26 928 944
+type(
+  Tags.elt list -> Command.spec -> unit
+)
+ident(
+  def flag_and_dep "ocamlbuild/ocaml_utils.ml" 31 1075 1075 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 26 928 945 "ocamlbuild/ocaml_utils.ml" 26 928 949
+type(
+  Tags.elt list
+)
+ident(
+  def tags "ocamlbuild/ocaml_utils.ml" 26 928 950 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+)
+"ocamlbuild/ocaml_utils.ml" 26 928 950 "ocamlbuild/ocaml_utils.ml" 26 928 958
+type(
+  Command.spec
+)
+ident(
+  def cmd_spec "ocamlbuild/ocaml_utils.ml" 27 961 963 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+)
+"ocamlbuild/ocaml_utils.ml" 27 961 963 "ocamlbuild/ocaml_utils.ml" 27 961 967
+type(
+  Tags.elt list -> Command.spec -> unit
+)
+ident(
+  ext_ref Flags.flag
+)
+"ocamlbuild/ocaml_utils.ml" 27 961 968 "ocamlbuild/ocaml_utils.ml" 27 961 972
+type(
+  Tags.elt list
+)
+ident(
+  int_ref tags "ocamlbuild/ocaml_utils.ml" 26 928 945 "ocamlbuild/ocaml_utils.ml" 26 928 949
+)
+"ocamlbuild/ocaml_utils.ml" 27 961 973 "ocamlbuild/ocaml_utils.ml" 27 961 981
+type(
+  Command.spec
+)
+ident(
+  int_ref cmd_spec "ocamlbuild/ocaml_utils.ml" 26 928 950 "ocamlbuild/ocaml_utils.ml" 26 928 958
+)
+"ocamlbuild/ocaml_utils.ml" 27 961 963 "ocamlbuild/ocaml_utils.ml" 27 961 981
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 989 "ocamlbuild/ocaml_utils.ml" 28 983 991
+type(
+  Command.pathname list
+)
+ident(
+  def ps "ocamlbuild/ocaml_utils.ml" 29 1060 1062 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 994 "ocamlbuild/ocaml_utils.ml" 28 983 1016
+type(
+  (Command.pathname -> Command.pathname list -> Command.pathname list) ->
+  Command.t -> Command.pathname list -> Command.pathname list
+)
+ident(
+  ext_ref Command.fold_pathnames
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1022 "ocamlbuild/ocaml_utils.ml" 28 983 1023
+type(
+  Command.pathname
+)
+ident(
+  def p "ocamlbuild/ocaml_utils.ml" 28 983 1024 "ocamlbuild/ocaml_utils.ml" 28 983 1037
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1024 "ocamlbuild/ocaml_utils.ml" 28 983 1026
+type(
+  Command.pathname list
+)
+ident(
+  def ps "ocamlbuild/ocaml_utils.ml" 28 983 1030 "ocamlbuild/ocaml_utils.ml" 28 983 1037
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1030 "ocamlbuild/ocaml_utils.ml" 28 983 1031
+type(
+  Command.pathname
+)
+ident(
+  int_ref p "ocamlbuild/ocaml_utils.ml" 28 983 1022 "ocamlbuild/ocaml_utils.ml" 28 983 1023
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1035 "ocamlbuild/ocaml_utils.ml" 28 983 1037
+type(
+  Command.pathname list
+)
+ident(
+  int_ref ps "ocamlbuild/ocaml_utils.ml" 28 983 1024 "ocamlbuild/ocaml_utils.ml" 28 983 1026
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1030 "ocamlbuild/ocaml_utils.ml" 28 983 1037
+type(
+  Command.pathname list
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1017 "ocamlbuild/ocaml_utils.ml" 28 983 1038
+type(
+  Command.pathname -> Command.pathname list -> Command.pathname list
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1044 "ocamlbuild/ocaml_utils.ml" 28 983 1052
+type(
+  Command.spec
+)
+ident(
+  int_ref cmd_spec "ocamlbuild/ocaml_utils.ml" 26 928 950 "ocamlbuild/ocaml_utils.ml" 26 928 958
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1039 "ocamlbuild/ocaml_utils.ml" 28 983 1053
+type(
+  Command.t
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 1054 "ocamlbuild/ocaml_utils.ml" 28 983 1056
+type(
+  Command.pathname list
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 994 "ocamlbuild/ocaml_utils.ml" 28 983 1056
+call(
+  stack
+)
+type(
+  Command.pathname list
+)
+"ocamlbuild/ocaml_utils.ml" 29 1060 1062 "ocamlbuild/ocaml_utils.ml" 29 1060 1065
+type(
+  Tags.elt list -> Command.pathname list -> unit
+)
+ident(
+  ext_ref Command.dep
+)
+"ocamlbuild/ocaml_utils.ml" 29 1060 1066 "ocamlbuild/ocaml_utils.ml" 29 1060 1070
+type(
+  Tags.elt list
+)
+ident(
+  int_ref tags "ocamlbuild/ocaml_utils.ml" 26 928 945 "ocamlbuild/ocaml_utils.ml" 26 928 949
+)
+"ocamlbuild/ocaml_utils.ml" 29 1060 1071 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+type(
+  Command.pathname list
+)
+ident(
+  int_ref ps "ocamlbuild/ocaml_utils.ml" 28 983 989 "ocamlbuild/ocaml_utils.ml" 28 983 991
+)
+"ocamlbuild/ocaml_utils.ml" 29 1060 1062 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 28 983 985 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 27 961 963 "ocamlbuild/ocaml_utils.ml" 29 1060 1073
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 31 1075 1079 "ocamlbuild/ocaml_utils.ml" 31 1075 1089
+type(
+  string lazy_t
+)
+ident(
+  def stdlib_dir "ocamlbuild/ocaml_utils.ml" 37 1324 1324 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1109 "ocamlbuild/ocaml_utils.ml" 32 1103 1121
+type(
+  Pathname.t
+)
+ident(
+  def ocamlc_where "ocamlbuild/ocaml_utils.ml" 33 1177 1179 "ocamlbuild/ocaml_utils.ml" 34 1279 1318
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1124 "ocamlbuild/ocaml_utils.ml" 32 1103 1125
+type(
+  Pathname.t ref -> Pathname.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1125 "ocamlbuild/ocaml_utils.ml" 32 1103 1142
+type(
+  Pathname.t ref
+)
+ident(
+  ext_ref Options.build_dir
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1124 "ocamlbuild/ocaml_utils.ml" 32 1103 1142
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1143 "ocamlbuild/ocaml_utils.ml" 32 1103 1144
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1146 "ocamlbuild/ocaml_utils.ml" 32 1103 1157
+type(
+  string -> Pathname.t
+)
+ident(
+  ext_ref Pathname.mk
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1158 "ocamlbuild/ocaml_utils.ml" 32 1103 1172
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1145 "ocamlbuild/ocaml_utils.ml" 32 1103 1173
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 32 1103 1124 "ocamlbuild/ocaml_utils.ml" 32 1103 1173
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1183 "ocamlbuild/ocaml_utils.ml" 33 1177 1185
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1188 "ocamlbuild/ocaml_utils.ml" 33 1177 1203
+type(
+  ?quiet:bool -> ?pretend:bool -> Command.t -> unit
+)
+ident(
+  ext_ref Command.execute
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1211 "ocamlbuild/ocaml_utils.ml" 33 1177 1215
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1223 "ocamlbuild/ocaml_utils.ml" 33 1177 1224
+type(
+  Options.command_spec ref -> Options.command_spec
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1224 "ocamlbuild/ocaml_utils.ml" 33 1177 1238
+type(
+  Options.command_spec ref
+)
+ident(
+  ext_ref Options.ocamlc
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1223 "ocamlbuild/ocaml_utils.ml" 33 1177 1238
+type(
+  Options.command_spec
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1241 "ocamlbuild/ocaml_utils.ml" 33 1177 1249
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1240 "ocamlbuild/ocaml_utils.ml" 33 1177 1249
+type(
+  Options.command_spec
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1253 "ocamlbuild/ocaml_utils.ml" 33 1177 1256
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1251 "ocamlbuild/ocaml_utils.ml" 33 1177 1256
+type(
+  Options.command_spec
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1260 "ocamlbuild/ocaml_utils.ml" 33 1177 1272
+type(
+  Pathname.t
+)
+ident(
+  int_ref ocamlc_where "ocamlbuild/ocaml_utils.ml" 32 1103 1109 "ocamlbuild/ocaml_utils.ml" 32 1103 1121
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1258 "ocamlbuild/ocaml_utils.ml" 33 1177 1272
+type(
+  Options.command_spec
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1222 "ocamlbuild/ocaml_utils.ml" 33 1177 1273
+type(
+  Options.command_spec list
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1220 "ocamlbuild/ocaml_utils.ml" 33 1177 1274
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1216 "ocamlbuild/ocaml_utils.ml" 33 1177 1275
+type(
+  Command.t
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1188 "ocamlbuild/ocaml_utils.ml" 33 1177 1275
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 34 1279 1281 "ocamlbuild/ocaml_utils.ml" 34 1279 1293
+type(
+  string -> string
+)
+ident(
+  ext_ref My_std.String.chomp
+)
+"ocamlbuild/ocaml_utils.ml" 34 1279 1295 "ocamlbuild/ocaml_utils.ml" 34 1279 1304
+type(
+  Pathname.t -> string
+)
+ident(
+  ext_ref My_std.read_file
+)
+"ocamlbuild/ocaml_utils.ml" 34 1279 1305 "ocamlbuild/ocaml_utils.ml" 34 1279 1317
+type(
+  Pathname.t
+)
+ident(
+  int_ref ocamlc_where "ocamlbuild/ocaml_utils.ml" 32 1103 1109 "ocamlbuild/ocaml_utils.ml" 32 1103 1121
+)
+"ocamlbuild/ocaml_utils.ml" 34 1279 1294 "ocamlbuild/ocaml_utils.ml" 34 1279 1318
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 34 1279 1281 "ocamlbuild/ocaml_utils.ml" 34 1279 1318
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 33 1177 1179 "ocamlbuild/ocaml_utils.ml" 34 1279 1318
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 31 1075 1097 "ocamlbuild/ocaml_utils.ml" 35 1319 1322
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 31 1075 1092 "ocamlbuild/ocaml_utils.ml" 35 1319 1322
+type(
+  string lazy_t
+)
+"ocamlbuild/ocaml_utils.ml" 37 1324 1328 "ocamlbuild/ocaml_utils.ml" 37 1324 1341
+type(
+  Tags.elt list -> Tags.elt -> (string -> Command.spec) -> unit
+)
+ident(
+  def pflag_and_dep "ocamlbuild/ocaml_utils.ml" 42 1483 1483 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 37 1324 1342 "ocamlbuild/ocaml_utils.ml" 37 1324 1346
+type(
+  Tags.elt list
+)
+ident(
+  def tags "ocamlbuild/ocaml_utils.ml" 37 1324 1347 "ocamlbuild/ocaml_utils.ml" 40 1407 1481
+)
+"ocamlbuild/ocaml_utils.ml" 37 1324 1347 "ocamlbuild/ocaml_utils.ml" 37 1324 1351
+type(
+  Tags.elt
+)
+ident(
+  def ptag "ocamlbuild/ocaml_utils.ml" 37 1324 1352 "ocamlbuild/ocaml_utils.ml" 40 1407 1481
+)
+"ocamlbuild/ocaml_utils.ml" 37 1324 1352 "ocamlbuild/ocaml_utils.ml" 37 1324 1360
+type(
+  string -> Command.spec
+)
+ident(
+  def cmd_spec "ocamlbuild/ocaml_utils.ml" 38 1363 1365 "ocamlbuild/ocaml_utils.ml" 40 1407 1481
+)
+"ocamlbuild/ocaml_utils.ml" 38 1363 1365 "ocamlbuild/ocaml_utils.ml" 38 1363 1383
+type(
+  Tags.elt -> (string -> unit) -> unit
+)
+ident(
+  ext_ref Param_tags.declare
+)
+"ocamlbuild/ocaml_utils.ml" 38 1363 1384 "ocamlbuild/ocaml_utils.ml" 38 1363 1388
+type(
+  Tags.elt
+)
+ident(
+  int_ref ptag "ocamlbuild/ocaml_utils.ml" 37 1324 1347 "ocamlbuild/ocaml_utils.ml" 37 1324 1351
+)
+"ocamlbuild/ocaml_utils.ml" 39 1389 1398 "ocamlbuild/ocaml_utils.ml" 39 1389 1403
+type(
+  string
+)
+ident(
+  def param "ocamlbuild/ocaml_utils.ml" 40 1407 1414 "ocamlbuild/ocaml_utils.ml" 40 1407 1480
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1414 "ocamlbuild/ocaml_utils.ml" 40 1407 1426
+type(
+  Tags.elt list -> Command.spec -> unit
+)
+ident(
+  int_ref flag_and_dep "ocamlbuild/ocaml_utils.ml" 26 928 932 "ocamlbuild/ocaml_utils.ml" 26 928 944
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1428 "ocamlbuild/ocaml_utils.ml" 40 1407 1443
+type(
+  Tags.elt -> string -> Tags.elt
+)
+ident(
+  ext_ref Param_tags.make
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1444 "ocamlbuild/ocaml_utils.ml" 40 1407 1448
+type(
+  Tags.elt
+)
+ident(
+  int_ref ptag "ocamlbuild/ocaml_utils.ml" 37 1324 1347 "ocamlbuild/ocaml_utils.ml" 37 1324 1351
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1449 "ocamlbuild/ocaml_utils.ml" 40 1407 1454
+type(
+  string
+)
+ident(
+  int_ref param "ocamlbuild/ocaml_utils.ml" 39 1389 1398 "ocamlbuild/ocaml_utils.ml" 39 1389 1403
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1428 "ocamlbuild/ocaml_utils.ml" 40 1407 1454
+call(
+  stack
+)
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1458 "ocamlbuild/ocaml_utils.ml" 40 1407 1462
+type(
+  Tags.elt list
+)
+ident(
+  int_ref tags "ocamlbuild/ocaml_utils.ml" 37 1324 1342 "ocamlbuild/ocaml_utils.ml" 37 1324 1346
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1427 "ocamlbuild/ocaml_utils.ml" 40 1407 1463
+type(
+  Tags.elt list
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1465 "ocamlbuild/ocaml_utils.ml" 40 1407 1473
+type(
+  string -> Command.spec
+)
+ident(
+  int_ref cmd_spec "ocamlbuild/ocaml_utils.ml" 37 1324 1352 "ocamlbuild/ocaml_utils.ml" 37 1324 1360
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1474 "ocamlbuild/ocaml_utils.ml" 40 1407 1479
+type(
+  string
+)
+ident(
+  int_ref param "ocamlbuild/ocaml_utils.ml" 39 1389 1398 "ocamlbuild/ocaml_utils.ml" 39 1389 1403
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1464 "ocamlbuild/ocaml_utils.ml" 40 1407 1480
+call(
+  stack
+)
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 40 1407 1414 "ocamlbuild/ocaml_utils.ml" 40 1407 1480
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 39 1389 1393 "ocamlbuild/ocaml_utils.ml" 40 1407 1481
+type(
+  string -> unit
+)
+"ocamlbuild/ocaml_utils.ml" 38 1363 1365 "ocamlbuild/ocaml_utils.ml" 40 1407 1481
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1487 "ocamlbuild/ocaml_utils.ml" 42 1483 1510
+type(
+  Pathname.t -> string
+)
+ident(
+  def module_name_of_filename "ocamlbuild/ocaml_utils.ml" 43 1564 1564 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1511 "ocamlbuild/ocaml_utils.ml" 42 1483 1512
+type(
+  Pathname.t
+)
+ident(
+  def f "ocamlbuild/ocaml_utils.ml" 42 1483 1515 "ocamlbuild/ocaml_utils.ml" 42 1483 1563
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1515 "ocamlbuild/ocaml_utils.ml" 42 1483 1532
+type(
+  Pathname.t -> string
+)
+ident(
+  ext_ref My_std.String.capitalize
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1534 "ocamlbuild/ocaml_utils.ml" 42 1483 1560
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.remove_extensions
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1561 "ocamlbuild/ocaml_utils.ml" 42 1483 1562
+type(
+  Pathname.t
+)
+ident(
+  int_ref f "ocamlbuild/ocaml_utils.ml" 42 1483 1511 "ocamlbuild/ocaml_utils.ml" 42 1483 1512
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1533 "ocamlbuild/ocaml_utils.ml" 42 1483 1563
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 42 1483 1515 "ocamlbuild/ocaml_utils.ml" 42 1483 1563
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 43 1564 1568 "ocamlbuild/ocaml_utils.ml" 43 1564 1591
+type(
+  Pathname.t -> string
+)
+ident(
+  def module_name_of_pathname "ocamlbuild/ocaml_utils.ml" 46 1666 1666 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 43 1564 1592 "ocamlbuild/ocaml_utils.ml" 43 1564 1593
+type(
+  Pathname.t
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 44 1596 1598 "ocamlbuild/ocaml_utils.ml" 44 1596 1664
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1598 "ocamlbuild/ocaml_utils.ml" 44 1596 1621
+type(
+  Pathname.t -> string
+)
+ident(
+  int_ref module_name_of_filename "ocamlbuild/ocaml_utils.ml" 42 1483 1487 "ocamlbuild/ocaml_utils.ml" 42 1483 1510
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1623 "ocamlbuild/ocaml_utils.ml" 44 1596 1641
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.to_string
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1643 "ocamlbuild/ocaml_utils.ml" 44 1596 1660
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.basename
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1661 "ocamlbuild/ocaml_utils.ml" 44 1596 1662
+type(
+  Pathname.t
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 43 1564 1592 "ocamlbuild/ocaml_utils.ml" 43 1564 1593
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1642 "ocamlbuild/ocaml_utils.ml" 44 1596 1663
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1622 "ocamlbuild/ocaml_utils.ml" 44 1596 1664
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 44 1596 1598 "ocamlbuild/ocaml_utils.ml" 44 1596 1664
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 46 1666 1670 "ocamlbuild/ocaml_utils.ml" 46 1666 1683
+type(
+  string -> bool
+)
+ident(
+  def ignore_stdlib "ocamlbuild/ocaml_utils.ml" 52 1816 1816 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 46 1666 1684 "ocamlbuild/ocaml_utils.ml" 46 1666 1685
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 47 1688 1690 "ocamlbuild/ocaml_utils.ml" 50 1792 1814
+)
+"ocamlbuild/ocaml_utils.ml" 47 1688 1693 "ocamlbuild/ocaml_utils.ml" 47 1688 1694
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 47 1688 1694 "ocamlbuild/ocaml_utils.ml" 47 1688 1710
+type(
+  bool ref
+)
+ident(
+  ext_ref Options.nostdlib
+)
+"ocamlbuild/ocaml_utils.ml" 47 1688 1693 "ocamlbuild/ocaml_utils.ml" 47 1688 1710
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 47 1688 1716 "ocamlbuild/ocaml_utils.ml" 47 1688 1721
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1737 "ocamlbuild/ocaml_utils.ml" 49 1729 1739
+type(
+  Pathname.t
+)
+ident(
+  def x' "ocamlbuild/ocaml_utils.ml" 50 1792 1796 "ocamlbuild/ocaml_utils.ml" 50 1792 1814
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1742 "ocamlbuild/ocaml_utils.ml" 49 1729 1744
+type(
+  Pathname.t Lazy.t -> Pathname.t
+)
+ident(
+  ext_ref My_std.( !* )
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1744 "ocamlbuild/ocaml_utils.ml" 49 1729 1754
+type(
+  Pathname.t Lazy.t
+)
+ident(
+  int_ref stdlib_dir "ocamlbuild/ocaml_utils.ml" 31 1075 1079 "ocamlbuild/ocaml_utils.ml" 31 1075 1089
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1742 "ocamlbuild/ocaml_utils.ml" 49 1729 1754
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1754 "ocamlbuild/ocaml_utils.ml" 49 1729 1755
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1757 "ocamlbuild/ocaml_utils.ml" 49 1729 1776
+type(
+  string -> Pathname.t
+)
+ident(
+  ext_ref My_std.String.uncapitalize
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1777 "ocamlbuild/ocaml_utils.ml" 49 1729 1778
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 46 1666 1684 "ocamlbuild/ocaml_utils.ml" 46 1666 1685
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1756 "ocamlbuild/ocaml_utils.ml" 49 1729 1779
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1779 "ocamlbuild/ocaml_utils.ml" 49 1729 1782
+type(
+  Pathname.t -> string -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( -.- )
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1782 "ocamlbuild/ocaml_utils.ml" 49 1729 1787
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1755 "ocamlbuild/ocaml_utils.ml" 49 1729 1788
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1742 "ocamlbuild/ocaml_utils.ml" 49 1729 1788
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 50 1792 1796 "ocamlbuild/ocaml_utils.ml" 50 1792 1811
+type(
+  Pathname.t -> bool
+)
+ident(
+  ext_ref Pathname.exists
+)
+"ocamlbuild/ocaml_utils.ml" 50 1792 1812 "ocamlbuild/ocaml_utils.ml" 50 1792 1814
+type(
+  Pathname.t
+)
+ident(
+  int_ref x' "ocamlbuild/ocaml_utils.ml" 49 1729 1737 "ocamlbuild/ocaml_utils.ml" 49 1729 1739
+)
+"ocamlbuild/ocaml_utils.ml" 50 1792 1796 "ocamlbuild/ocaml_utils.ml" 50 1792 1814
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 49 1729 1733 "ocamlbuild/ocaml_utils.ml" 50 1792 1814
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 47 1688 1690 "ocamlbuild/ocaml_utils.ml" 50 1792 1814
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 52 1816 1820 "ocamlbuild/ocaml_utils.ml" 52 1816 1836
+type(
+  (Pathname.t * string) list ref
+)
+ident(
+  def non_dependencies "ocamlbuild/ocaml_utils.ml" 53 1846 1846 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 52 1816 1839 "ocamlbuild/ocaml_utils.ml" 52 1816 1842
+type(
+  (Pathname.t * string) list -> (Pathname.t * string) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocaml_utils.ml" 52 1816 1843 "ocamlbuild/ocaml_utils.ml" 52 1816 1845
+type(
+  (Pathname.t * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 52 1816 1839 "ocamlbuild/ocaml_utils.ml" 52 1816 1845
+type(
+  (Pathname.t * string) list ref
+)
+"ocamlbuild/ocaml_utils.ml" 53 1846 1850 "ocamlbuild/ocaml_utils.ml" 53 1846 1864
+type(
+  Pathname.t -> string -> unit
+)
+ident(
+  def non_dependency "ocamlbuild/ocaml_utils.ml" 59 2110 2110 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 53 1846 1865 "ocamlbuild/ocaml_utils.ml" 53 1846 1867
+type(
+  Pathname.t
+)
+ident(
+  def m1 "ocamlbuild/ocaml_utils.ml" 53 1846 1868 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+)
+"ocamlbuild/ocaml_utils.ml" 53 1846 1868 "ocamlbuild/ocaml_utils.ml" 53 1846 1870
+type(
+  string
+)
+ident(
+  def m2 "ocamlbuild/ocaml_utils.ml" 55 1952 1954 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1957 "ocamlbuild/ocaml_utils.ml" 55 1952 1970
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.String.length
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1972 "ocamlbuild/ocaml_utils.ml" 55 1952 1995
+type(
+  Pathname.t -> string
+)
+ident(
+  ext_ref Pathname.get_extensions
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1996 "ocamlbuild/ocaml_utils.ml" 55 1952 1998
+type(
+  Pathname.t
+)
+ident(
+  int_ref m1 "ocamlbuild/ocaml_utils.ml" 53 1846 1865 "ocamlbuild/ocaml_utils.ml" 53 1846 1867
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1971 "ocamlbuild/ocaml_utils.ml" 55 1952 1999
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1957 "ocamlbuild/ocaml_utils.ml" 55 1952 1999
+type(
+  int
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 2000 "ocamlbuild/ocaml_utils.ml" 55 1952 2001
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 2002 "ocamlbuild/ocaml_utils.ml" 55 1952 2003
+type(
+  int
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1957 "ocamlbuild/ocaml_utils.ml" 55 1952 2003
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 56 2009 2013 "ocamlbuild/ocaml_utils.ml" 56 2009 2024
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"ocamlbuild/ocaml_utils.ml" 56 2009 2025 "ocamlbuild/ocaml_utils.ml" 56 2009 2055
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 56 2009 2013 "ocamlbuild/ocaml_utils.ml" 56 2009 2055
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1954 "ocamlbuild/ocaml_utils.ml" 56 2009 2055
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2059 "ocamlbuild/ocaml_utils.ml" 57 2057 2075
+type(
+  (Pathname.t * string) list ref
+)
+ident(
+  int_ref non_dependencies "ocamlbuild/ocaml_utils.ml" 52 1816 1820 "ocamlbuild/ocaml_utils.ml" 52 1816 1836
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2076 "ocamlbuild/ocaml_utils.ml" 57 2057 2078
+type(
+  (Pathname.t * string) list ref -> (Pathname.t * string) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2080 "ocamlbuild/ocaml_utils.ml" 57 2057 2082
+type(
+  Pathname.t
+)
+ident(
+  int_ref m1 "ocamlbuild/ocaml_utils.ml" 53 1846 1865 "ocamlbuild/ocaml_utils.ml" 53 1846 1867
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2084 "ocamlbuild/ocaml_utils.ml" 57 2057 2086
+type(
+  string
+)
+ident(
+  int_ref m2 "ocamlbuild/ocaml_utils.ml" 53 1846 1868 "ocamlbuild/ocaml_utils.ml" 53 1846 1870
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2079 "ocamlbuild/ocaml_utils.ml" 57 2057 2087
+type(
+  Pathname.t * string
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2091 "ocamlbuild/ocaml_utils.ml" 57 2057 2092
+type(
+  (Pathname.t * string) list ref -> (Pathname.t * string) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2092 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+type(
+  (Pathname.t * string) list ref
+)
+ident(
+  int_ref non_dependencies "ocamlbuild/ocaml_utils.ml" 52 1816 1820 "ocamlbuild/ocaml_utils.ml" 52 1816 1836
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2091 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+type(
+  (Pathname.t * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2079 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+type(
+  (Pathname.t * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 57 2057 2059 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 55 1952 1954 "ocamlbuild/ocaml_utils.ml" 57 2057 2108
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 59 2110 2114 "ocamlbuild/ocaml_utils.ml" 59 2110 2129
+type(
+  Pathname.t -> string -> [> `ignored | `just_try | `mandatory ]
+)
+ident(
+  def path_importance "ocamlbuild/ocaml_utils.ml" 67 2377 2377 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 59 2110 2130 "ocamlbuild/ocaml_utils.ml" 59 2110 2134
+type(
+  Pathname.t
+)
+ident(
+  def path "ocamlbuild/ocaml_utils.ml" 59 2110 2135 "ocamlbuild/ocaml_utils.ml" 65 2319 2375
+)
+"ocamlbuild/ocaml_utils.ml" 59 2110 2135 "ocamlbuild/ocaml_utils.ml" 59 2110 2136
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 60 2139 2141 "ocamlbuild/ocaml_utils.ml" 65 2319 2375
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2144 "ocamlbuild/ocaml_utils.ml" 60 2139 2152
+type(
+  Pathname.t * string -> (Pathname.t * string) list -> bool
+)
+ident(
+  ext_ref My_std.List.mem
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2154 "ocamlbuild/ocaml_utils.ml" 60 2139 2158
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 59 2110 2130 "ocamlbuild/ocaml_utils.ml" 59 2110 2134
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2160 "ocamlbuild/ocaml_utils.ml" 60 2139 2161
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 59 2110 2135 "ocamlbuild/ocaml_utils.ml" 59 2110 2136
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2153 "ocamlbuild/ocaml_utils.ml" 60 2139 2162
+type(
+  Pathname.t * string
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2163 "ocamlbuild/ocaml_utils.ml" 60 2139 2164
+type(
+  (Pathname.t * string) list ref -> (Pathname.t * string) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2164 "ocamlbuild/ocaml_utils.ml" 60 2139 2180
+type(
+  (Pathname.t * string) list ref
+)
+ident(
+  int_ref non_dependencies "ocamlbuild/ocaml_utils.ml" 52 1816 1820 "ocamlbuild/ocaml_utils.ml" 52 1816 1836
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2163 "ocamlbuild/ocaml_utils.ml" 60 2139 2180
+type(
+  (Pathname.t * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2144 "ocamlbuild/ocaml_utils.ml" 60 2139 2180
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2183 "ocamlbuild/ocaml_utils.ml" 61 2181 2185
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2187 "ocamlbuild/ocaml_utils.ml" 61 2181 2195
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref My_std.List.mem
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2196 "ocamlbuild/ocaml_utils.ml" 61 2181 2197
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 59 2110 2135 "ocamlbuild/ocaml_utils.ml" 59 2110 2136
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2198 "ocamlbuild/ocaml_utils.ml" 61 2181 2199
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2199 "ocamlbuild/ocaml_utils.ml" 61 2181 2218
+type(
+  string list ref
+)
+ident(
+  ext_ref Options.ignore_list
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2198 "ocamlbuild/ocaml_utils.ml" 61 2181 2218
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2186 "ocamlbuild/ocaml_utils.ml" 61 2181 2219
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2144 "ocamlbuild/ocaml_utils.ml" 61 2181 2219
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2239 "ocamlbuild/ocaml_utils.ml" 62 2231 2241
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2244 "ocamlbuild/ocaml_utils.ml" 62 2231 2251
+type(
+  int ->
+  (string -> Pathname.t -> unit, Format.formatter, unit) format ->
+  string -> Pathname.t -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2252 "ocamlbuild/ocaml_utils.ml" 62 2231 2253
+type(
+  int
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2254 "ocamlbuild/ocaml_utils.ml" 62 2231 2289
+type(
+  (string -> Pathname.t -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2290 "ocamlbuild/ocaml_utils.ml" 62 2231 2291
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 59 2110 2135 "ocamlbuild/ocaml_utils.ml" 59 2110 2136
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2292 "ocamlbuild/ocaml_utils.ml" 62 2231 2296
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 59 2110 2130 "ocamlbuild/ocaml_utils.ml" 59 2110 2134
+)
+"ocamlbuild/ocaml_utils.ml" 62 2231 2244 "ocamlbuild/ocaml_utils.ml" 62 2231 2296
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 63 2300 2304 "ocamlbuild/ocaml_utils.ml" 63 2300 2312
+type(
+  [> `ignored | `just_try | `mandatory ] as 'a
+)
+"ocamlbuild/ocaml_utils.ml" 61 2181 2225 "ocamlbuild/ocaml_utils.ml" 64 2313 2318
+type(
+  'a
+)
+"ocamlbuild/ocaml_utils.ml" 65 2319 2329 "ocamlbuild/ocaml_utils.ml" 65 2319 2342
+type(
+  string -> bool
+)
+ident(
+  int_ref ignore_stdlib "ocamlbuild/ocaml_utils.ml" 46 1666 1670 "ocamlbuild/ocaml_utils.ml" 46 1666 1683
+)
+"ocamlbuild/ocaml_utils.ml" 65 2319 2343 "ocamlbuild/ocaml_utils.ml" 65 2319 2344
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 59 2110 2135 "ocamlbuild/ocaml_utils.ml" 59 2110 2136
+)
+"ocamlbuild/ocaml_utils.ml" 65 2319 2329 "ocamlbuild/ocaml_utils.ml" 65 2319 2344
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 65 2319 2350 "ocamlbuild/ocaml_utils.ml" 65 2319 2359
+type(
+  'a
+)
+"ocamlbuild/ocaml_utils.ml" 65 2319 2365 "ocamlbuild/ocaml_utils.ml" 65 2319 2375
+type(
+  'a
+)
+"ocamlbuild/ocaml_utils.ml" 65 2319 2326 "ocamlbuild/ocaml_utils.ml" 65 2319 2375
+type(
+  'a
+)
+"ocamlbuild/ocaml_utils.ml" 60 2139 2141 "ocamlbuild/ocaml_utils.ml" 65 2319 2375
+type(
+  'a
+)
+"ocamlbuild/ocaml_utils.ml" 67 2377 2381 "ocamlbuild/ocaml_utils.ml" 67 2377 2394
+type(
+  Pathname.t list -> Pathname.t -> string list -> Pathname.t list
+)
+ident(
+  def expand_module "ocamlbuild/ocaml_utils.ml" 79 2873 2873 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 67 2377 2395 "ocamlbuild/ocaml_utils.ml" 67 2377 2407
+type(
+  Pathname.t list
+)
+ident(
+  def include_dirs "ocamlbuild/ocaml_utils.ml" 67 2377 2408 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 67 2377 2408 "ocamlbuild/ocaml_utils.ml" 67 2377 2419
+type(
+  Pathname.t
+)
+ident(
+  def module_name "ocamlbuild/ocaml_utils.ml" 67 2377 2420 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 67 2377 2420 "ocamlbuild/ocaml_utils.ml" 67 2377 2424
+type(
+  string list
+)
+ident(
+  def exts "ocamlbuild/ocaml_utils.ml" 68 2427 2429 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 68 2427 2433 "ocamlbuild/ocaml_utils.ml" 68 2427 2440
+type(
+  Pathname.t
+)
+ident(
+  def dirname "ocamlbuild/ocaml_utils.ml" 69 2475 2477 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 68 2427 2443 "ocamlbuild/ocaml_utils.ml" 68 2427 2459
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.dirname
+)
+"ocamlbuild/ocaml_utils.ml" 68 2427 2460 "ocamlbuild/ocaml_utils.ml" 68 2427 2471
+type(
+  Pathname.t
+)
+ident(
+  int_ref module_name "ocamlbuild/ocaml_utils.ml" 67 2377 2408 "ocamlbuild/ocaml_utils.ml" 67 2377 2419
+)
+"ocamlbuild/ocaml_utils.ml" 68 2427 2443 "ocamlbuild/ocaml_utils.ml" 68 2427 2471
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 69 2475 2481 "ocamlbuild/ocaml_utils.ml" 69 2475 2489
+type(
+  Pathname.t
+)
+ident(
+  def basename "ocamlbuild/ocaml_utils.ml" 70 2525 2527 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 69 2475 2492 "ocamlbuild/ocaml_utils.ml" 69 2475 2509
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.basename
+)
+"ocamlbuild/ocaml_utils.ml" 69 2475 2510 "ocamlbuild/ocaml_utils.ml" 69 2475 2521
+type(
+  Pathname.t
+)
+ident(
+  int_ref module_name "ocamlbuild/ocaml_utils.ml" 67 2377 2408 "ocamlbuild/ocaml_utils.ml" 67 2377 2419
+)
+"ocamlbuild/ocaml_utils.ml" 69 2475 2492 "ocamlbuild/ocaml_utils.ml" 69 2475 2521
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2531 "ocamlbuild/ocaml_utils.ml" 70 2525 2546
+type(
+  Pathname.t
+)
+ident(
+  def module_name_cap "ocamlbuild/ocaml_utils.ml" 71 2589 2591 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2549 "ocamlbuild/ocaml_utils.ml" 70 2525 2556
+type(
+  Pathname.t
+)
+ident(
+  int_ref dirname "ocamlbuild/ocaml_utils.ml" 68 2427 2433 "ocamlbuild/ocaml_utils.ml" 68 2427 2440
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2556 "ocamlbuild/ocaml_utils.ml" 70 2525 2557
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2558 "ocamlbuild/ocaml_utils.ml" 70 2525 2575
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref My_std.String.capitalize
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2576 "ocamlbuild/ocaml_utils.ml" 70 2525 2584
+type(
+  Pathname.t
+)
+ident(
+  int_ref basename "ocamlbuild/ocaml_utils.ml" 69 2475 2481 "ocamlbuild/ocaml_utils.ml" 69 2475 2489
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2557 "ocamlbuild/ocaml_utils.ml" 70 2525 2585
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2549 "ocamlbuild/ocaml_utils.ml" 70 2525 2585
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2595 "ocamlbuild/ocaml_utils.ml" 71 2589 2612
+type(
+  Pathname.t
+)
+ident(
+  def module_name_uncap "ocamlbuild/ocaml_utils.ml" 72 2657 2659 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2615 "ocamlbuild/ocaml_utils.ml" 71 2589 2622
+type(
+  Pathname.t
+)
+ident(
+  int_ref dirname "ocamlbuild/ocaml_utils.ml" 68 2427 2433 "ocamlbuild/ocaml_utils.ml" 68 2427 2440
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2622 "ocamlbuild/ocaml_utils.ml" 71 2589 2623
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2624 "ocamlbuild/ocaml_utils.ml" 71 2589 2643
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref My_std.String.uncapitalize
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2644 "ocamlbuild/ocaml_utils.ml" 71 2589 2652
+type(
+  Pathname.t
+)
+ident(
+  int_ref basename "ocamlbuild/ocaml_utils.ml" 69 2475 2481 "ocamlbuild/ocaml_utils.ml" 69 2475 2489
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2623 "ocamlbuild/ocaml_utils.ml" 71 2589 2653
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2615 "ocamlbuild/ocaml_utils.ml" 71 2589 2653
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 72 2657 2659 "ocamlbuild/ocaml_utils.ml" 72 2657 2674
+type(
+  (Pathname.t -> Pathname.t list -> Pathname.t list) ->
+  Pathname.t list -> Pathname.t list -> Pathname.t list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/ocaml_utils.ml" 72 2657 2685 "ocamlbuild/ocaml_utils.ml" 72 2657 2696
+type(
+  Pathname.t
+)
+ident(
+  def include_dir "ocamlbuild/ocaml_utils.ml" 73 2700 2704 "ocamlbuild/ocaml_utils.ml" 76 2837 2849
+)
+"ocamlbuild/ocaml_utils.ml" 73 2700 2704 "ocamlbuild/ocaml_utils.ml" 73 2700 2719
+type(
+  (string -> Pathname.t list -> Pathname.t list) ->
+  string list -> Pathname.t list -> Pathname.t list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/ocaml_utils.ml" 73 2700 2730 "ocamlbuild/ocaml_utils.ml" 73 2700 2733
+type(
+  string
+)
+ident(
+  def ext "ocamlbuild/ocaml_utils.ml" 73 2700 2734 "ocamlbuild/ocaml_utils.ml" 75 2788 2836
+)
+"ocamlbuild/ocaml_utils.ml" 73 2700 2734 "ocamlbuild/ocaml_utils.ml" 73 2700 2737
+type(
+  Pathname.t list
+)
+ident(
+  def acc "ocamlbuild/ocaml_utils.ml" 74 2741 2747 "ocamlbuild/ocaml_utils.ml" 75 2788 2836
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2747 "ocamlbuild/ocaml_utils.ml" 74 2741 2758
+type(
+  Pathname.t
+)
+ident(
+  int_ref include_dir "ocamlbuild/ocaml_utils.ml" 72 2657 2685 "ocamlbuild/ocaml_utils.ml" 72 2657 2696
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2758 "ocamlbuild/ocaml_utils.ml" 74 2741 2759
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2760 "ocamlbuild/ocaml_utils.ml" 74 2741 2777
+type(
+  Pathname.t
+)
+ident(
+  int_ref module_name_uncap "ocamlbuild/ocaml_utils.ml" 71 2589 2595 "ocamlbuild/ocaml_utils.ml" 71 2589 2612
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2777 "ocamlbuild/ocaml_utils.ml" 74 2741 2780
+type(
+  Pathname.t -> string -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( -.- )
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2780 "ocamlbuild/ocaml_utils.ml" 74 2741 2783
+type(
+  string
+)
+ident(
+  int_ref ext "ocamlbuild/ocaml_utils.ml" 73 2700 2730 "ocamlbuild/ocaml_utils.ml" 73 2700 2733
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2759 "ocamlbuild/ocaml_utils.ml" 74 2741 2784
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2747 "ocamlbuild/ocaml_utils.ml" 74 2741 2784
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2794 "ocamlbuild/ocaml_utils.ml" 75 2788 2805
+type(
+  Pathname.t
+)
+ident(
+  int_ref include_dir "ocamlbuild/ocaml_utils.ml" 72 2657 2685 "ocamlbuild/ocaml_utils.ml" 72 2657 2696
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2805 "ocamlbuild/ocaml_utils.ml" 75 2788 2806
+type(
+  Pathname.t -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( / )
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2807 "ocamlbuild/ocaml_utils.ml" 75 2788 2822
+type(
+  Pathname.t
+)
+ident(
+  int_ref module_name_cap "ocamlbuild/ocaml_utils.ml" 70 2525 2531 "ocamlbuild/ocaml_utils.ml" 70 2525 2546
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2822 "ocamlbuild/ocaml_utils.ml" 75 2788 2825
+type(
+  Pathname.t -> string -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( -.- )
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2825 "ocamlbuild/ocaml_utils.ml" 75 2788 2828
+type(
+  string
+)
+ident(
+  int_ref ext "ocamlbuild/ocaml_utils.ml" 73 2700 2730 "ocamlbuild/ocaml_utils.ml" 73 2700 2733
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2806 "ocamlbuild/ocaml_utils.ml" 75 2788 2829
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2794 "ocamlbuild/ocaml_utils.ml" 75 2788 2829
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2833 "ocamlbuild/ocaml_utils.ml" 75 2788 2836
+type(
+  Pathname.t list
+)
+ident(
+  int_ref acc "ocamlbuild/ocaml_utils.ml" 73 2700 2734 "ocamlbuild/ocaml_utils.ml" 73 2700 2737
+)
+"ocamlbuild/ocaml_utils.ml" 75 2788 2794 "ocamlbuild/ocaml_utils.ml" 75 2788 2836
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 74 2741 2747 "ocamlbuild/ocaml_utils.ml" 75 2788 2836
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 73 2700 2720 "ocamlbuild/ocaml_utils.ml" 76 2837 2844
+type(
+  string -> Pathname.t list -> Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 76 2837 2845 "ocamlbuild/ocaml_utils.ml" 76 2837 2849
+type(
+  string list
+)
+ident(
+  int_ref exts "ocamlbuild/ocaml_utils.ml" 67 2377 2420 "ocamlbuild/ocaml_utils.ml" 67 2377 2424
+)
+"ocamlbuild/ocaml_utils.ml" 73 2700 2704 "ocamlbuild/ocaml_utils.ml" 76 2837 2849
+call(
+  tail
+)
+type(
+  Pathname.t list -> Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 72 2657 2675 "ocamlbuild/ocaml_utils.ml" 77 2850 2855
+type(
+  Pathname.t -> Pathname.t list -> Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 77 2850 2856 "ocamlbuild/ocaml_utils.ml" 77 2850 2868
+type(
+  Pathname.t list
+)
+ident(
+  int_ref include_dirs "ocamlbuild/ocaml_utils.ml" 67 2377 2395 "ocamlbuild/ocaml_utils.ml" 67 2377 2407
+)
+"ocamlbuild/ocaml_utils.ml" 77 2850 2869 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 72 2657 2659 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+call(
+  tail
+)
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 71 2589 2591 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 70 2525 2527 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 69 2475 2477 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 68 2427 2429 "ocamlbuild/ocaml_utils.ml" 77 2850 2871
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 79 2873 2877 "ocamlbuild/ocaml_utils.ml" 79 2873 2896
+type(
+  string -> string list
+)
+ident(
+  def string_list_of_file "ocamlbuild/ocaml_utils.ml" 83 3003 3003 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 79 2873 2897 "ocamlbuild/ocaml_utils.ml" 79 2873 2901
+type(
+  string
+)
+ident(
+  def file "ocamlbuild/ocaml_utils.ml" 80 2904 2906 "ocamlbuild/ocaml_utils.ml" 82 2997 3002
+)
+"ocamlbuild/ocaml_utils.ml" 80 2904 2906 "ocamlbuild/ocaml_utils.ml" 80 2904 2921
+type(
+  ?bin:bool -> string -> (in_channel -> string list) -> string list
+)
+ident(
+  ext_ref My_std.with_input_file
+)
+"ocamlbuild/ocaml_utils.ml" 80 2904 2922 "ocamlbuild/ocaml_utils.ml" 80 2904 2926
+type(
+  string
+)
+ident(
+  int_ref file "ocamlbuild/ocaml_utils.ml" 79 2873 2897 "ocamlbuild/ocaml_utils.ml" 79 2873 2901
+)
+"ocamlbuild/ocaml_utils.ml" 80 2904 2937 "ocamlbuild/ocaml_utils.ml" 80 2904 2939
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/ocaml_utils.ml" 81 2943 2947 "ocamlbuild/ocaml_utils.ml" 81 2943 2996
+)
+"ocamlbuild/ocaml_utils.ml" 81 2943 2947 "ocamlbuild/ocaml_utils.ml" 81 2943 2971
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  ext_ref Lexers.blank_sep_strings
+)
+"ocamlbuild/ocaml_utils.ml" 81 2943 2973 "ocamlbuild/ocaml_utils.ml" 81 2943 2992
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"ocamlbuild/ocaml_utils.ml" 81 2943 2993 "ocamlbuild/ocaml_utils.ml" 81 2943 2995
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/ocaml_utils.ml" 80 2904 2937 "ocamlbuild/ocaml_utils.ml" 80 2904 2939
+)
+"ocamlbuild/ocaml_utils.ml" 81 2943 2972 "ocamlbuild/ocaml_utils.ml" 81 2943 2996
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/ocaml_utils.ml" 81 2943 2947 "ocamlbuild/ocaml_utils.ml" 81 2943 2996
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 80 2904 2927 "ocamlbuild/ocaml_utils.ml" 82 2997 3002
+type(
+  in_channel -> string list
+)
+"ocamlbuild/ocaml_utils.ml" 80 2904 2906 "ocamlbuild/ocaml_utils.ml" 82 2997 3002
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 83 3003 3007 "ocamlbuild/ocaml_utils.ml" 83 3003 3022
+type(
+  Format.formatter -> Pathname.t list -> unit
+)
+ident(
+  def print_path_list "ocamlbuild/ocaml_utils.ml" 85 3051 3051 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 83 3003 3025 "ocamlbuild/ocaml_utils.ml" 83 3003 3049
+type(
+  Format.formatter -> Pathname.t list -> unit
+)
+ident(
+  ext_ref Pathname.print_path_list
+)
+"ocamlbuild/ocaml_utils.ml" 85 3051 3055 "ocamlbuild/ocaml_utils.ml" 85 3051 3068
+type(
+  Tags.t -> Command.spec
+)
+ident(
+  def ocaml_ppflags "ocamlbuild/ocaml_utils.ml" 90 3224 3224 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 85 3051 3069 "ocamlbuild/ocaml_utils.ml" 85 3051 3073
+type(
+  Tags.t
+)
+ident(
+  def tags "ocamlbuild/ocaml_utils.ml" 86 3076 3078 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3082 "ocamlbuild/ocaml_utils.ml" 86 3076 3087
+type(
+  Command.spec
+)
+ident(
+  def flags "ocamlbuild/ocaml_utils.ml" 87 3129 3131 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3090 "ocamlbuild/ocaml_utils.ml" 86 3076 3103
+type(
+  Tags.t -> Command.spec
+)
+ident(
+  ext_ref Flags.of_tags
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3105 "ocamlbuild/ocaml_utils.ml" 86 3076 3109
+type(
+  Tags.t
+)
+ident(
+  int_ref tags "ocamlbuild/ocaml_utils.ml" 85 3051 3069 "ocamlbuild/ocaml_utils.ml" 85 3051 3073
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3109 "ocamlbuild/ocaml_utils.ml" 86 3076 3111
+type(
+  Tags.t -> Tags.elt -> Tags.t
+)
+ident(
+  ext_ref Tags.Operators.( ++ )
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3111 "ocamlbuild/ocaml_utils.ml" 86 3076 3118
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3105 "ocamlbuild/ocaml_utils.ml" 86 3076 3118
+call(
+  stack
+)
+type(
+  Tags.t
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3118 "ocamlbuild/ocaml_utils.ml" 86 3076 3120
+type(
+  Tags.t -> Tags.elt -> Tags.t
+)
+ident(
+  ext_ref Tags.Operators.( ++ )
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3120 "ocamlbuild/ocaml_utils.ml" 86 3076 3124
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3104 "ocamlbuild/ocaml_utils.ml" 86 3076 3125
+call(
+  stack
+)
+type(
+  Tags.t
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3090 "ocamlbuild/ocaml_utils.ml" 86 3076 3125
+call(
+  stack
+)
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 87 3129 3135 "ocamlbuild/ocaml_utils.ml" 87 3129 3142
+type(
+  Command.spec
+)
+ident(
+  def reduced "ocamlbuild/ocaml_utils.ml" 88 3169 3171 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+)
+"ocamlbuild/ocaml_utils.ml" 87 3129 3145 "ocamlbuild/ocaml_utils.ml" 87 3129 3159
+type(
+  Command.spec -> Command.spec
+)
+ident(
+  ext_ref Command.reduce
+)
+"ocamlbuild/ocaml_utils.ml" 87 3129 3160 "ocamlbuild/ocaml_utils.ml" 87 3129 3165
+type(
+  Command.spec
+)
+ident(
+  int_ref flags "ocamlbuild/ocaml_utils.ml" 86 3076 3082 "ocamlbuild/ocaml_utils.ml" 86 3076 3087
+)
+"ocamlbuild/ocaml_utils.ml" 87 3129 3145 "ocamlbuild/ocaml_utils.ml" 87 3129 3165
+call(
+  stack
+)
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3174 "ocamlbuild/ocaml_utils.ml" 88 3169 3181
+type(
+  Command.spec
+)
+ident(
+  int_ref reduced "ocamlbuild/ocaml_utils.ml" 87 3129 3135 "ocamlbuild/ocaml_utils.ml" 87 3129 3142
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3182 "ocamlbuild/ocaml_utils.ml" 88 3169 3183
+type(
+  Command.spec -> Command.spec -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3184 "ocamlbuild/ocaml_utils.ml" 88 3169 3185
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3174 "ocamlbuild/ocaml_utils.ml" 88 3169 3185
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3191 "ocamlbuild/ocaml_utils.ml" 88 3169 3192
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3201 "ocamlbuild/ocaml_utils.ml" 88 3169 3206
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3200 "ocamlbuild/ocaml_utils.ml" 88 3169 3206
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3214 "ocamlbuild/ocaml_utils.ml" 88 3169 3221
+type(
+  Command.spec
+)
+ident(
+  int_ref reduced "ocamlbuild/ocaml_utils.ml" 87 3129 3135 "ocamlbuild/ocaml_utils.ml" 87 3129 3142
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3208 "ocamlbuild/ocaml_utils.ml" 88 3169 3221
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3199 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3198 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 88 3169 3171 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 87 3129 3131 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 86 3076 3078 "ocamlbuild/ocaml_utils.ml" 88 3169 3222
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 90 3224 3228 "ocamlbuild/ocaml_utils.ml" 90 3224 3250
+type(
+  Pathname.t -> Command.spec list -> Command.spec list
+)
+ident(
+  def ocaml_add_include_flag "ocamlbuild/ocaml_utils.ml" 93 3329 3329 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 90 3224 3251 "ocamlbuild/ocaml_utils.ml" 90 3224 3252
+type(
+  Pathname.t
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 90 3224 3253 "ocamlbuild/ocaml_utils.ml" 91 3259 3327
+)
+"ocamlbuild/ocaml_utils.ml" 90 3224 3253 "ocamlbuild/ocaml_utils.ml" 90 3224 3256
+type(
+  Command.spec list
+)
+ident(
+  def acc "ocamlbuild/ocaml_utils.ml" 91 3259 3261 "ocamlbuild/ocaml_utils.ml" 91 3259 3327
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3264 "ocamlbuild/ocaml_utils.ml" 91 3259 3265
+type(
+  Pathname.t
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 90 3224 3251 "ocamlbuild/ocaml_utils.ml" 90 3224 3252
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3266 "ocamlbuild/ocaml_utils.ml" 91 3259 3267
+type(
+  Pathname.t -> Pathname.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3268 "ocamlbuild/ocaml_utils.ml" 91 3259 3293
+type(
+  Pathname.t
+)
+ident(
+  ext_ref Pathname.current_dir_name
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3264 "ocamlbuild/ocaml_utils.ml" 91 3259 3293
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3299 "ocamlbuild/ocaml_utils.ml" 91 3259 3302
+type(
+  Command.spec list
+)
+ident(
+  int_ref acc "ocamlbuild/ocaml_utils.ml" 90 3224 3253 "ocamlbuild/ocaml_utils.ml" 90 3224 3256
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3309 "ocamlbuild/ocaml_utils.ml" 91 3259 3313
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3308 "ocamlbuild/ocaml_utils.ml" 91 3259 3313
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3319 "ocamlbuild/ocaml_utils.ml" 91 3259 3320
+type(
+  Pathname.t
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 90 3224 3251 "ocamlbuild/ocaml_utils.ml" 90 3224 3252
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3317 "ocamlbuild/ocaml_utils.ml" 91 3259 3320
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3324 "ocamlbuild/ocaml_utils.ml" 91 3259 3327
+type(
+  Command.spec list
+)
+ident(
+  int_ref acc "ocamlbuild/ocaml_utils.ml" 90 3224 3253 "ocamlbuild/ocaml_utils.ml" 90 3224 3256
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3317 "ocamlbuild/ocaml_utils.ml" 91 3259 3327
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3308 "ocamlbuild/ocaml_utils.ml" 91 3259 3327
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 91 3259 3261 "ocamlbuild/ocaml_utils.ml" 91 3259 3327
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 93 3329 3333 "ocamlbuild/ocaml_utils.ml" 93 3329 3352
+type(
+  Pathname.t -> Command.spec
+)
+ident(
+  def ocaml_include_flags "ocamlbuild/ocaml_utils.ml" 96 3460 3460 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 93 3329 3353 "ocamlbuild/ocaml_utils.ml" 93 3329 3357
+type(
+  Pathname.t
+)
+ident(
+  def path "ocamlbuild/ocaml_utils.ml" 94 3360 3362 "ocamlbuild/ocaml_utils.ml" 94 3360 3458
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3365 "ocamlbuild/ocaml_utils.ml" 94 3360 3380
+type(
+  (Pathname.t -> Command.spec list -> Command.spec list) ->
+  Pathname.t list -> Command.spec list -> Command.spec list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3381 "ocamlbuild/ocaml_utils.ml" 94 3360 3403
+type(
+  Pathname.t -> Command.spec list -> Command.spec list
+)
+ident(
+  int_ref ocaml_add_include_flag "ocamlbuild/ocaml_utils.ml" 90 3224 3228 "ocamlbuild/ocaml_utils.ml" 90 3224 3250
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3405 "ocamlbuild/ocaml_utils.ml" 94 3360 3429
+type(
+  Pathname.t -> Pathname.t list
+)
+ident(
+  ext_ref Pathname.include_dirs_of
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3431 "ocamlbuild/ocaml_utils.ml" 94 3360 3447
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.dirname
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3448 "ocamlbuild/ocaml_utils.ml" 94 3360 3452
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 93 3329 3353 "ocamlbuild/ocaml_utils.ml" 93 3329 3357
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3430 "ocamlbuild/ocaml_utils.ml" 94 3360 3453
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3404 "ocamlbuild/ocaml_utils.ml" 94 3360 3454
+call(
+  stack
+)
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3455 "ocamlbuild/ocaml_utils.ml" 94 3360 3457
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3364 "ocamlbuild/ocaml_utils.ml" 94 3360 3458
+call(
+  stack
+)
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 94 3360 3362 "ocamlbuild/ocaml_utils.ml" 94 3360 3458
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 96 3460 3464 "ocamlbuild/ocaml_utils.ml" 96 3460 3478
+type(
+  (Tags.elt, Pathname.t * bool) Hashtbl.t
+)
+ident(
+  def info_libraries "ocamlbuild/ocaml_utils.ml" 98 3501 3501 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 96 3460 3481 "ocamlbuild/ocaml_utils.ml" 96 3460 3495
+type(
+  ?random:bool -> int -> (Tags.elt, Pathname.t * bool) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/ocaml_utils.ml" 96 3460 3496 "ocamlbuild/ocaml_utils.ml" 96 3460 3499
+type(
+  int
+)
+"ocamlbuild/ocaml_utils.ml" 96 3460 3481 "ocamlbuild/ocaml_utils.ml" 96 3460 3499
+call(
+  stack
+)
+type(
+  (Tags.elt, Pathname.t * bool) Hashtbl.t
+)
+"ocamlbuild/ocaml_utils.ml" 98 3501 3505 "ocamlbuild/ocaml_utils.ml" 98 3501 3514
+type(
+  (Pathname.t, Pathname.t list) Hashtbl.t
+)
+ident(
+  def libraries "ocamlbuild/ocaml_utils.ml" 99 3536 3536 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 98 3501 3517 "ocamlbuild/ocaml_utils.ml" 98 3501 3531
+type(
+  ?random:bool -> int -> (Pathname.t, Pathname.t list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/ocaml_utils.ml" 98 3501 3532 "ocamlbuild/ocaml_utils.ml" 98 3501 3535
+type(
+  int
+)
+"ocamlbuild/ocaml_utils.ml" 98 3501 3517 "ocamlbuild/ocaml_utils.ml" 98 3501 3535
+call(
+  stack
+)
+type(
+  (Pathname.t, Pathname.t list) Hashtbl.t
+)
+"ocamlbuild/ocaml_utils.ml" 99 3536 3540 "ocamlbuild/ocaml_utils.ml" 99 3536 3552
+type(
+  Pathname.t -> Pathname.t list
+)
+ident(
+  def libraries_of "ocamlbuild/ocaml_utils.ml" 101 3609 3609 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 99 3536 3553 "ocamlbuild/ocaml_utils.ml" 99 3536 3554
+type(
+  Pathname.t
+)
+ident(
+  def m "ocamlbuild/ocaml_utils.ml" 100 3557 3559 "ocamlbuild/ocaml_utils.ml" 100 3557 3608
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3563 "ocamlbuild/ocaml_utils.ml" 100 3557 3575
+type(
+  (Pathname.t, Pathname.t list) Hashtbl.t -> Pathname.t -> Pathname.t list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3576 "ocamlbuild/ocaml_utils.ml" 100 3557 3585
+type(
+  (Pathname.t, Pathname.t list) Hashtbl.t
+)
+ident(
+  int_ref libraries "ocamlbuild/ocaml_utils.ml" 98 3501 3505 "ocamlbuild/ocaml_utils.ml" 98 3501 3514
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3586 "ocamlbuild/ocaml_utils.ml" 100 3557 3587
+type(
+  Pathname.t
+)
+ident(
+  int_ref m "ocamlbuild/ocaml_utils.ml" 99 3536 3553 "ocamlbuild/ocaml_utils.ml" 99 3536 3554
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3563 "ocamlbuild/ocaml_utils.ml" 100 3557 3587
+call(
+  stack
+)
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3593 "ocamlbuild/ocaml_utils.ml" 100 3557 3602
+type(
+  exn
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3606 "ocamlbuild/ocaml_utils.ml" 100 3557 3608
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 100 3557 3559 "ocamlbuild/ocaml_utils.ml" 100 3557 3608
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3613 "ocamlbuild/ocaml_utils.ml" 101 3609 3620
+type(
+  Pathname.t -> Pathname.t -> unit
+)
+ident(
+  def use_lib "ocamlbuild/ocaml_utils.ml" 103 3682 3682 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3621 "ocamlbuild/ocaml_utils.ml" 101 3609 3622
+type(
+  Pathname.t
+)
+ident(
+  def m "ocamlbuild/ocaml_utils.ml" 101 3609 3623 "ocamlbuild/ocaml_utils.ml" 101 3609 3680
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3623 "ocamlbuild/ocaml_utils.ml" 101 3609 3626
+type(
+  Pathname.t
+)
+ident(
+  def lib "ocamlbuild/ocaml_utils.ml" 101 3609 3629 "ocamlbuild/ocaml_utils.ml" 101 3609 3680
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3629 "ocamlbuild/ocaml_utils.ml" 101 3609 3644
+type(
+  (Pathname.t, Pathname.t list) Hashtbl.t ->
+  Pathname.t -> Pathname.t list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3645 "ocamlbuild/ocaml_utils.ml" 101 3609 3654
+type(
+  (Pathname.t, Pathname.t list) Hashtbl.t
+)
+ident(
+  int_ref libraries "ocamlbuild/ocaml_utils.ml" 98 3501 3505 "ocamlbuild/ocaml_utils.ml" 98 3501 3514
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3655 "ocamlbuild/ocaml_utils.ml" 101 3609 3656
+type(
+  Pathname.t
+)
+ident(
+  int_ref m "ocamlbuild/ocaml_utils.ml" 101 3609 3621 "ocamlbuild/ocaml_utils.ml" 101 3609 3622
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3658 "ocamlbuild/ocaml_utils.ml" 101 3609 3661
+type(
+  Pathname.t
+)
+ident(
+  int_ref lib "ocamlbuild/ocaml_utils.ml" 101 3609 3623 "ocamlbuild/ocaml_utils.ml" 101 3609 3626
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3665 "ocamlbuild/ocaml_utils.ml" 101 3609 3677
+type(
+  Pathname.t -> Pathname.t list
+)
+ident(
+  int_ref libraries_of "ocamlbuild/ocaml_utils.ml" 99 3536 3540 "ocamlbuild/ocaml_utils.ml" 99 3536 3552
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3678 "ocamlbuild/ocaml_utils.ml" 101 3609 3679
+type(
+  Pathname.t
+)
+ident(
+  int_ref m "ocamlbuild/ocaml_utils.ml" 101 3609 3621 "ocamlbuild/ocaml_utils.ml" 101 3609 3622
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3665 "ocamlbuild/ocaml_utils.ml" 101 3609 3679
+call(
+  stack
+)
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3657 "ocamlbuild/ocaml_utils.ml" 101 3609 3680
+type(
+  Pathname.t list
+)
+"ocamlbuild/ocaml_utils.ml" 101 3609 3629 "ocamlbuild/ocaml_utils.ml" 101 3609 3680
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3686 "ocamlbuild/ocaml_utils.ml" 103 3682 3695
+type(
+  ?extern:bool ->
+  ?byte:bool ->
+  ?native:bool ->
+  ?dir:Command.pathname -> ?tag_name:Tags.elt -> Pathname.t -> unit
+)
+ident(
+  def ocaml_lib "ocamlbuild/ocaml_utils.ml" 135 4694 4694 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3698 "ocamlbuild/ocaml_utils.ml" 103 3682 3704
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3705 "ocamlbuild/ocaml_utils.ml" 103 3682 3710
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocaml_utils.ml" 103 3682 3705 "ocamlbuild/ocaml_utils.ml" 103 3682 3710
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3714 "ocamlbuild/ocaml_utils.ml" 103 3682 3718
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3719 "ocamlbuild/ocaml_utils.ml" 103 3682 3723
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocaml_utils.ml" 103 3682 3719 "ocamlbuild/ocaml_utils.ml" 103 3682 3723
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3727 "ocamlbuild/ocaml_utils.ml" 103 3682 3733
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3734 "ocamlbuild/ocaml_utils.ml" 103 3682 3738
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocaml_utils.ml" 103 3682 3734 "ocamlbuild/ocaml_utils.ml" 103 3682 3738
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3741 "ocamlbuild/ocaml_utils.ml" 103 3682 3744
+type(
+  Command.pathname option
+)
+ident(
+  def dir "ocamlbuild/ocaml_utils.ml" 103 3682 3745 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3746 "ocamlbuild/ocaml_utils.ml" 103 3682 3754
+type(
+  Tags.elt option
+)
+ident(
+  def tag_name "ocamlbuild/ocaml_utils.ml" 103 3682 3755 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 103 3682 3755 "ocamlbuild/ocaml_utils.ml" 103 3682 3762
+type(
+  Pathname.t
+)
+ident(
+  def libpath "ocamlbuild/ocaml_utils.ml" 104 3765 3767 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 104 3765 3771 "ocamlbuild/ocaml_utils.ml" 104 3765 3778
+type(
+  Command.spec -> Command.spec
+)
+ident(
+  def add_dir "ocamlbuild/ocaml_utils.ml" 109 3860 3862 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 104 3765 3779 "ocamlbuild/ocaml_utils.ml" 104 3765 3780
+type(
+  Command.spec
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 105 3783 3787 "ocamlbuild/ocaml_utils.ml" 107 3839 3854
+)
+"ocamlbuild/ocaml_utils.ml" 105 3783 3793 "ocamlbuild/ocaml_utils.ml" 105 3783 3796
+type(
+  Command.pathname option
+)
+ident(
+  int_ref dir "ocamlbuild/ocaml_utils.ml" 103 3682 3741 "ocamlbuild/ocaml_utils.ml" 103 3682 3744
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3813 "ocamlbuild/ocaml_utils.ml" 106 3802 3816
+type(
+  Command.pathname
+)
+ident(
+  def dir "ocamlbuild/ocaml_utils.ml" 106 3802 3820 "ocamlbuild/ocaml_utils.ml" 106 3802 3838
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3808 "ocamlbuild/ocaml_utils.ml" 106 3802 3816
+type(
+  Command.pathname option
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3823 "ocamlbuild/ocaml_utils.ml" 106 3802 3827
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3822 "ocamlbuild/ocaml_utils.ml" 106 3802 3827
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3831 "ocamlbuild/ocaml_utils.ml" 106 3802 3834
+type(
+  Command.pathname
+)
+ident(
+  int_ref dir "ocamlbuild/ocaml_utils.ml" 106 3802 3813 "ocamlbuild/ocaml_utils.ml" 106 3802 3816
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3829 "ocamlbuild/ocaml_utils.ml" 106 3802 3834
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3836 "ocamlbuild/ocaml_utils.ml" 106 3802 3837
+type(
+  Command.spec
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 104 3765 3779 "ocamlbuild/ocaml_utils.ml" 104 3765 3780
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3821 "ocamlbuild/ocaml_utils.ml" 106 3802 3838
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 106 3802 3820 "ocamlbuild/ocaml_utils.ml" 106 3802 3838
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 107 3839 3845 "ocamlbuild/ocaml_utils.ml" 107 3839 3849
+type(
+  Command.pathname option
+)
+"ocamlbuild/ocaml_utils.ml" 107 3839 3853 "ocamlbuild/ocaml_utils.ml" 107 3839 3854
+type(
+  Command.spec
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 104 3765 3779 "ocamlbuild/ocaml_utils.ml" 104 3765 3780
+)
+"ocamlbuild/ocaml_utils.ml" 105 3783 3787 "ocamlbuild/ocaml_utils.ml" 107 3839 3854
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 109 3860 3866 "ocamlbuild/ocaml_utils.ml" 109 3860 3874
+type(
+  Tags.elt
+)
+ident(
+  def tag_name "ocamlbuild/ocaml_utils.ml" 114 3973 3975 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 110 3877 3887 "ocamlbuild/ocaml_utils.ml" 110 3877 3895
+type(
+  Tags.elt option
+)
+ident(
+  int_ref tag_name "ocamlbuild/ocaml_utils.ml" 103 3682 3746 "ocamlbuild/ocaml_utils.ml" 103 3682 3754
+)
+"ocamlbuild/ocaml_utils.ml" 111 3901 3912 "ocamlbuild/ocaml_utils.ml" 111 3901 3913
+type(
+  Tags.elt
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 111 3901 3917 "ocamlbuild/ocaml_utils.ml" 111 3901 3918
+)
+"ocamlbuild/ocaml_utils.ml" 111 3901 3907 "ocamlbuild/ocaml_utils.ml" 111 3901 3913
+type(
+  Tags.elt option
+)
+"ocamlbuild/ocaml_utils.ml" 111 3901 3917 "ocamlbuild/ocaml_utils.ml" 111 3901 3918
+type(
+  Tags.elt
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 111 3901 3912 "ocamlbuild/ocaml_utils.ml" 111 3901 3913
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3925 "ocamlbuild/ocaml_utils.ml" 112 3919 3929
+type(
+  Tags.elt option
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3933 "ocamlbuild/ocaml_utils.ml" 112 3919 3939
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3940 "ocamlbuild/ocaml_utils.ml" 112 3919 3941
+type(
+  string -> Pathname.t -> Tags.elt
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3942 "ocamlbuild/ocaml_utils.ml" 112 3919 3959
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.basename
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3960 "ocamlbuild/ocaml_utils.ml" 112 3919 3967
+type(
+  Pathname.t
+)
+ident(
+  int_ref libpath "ocamlbuild/ocaml_utils.ml" 103 3682 3755 "ocamlbuild/ocaml_utils.ml" 103 3682 3762
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3942 "ocamlbuild/ocaml_utils.ml" 112 3919 3967
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 112 3919 3933 "ocamlbuild/ocaml_utils.ml" 112 3919 3967
+call(
+  stack
+)
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 110 3877 3881 "ocamlbuild/ocaml_utils.ml" 112 3919 3967
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 114 3973 3979 "ocamlbuild/ocaml_utils.ml" 114 3973 3991
+type(
+  Tags.elt list -> Command.pathname -> unit
+)
+ident(
+  def flag_and_dep "ocamlbuild/ocaml_utils.ml" 118 4100 4102 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 114 3973 3992 "ocamlbuild/ocaml_utils.ml" 114 3973 3996
+type(
+  Tags.elt list
+)
+ident(
+  def tags "ocamlbuild/ocaml_utils.ml" 114 3973 3997 "ocamlbuild/ocaml_utils.ml" 116 4036 4073
+)
+"ocamlbuild/ocaml_utils.ml" 114 3973 3997 "ocamlbuild/ocaml_utils.ml" 114 3973 4000
+type(
+  Command.pathname
+)
+ident(
+  def lib "ocamlbuild/ocaml_utils.ml" 115 4003 4007 "ocamlbuild/ocaml_utils.ml" 116 4036 4073
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4007 "ocamlbuild/ocaml_utils.ml" 115 4003 4011
+type(
+  Tags.elt list -> Command.spec -> unit
+)
+ident(
+  ext_ref Flags.flag
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4012 "ocamlbuild/ocaml_utils.ml" 115 4003 4016
+type(
+  Tags.elt list
+)
+ident(
+  int_ref tags "ocamlbuild/ocaml_utils.ml" 114 3973 3992 "ocamlbuild/ocaml_utils.ml" 114 3973 3996
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4018 "ocamlbuild/ocaml_utils.ml" 115 4003 4025
+type(
+  Command.spec -> Command.spec
+)
+ident(
+  int_ref add_dir "ocamlbuild/ocaml_utils.ml" 104 3765 3771 "ocamlbuild/ocaml_utils.ml" 104 3765 3778
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4029 "ocamlbuild/ocaml_utils.ml" 115 4003 4032
+type(
+  Command.pathname
+)
+ident(
+  int_ref lib "ocamlbuild/ocaml_utils.ml" 114 3973 3997 "ocamlbuild/ocaml_utils.ml" 114 3973 4000
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4026 "ocamlbuild/ocaml_utils.ml" 115 4003 4033
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4017 "ocamlbuild/ocaml_utils.ml" 115 4003 4034
+call(
+  stack
+)
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4007 "ocamlbuild/ocaml_utils.ml" 115 4003 4034
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4043 "ocamlbuild/ocaml_utils.ml" 116 4036 4046
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4047 "ocamlbuild/ocaml_utils.ml" 116 4036 4053
+type(
+  bool
+)
+ident(
+  int_ref extern "ocamlbuild/ocaml_utils.ml" 103 3682 3698 "ocamlbuild/ocaml_utils.ml" 103 3682 3704
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4043 "ocamlbuild/ocaml_utils.ml" 116 4036 4053
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4059 "ocamlbuild/ocaml_utils.ml" 116 4036 4062
+type(
+  Tags.elt list -> Command.pathname list -> unit
+)
+ident(
+  ext_ref Command.dep
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4063 "ocamlbuild/ocaml_utils.ml" 116 4036 4067
+type(
+  Tags.elt list
+)
+ident(
+  int_ref tags "ocamlbuild/ocaml_utils.ml" 114 3973 3992 "ocamlbuild/ocaml_utils.ml" 114 3973 3996
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4069 "ocamlbuild/ocaml_utils.ml" 116 4036 4072
+type(
+  Command.pathname
+)
+ident(
+  int_ref lib "ocamlbuild/ocaml_utils.ml" 114 3973 3997 "ocamlbuild/ocaml_utils.ml" 114 3973 4000
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4068 "ocamlbuild/ocaml_utils.ml" 116 4036 4073
+type(
+  Command.pathname list
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4059 "ocamlbuild/ocaml_utils.ml" 116 4036 4073
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 116 4036 4040 "ocamlbuild/ocaml_utils.ml" 116 4036 4073
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 115 4003 4007 "ocamlbuild/ocaml_utils.ml" 116 4036 4073
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4102 "ocamlbuild/ocaml_utils.ml" 118 4100 4117
+type(
+  (Tags.elt, Pathname.t * bool) Hashtbl.t ->
+  Tags.elt -> Pathname.t * bool -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4118 "ocamlbuild/ocaml_utils.ml" 118 4100 4132
+type(
+  (Tags.elt, Pathname.t * bool) Hashtbl.t
+)
+ident(
+  int_ref info_libraries "ocamlbuild/ocaml_utils.ml" 96 3460 3464 "ocamlbuild/ocaml_utils.ml" 96 3460 3478
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4133 "ocamlbuild/ocaml_utils.ml" 118 4100 4141
+type(
+  Tags.elt
+)
+ident(
+  int_ref tag_name "ocamlbuild/ocaml_utils.ml" 109 3860 3866 "ocamlbuild/ocaml_utils.ml" 109 3860 3874
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4143 "ocamlbuild/ocaml_utils.ml" 118 4100 4150
+type(
+  Pathname.t
+)
+ident(
+  int_ref libpath "ocamlbuild/ocaml_utils.ml" 103 3682 3755 "ocamlbuild/ocaml_utils.ml" 103 3682 3762
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4152 "ocamlbuild/ocaml_utils.ml" 118 4100 4158
+type(
+  bool
+)
+ident(
+  int_ref extern "ocamlbuild/ocaml_utils.ml" 103 3682 3698 "ocamlbuild/ocaml_utils.ml" 103 3682 3704
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4142 "ocamlbuild/ocaml_utils.ml" 118 4100 4159
+type(
+  Pathname.t * bool
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4102 "ocamlbuild/ocaml_utils.ml" 118 4100 4159
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 119 4161 4166 "ocamlbuild/ocaml_utils.ml" 119 4161 4172
+type(
+  bool
+)
+ident(
+  int_ref extern "ocamlbuild/ocaml_utils.ml" 103 3682 3698 "ocamlbuild/ocaml_utils.ml" 103 3682 3704
+)
+"ocamlbuild/ocaml_utils.ml" 120 4184 4191 "ocamlbuild/ocaml_utils.ml" 120 4184 4195
+type(
+  bool
+)
+ident(
+  int_ref byte "ocamlbuild/ocaml_utils.ml" 103 3682 3714 "ocamlbuild/ocaml_utils.ml" 103 3682 3718
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4207 "ocamlbuild/ocaml_utils.ml" 121 4201 4219
+type(
+  Tags.elt list -> Command.pathname -> unit
+)
+ident(
+  int_ref flag_and_dep "ocamlbuild/ocaml_utils.ml" 114 3973 3979 "ocamlbuild/ocaml_utils.ml" 114 3973 3991
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4221 "ocamlbuild/ocaml_utils.ml" 121 4201 4228
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4230 "ocamlbuild/ocaml_utils.ml" 121 4201 4238
+type(
+  Tags.elt
+)
+ident(
+  int_ref tag_name "ocamlbuild/ocaml_utils.ml" 109 3860 3866 "ocamlbuild/ocaml_utils.ml" 109 3860 3874
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4240 "ocamlbuild/ocaml_utils.ml" 121 4201 4246
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4248 "ocamlbuild/ocaml_utils.ml" 121 4201 4254
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4220 "ocamlbuild/ocaml_utils.ml" 121 4201 4255
+type(
+  Tags.elt list
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4257 "ocamlbuild/ocaml_utils.ml" 121 4201 4264
+type(
+  Pathname.t
+)
+ident(
+  int_ref libpath "ocamlbuild/ocaml_utils.ml" 103 3682 3755 "ocamlbuild/ocaml_utils.ml" 103 3682 3762
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4264 "ocamlbuild/ocaml_utils.ml" 121 4201 4265
+type(
+  Pathname.t -> string -> Command.pathname
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4265 "ocamlbuild/ocaml_utils.ml" 121 4201 4271
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4256 "ocamlbuild/ocaml_utils.ml" 121 4201 4272
+call(
+  stack
+)
+type(
+  Command.pathname
+)
+"ocamlbuild/ocaml_utils.ml" 121 4201 4207 "ocamlbuild/ocaml_utils.ml" 121 4201 4272
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 120 4184 4188 "ocamlbuild/ocaml_utils.ml" 121 4201 4272
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 122 4274 4281 "ocamlbuild/ocaml_utils.ml" 122 4274 4287
+type(
+  bool
+)
+ident(
+  int_ref native "ocamlbuild/ocaml_utils.ml" 103 3682 3727 "ocamlbuild/ocaml_utils.ml" 103 3682 3733
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4299 "ocamlbuild/ocaml_utils.ml" 123 4293 4311
+type(
+  Tags.elt list -> Command.pathname -> unit
+)
+ident(
+  int_ref flag_and_dep "ocamlbuild/ocaml_utils.ml" 114 3973 3979 "ocamlbuild/ocaml_utils.ml" 114 3973 3991
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4313 "ocamlbuild/ocaml_utils.ml" 123 4293 4320
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4322 "ocamlbuild/ocaml_utils.ml" 123 4293 4330
+type(
+  Tags.elt
+)
+ident(
+  int_ref tag_name "ocamlbuild/ocaml_utils.ml" 109 3860 3866 "ocamlbuild/ocaml_utils.ml" 109 3860 3874
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4332 "ocamlbuild/ocaml_utils.ml" 123 4293 4338
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4340 "ocamlbuild/ocaml_utils.ml" 123 4293 4348
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4312 "ocamlbuild/ocaml_utils.ml" 123 4293 4349
+type(
+  Tags.elt list
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4351 "ocamlbuild/ocaml_utils.ml" 123 4293 4358
+type(
+  Pathname.t
+)
+ident(
+  int_ref libpath "ocamlbuild/ocaml_utils.ml" 103 3682 3755 "ocamlbuild/ocaml_utils.ml" 103 3682 3762
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4358 "ocamlbuild/ocaml_utils.ml" 123 4293 4359
+type(
+  Pathname.t -> string -> Command.pathname
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4359 "ocamlbuild/ocaml_utils.ml" 123 4293 4366
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4350 "ocamlbuild/ocaml_utils.ml" 123 4293 4367
+call(
+  stack
+)
+type(
+  Command.pathname
+)
+"ocamlbuild/ocaml_utils.ml" 123 4293 4299 "ocamlbuild/ocaml_utils.ml" 123 4293 4367
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 122 4274 4278 "ocamlbuild/ocaml_utils.ml" 123 4293 4368
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 119 4161 4178 "ocamlbuild/ocaml_utils.ml" 124 4369 4374
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4393 "ocamlbuild/ocaml_utils.ml" 125 4386 4396
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4397 "ocamlbuild/ocaml_utils.ml" 125 4386 4401
+type(
+  bool
+)
+ident(
+  int_ref byte "ocamlbuild/ocaml_utils.ml" 103 3682 3714 "ocamlbuild/ocaml_utils.ml" 103 3682 3718
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4393 "ocamlbuild/ocaml_utils.ml" 125 4386 4401
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4402 "ocamlbuild/ocaml_utils.ml" 125 4386 4404
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4405 "ocamlbuild/ocaml_utils.ml" 125 4386 4408
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4409 "ocamlbuild/ocaml_utils.ml" 125 4386 4415
+type(
+  bool
+)
+ident(
+  int_ref native "ocamlbuild/ocaml_utils.ml" 103 3682 3727 "ocamlbuild/ocaml_utils.ml" 103 3682 3733
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4405 "ocamlbuild/ocaml_utils.ml" 125 4386 4415
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 125 4386 4393 "ocamlbuild/ocaml_utils.ml" 125 4386 4415
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 126 4421 4427 "ocamlbuild/ocaml_utils.ml" 126 4421 4438
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"ocamlbuild/ocaml_utils.ml" 126 4421 4439 "ocamlbuild/ocaml_utils.ml" 126 4421 4509
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 126 4421 4427 "ocamlbuild/ocaml_utils.ml" 126 4421 4509
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 124 4369 4380 "ocamlbuild/ocaml_utils.ml" 127 4511 4516
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 119 4161 4163 "ocamlbuild/ocaml_utils.ml" 127 4511 4516
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 128 4518 4526 "ocamlbuild/ocaml_utils.ml" 128 4518 4529
+type(
+  Command.pathname option
+)
+ident(
+  int_ref dir "ocamlbuild/ocaml_utils.ml" 103 3682 3741 "ocamlbuild/ocaml_utils.ml" 103 3682 3744
+)
+"ocamlbuild/ocaml_utils.ml" 129 4535 4539 "ocamlbuild/ocaml_utils.ml" 129 4535 4543
+type(
+  Command.pathname option
+)
+"ocamlbuild/ocaml_utils.ml" 129 4535 4547 "ocamlbuild/ocaml_utils.ml" 129 4535 4549
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 130 4550 4559 "ocamlbuild/ocaml_utils.ml" 130 4550 4562
+type(
+  Command.pathname
+)
+ident(
+  def dir "ocamlbuild/ocaml_utils.ml" 131 4566 4572 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+)
+"ocamlbuild/ocaml_utils.ml" 130 4550 4554 "ocamlbuild/ocaml_utils.ml" 130 4550 4562
+type(
+  Command.pathname option
+)
+"ocamlbuild/ocaml_utils.ml" 131 4566 4572 "ocamlbuild/ocaml_utils.ml" 131 4566 4581
+type(
+  (Tags.elt -> unit) -> Tags.elt list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4595 "ocamlbuild/ocaml_utils.ml" 132 4582 4596
+type(
+  Tags.elt
+)
+ident(
+  def x "ocamlbuild/ocaml_utils.ml" 132 4582 4600 "ocamlbuild/ocaml_utils.ml" 132 4582 4645
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4600 "ocamlbuild/ocaml_utils.ml" 132 4582 4604
+type(
+  Tags.elt list -> Command.spec -> unit
+)
+ident(
+  ext_ref Flags.flag
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4606 "ocamlbuild/ocaml_utils.ml" 132 4582 4613
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4615 "ocamlbuild/ocaml_utils.ml" 132 4582 4623
+type(
+  Tags.elt
+)
+ident(
+  int_ref tag_name "ocamlbuild/ocaml_utils.ml" 109 3860 3866 "ocamlbuild/ocaml_utils.ml" 109 3860 3874
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4625 "ocamlbuild/ocaml_utils.ml" 132 4582 4626
+type(
+  Tags.elt
+)
+ident(
+  int_ref x "ocamlbuild/ocaml_utils.ml" 132 4582 4595 "ocamlbuild/ocaml_utils.ml" 132 4582 4596
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4605 "ocamlbuild/ocaml_utils.ml" 132 4582 4627
+type(
+  Tags.elt list
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4632 "ocamlbuild/ocaml_utils.ml" 132 4582 4636
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4631 "ocamlbuild/ocaml_utils.ml" 132 4582 4636
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4640 "ocamlbuild/ocaml_utils.ml" 132 4582 4643
+type(
+  Command.pathname
+)
+ident(
+  int_ref dir "ocamlbuild/ocaml_utils.ml" 130 4550 4559 "ocamlbuild/ocaml_utils.ml" 130 4550 4562
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4638 "ocamlbuild/ocaml_utils.ml" 132 4582 4643
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4630 "ocamlbuild/ocaml_utils.ml" 132 4582 4644
+type(
+  Command.spec list
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4628 "ocamlbuild/ocaml_utils.ml" 132 4582 4645
+type(
+  Command.spec
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4600 "ocamlbuild/ocaml_utils.ml" 132 4582 4645
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 132 4582 4590 "ocamlbuild/ocaml_utils.ml" 132 4582 4646
+type(
+  Tags.elt -> unit
+)
+"ocamlbuild/ocaml_utils.ml" 133 4647 4656 "ocamlbuild/ocaml_utils.ml" 133 4647 4665
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 133 4647 4667 "ocamlbuild/ocaml_utils.ml" 133 4647 4672
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 133 4647 4674 "ocamlbuild/ocaml_utils.ml" 133 4647 4691
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 133 4647 4655 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  Tags.elt list
+)
+"ocamlbuild/ocaml_utils.ml" 131 4566 4572 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 128 4518 4520 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 119 4161 4163 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 118 4100 4102 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 114 3973 3975 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 109 3860 3862 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 104 3765 3767 "ocamlbuild/ocaml_utils.ml" 133 4647 4692
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 135 4694 4698 "ocamlbuild/ocaml_utils.ml" 135 4694 4704
+type(
+  Pathname.t -> Pathname.t
+)
+ident(
+  def cmi_of "ocamlbuild/ocaml_utils.ml" 137 4741 4741 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 135 4694 4707 "ocamlbuild/ocaml_utils.ml" 135 4694 4733
+type(
+  string -> Pathname.t -> Pathname.t
+)
+ident(
+  ext_ref Pathname.update_extensions
+)
+"ocamlbuild/ocaml_utils.ml" 135 4694 4734 "ocamlbuild/ocaml_utils.ml" 135 4694 4739
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 135 4694 4707 "ocamlbuild/ocaml_utils.ml" 135 4694 4739
+call(
+  stack
+)
+type(
+  Pathname.t -> Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 139 4777 4781 "ocamlbuild/ocaml_utils.ml" 139 4777 4803
+type(
+  Pathname.t -> ([> `just_try | `mandatory ] * string) list
+)
+ident(
+  def read_path_dependencies "ocamlbuild/ocaml_utils.ml" 170 6135 6135 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 140 4806 4812 "ocamlbuild/ocaml_utils.ml" 140 4806 4829
+type(
+  (Pathname.t, (_[> `just_try | `mandatory ] * string) list) Hashtbl.t
+)
+ident(
+  def path_dependencies "ocamlbuild/ocaml_utils.ml" 141 4854 4856 "ocamlbuild/ocaml_utils.ml" 168 6124 6133
+)
+"ocamlbuild/ocaml_utils.ml" 140 4806 4832 "ocamlbuild/ocaml_utils.ml" 140 4806 4846
+type(
+  ?random:bool ->
+  int ->
+  (Pathname.t, ((_[> `just_try | `mandatory ] as 'a) * string) list)
+  Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/ocaml_utils.ml" 140 4806 4847 "ocamlbuild/ocaml_utils.ml" 140 4806 4850
+type(
+  int
+)
+"ocamlbuild/ocaml_utils.ml" 140 4806 4832 "ocamlbuild/ocaml_utils.ml" 140 4806 4850
+call(
+  stack
+)
+type(
+  (Pathname.t, ('a * string) list) Hashtbl.t
+)
+"ocamlbuild/ocaml_utils.ml" 141 4854 4860 "ocamlbuild/ocaml_utils.ml" 141 4854 4864
+type(
+  Pathname.t -> ([> `just_try | `mandatory ] * string) list
+)
+ident(
+  def read "ocamlbuild/ocaml_utils.ml" 168 6124 6129 "ocamlbuild/ocaml_utils.ml" 168 6124 6133
+)
+"ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+type(
+  Pathname.t
+)
+ident(
+  def path "ocamlbuild/ocaml_utils.ml" 142 4872 4876 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+)
+"ocamlbuild/ocaml_utils.ml" 142 4872 4880 "ocamlbuild/ocaml_utils.ml" 142 4872 4891
+type(
+  string
+)
+ident(
+  def module_name "ocamlbuild/ocaml_utils.ml" 143 4926 4930 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+)
+"ocamlbuild/ocaml_utils.ml" 142 4872 4894 "ocamlbuild/ocaml_utils.ml" 142 4872 4917
+type(
+  Pathname.t -> string
+)
+ident(
+  int_ref module_name_of_pathname "ocamlbuild/ocaml_utils.ml" 43 1564 1568 "ocamlbuild/ocaml_utils.ml" 43 1564 1591
+)
+"ocamlbuild/ocaml_utils.ml" 142 4872 4918 "ocamlbuild/ocaml_utils.ml" 142 4872 4922
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+)
+"ocamlbuild/ocaml_utils.ml" 142 4872 4894 "ocamlbuild/ocaml_utils.ml" 142 4872 4922
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 143 4926 4934 "ocamlbuild/ocaml_utils.ml" 143 4926 4941
+type(
+  Pathname.t
+)
+ident(
+  def depends "ocamlbuild/ocaml_utils.ml" 144 4964 4968 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+)
+"ocamlbuild/ocaml_utils.ml" 143 4926 4944 "ocamlbuild/ocaml_utils.ml" 143 4926 4948
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+)
+"ocamlbuild/ocaml_utils.ml" 143 4926 4948 "ocamlbuild/ocaml_utils.ml" 143 4926 4951
+type(
+  Pathname.t -> string -> Pathname.t
+)
+ident(
+  ext_ref Pathname.Operators.( -.- )
+)
+"ocamlbuild/ocaml_utils.ml" 143 4926 4951 "ocamlbuild/ocaml_utils.ml" 143 4926 4960
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 143 4926 4944 "ocamlbuild/ocaml_utils.ml" 143 4926 4960
+call(
+  stack
+)
+type(
+  Pathname.t
+)
+"ocamlbuild/ocaml_utils.ml" 144 4964 4968 "ocamlbuild/ocaml_utils.ml" 144 4964 4983
+type(
+  ?bin:bool ->
+  Pathname.t ->
+  (in_channel -> (([> `just_try | `mandatory ] as 'b) * string) list) ->
+  ('b * string) list
+)
+ident(
+  ext_ref My_std.with_input_file
+)
+"ocamlbuild/ocaml_utils.ml" 144 4964 4984 "ocamlbuild/ocaml_utils.ml" 144 4964 4991
+type(
+  Pathname.t
+)
+ident(
+  int_ref depends "ocamlbuild/ocaml_utils.ml" 143 4926 4934 "ocamlbuild/ocaml_utils.ml" 143 4926 4941
+)
+"ocamlbuild/ocaml_utils.ml" 144 4964 5002 "ocamlbuild/ocaml_utils.ml" 144 4964 5004
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/ocaml_utils.ml" 145 5008 5014 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+)
+"ocamlbuild/ocaml_utils.ml" 145 5008 5018 "ocamlbuild/ocaml_utils.ml" 145 5008 5033
+type(
+  (string * string list) list
+)
+ident(
+  def ocamldep_output "ocamlbuild/ocaml_utils.ml" 148 5212 5218 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+)
+"ocamlbuild/ocaml_utils.ml" 146 5036 5048 "ocamlbuild/ocaml_utils.ml" 146 5036 5070
+type(
+  Lexing.lexbuf -> (string * string list) list
+)
+ident(
+  ext_ref Lexers.ocamldep_output
+)
+"ocamlbuild/ocaml_utils.ml" 146 5036 5072 "ocamlbuild/ocaml_utils.ml" 146 5036 5091
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"ocamlbuild/ocaml_utils.ml" 146 5036 5092 "ocamlbuild/ocaml_utils.ml" 146 5036 5094
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/ocaml_utils.ml" 144 4964 5002 "ocamlbuild/ocaml_utils.ml" 144 4964 5004
+)
+"ocamlbuild/ocaml_utils.ml" 146 5036 5071 "ocamlbuild/ocaml_utils.ml" 146 5036 5095
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/ocaml_utils.ml" 146 5036 5048 "ocamlbuild/ocaml_utils.ml" 146 5036 5095
+call(
+  stack
+)
+type(
+  (string * string list) list
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5122 "ocamlbuild/ocaml_utils.ml" 147 5096 5125
+type(
+  string
+)
+ident(
+  def msg "ocamlbuild/ocaml_utils.ml" 147 5096 5129 "ocamlbuild/ocaml_utils.ml" 147 5096 5208
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5109 "ocamlbuild/ocaml_utils.ml" 147 5096 5125
+type(
+  exn
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5129 "ocamlbuild/ocaml_utils.ml" 147 5096 5134
+type(
+  exn -> (string * string list) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5151 "ocamlbuild/ocaml_utils.ml" 147 5096 5165
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5166 "ocamlbuild/ocaml_utils.ml" 147 5096 5202
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5203 "ocamlbuild/ocaml_utils.ml" 147 5096 5206
+type(
+  string
+)
+ident(
+  int_ref msg "ocamlbuild/ocaml_utils.ml" 147 5096 5122 "ocamlbuild/ocaml_utils.ml" 147 5096 5125
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5150 "ocamlbuild/ocaml_utils.ml" 147 5096 5207
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5135 "ocamlbuild/ocaml_utils.ml" 147 5096 5208
+type(
+  exn
+)
+"ocamlbuild/ocaml_utils.ml" 147 5096 5129 "ocamlbuild/ocaml_utils.ml" 147 5096 5208
+type(
+  (string * string list) list
+)
+"ocamlbuild/ocaml_utils.ml" 146 5036 5044 "ocamlbuild/ocaml_utils.ml" 147 5096 5208
+type(
+  (string * string list) list
+)
+"ocamlbuild/ocaml_utils.ml" 148 5212 5222 "ocamlbuild/ocaml_utils.ml" 148 5212 5226
+type(
+  string list
+)
+ident(
+  def deps "ocamlbuild/ocaml_utils.ml" 155 5585 5591 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5237 "ocamlbuild/ocaml_utils.ml" 149 5229 5252
+type(
+  (Pathname.t * string list -> string list -> string list) ->
+  (Pathname.t * string list) list -> string list -> string list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5264 "ocamlbuild/ocaml_utils.ml" 149 5229 5268
+type(
+  Pathname.t
+)
+ident(
+  def path "ocamlbuild/ocaml_utils.ml" 149 5229 5276 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5270 "ocamlbuild/ocaml_utils.ml" 149 5229 5274
+type(
+  string list
+)
+ident(
+  def deps "ocamlbuild/ocaml_utils.ml" 149 5229 5276 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5263 "ocamlbuild/ocaml_utils.ml" 149 5229 5275
+type(
+  Pathname.t * string list
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5276 "ocamlbuild/ocaml_utils.ml" 149 5229 5279
+type(
+  string list
+)
+ident(
+  def acc "ocamlbuild/ocaml_utils.ml" 150 5283 5293 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+)
+"ocamlbuild/ocaml_utils.ml" 150 5283 5297 "ocamlbuild/ocaml_utils.ml" 150 5283 5309
+type(
+  string
+)
+ident(
+  def module_name' "ocamlbuild/ocaml_utils.ml" 151 5344 5354 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+)
+"ocamlbuild/ocaml_utils.ml" 150 5283 5312 "ocamlbuild/ocaml_utils.ml" 150 5283 5335
+type(
+  Pathname.t -> string
+)
+ident(
+  int_ref module_name_of_pathname "ocamlbuild/ocaml_utils.ml" 43 1564 1568 "ocamlbuild/ocaml_utils.ml" 43 1564 1591
+)
+"ocamlbuild/ocaml_utils.ml" 150 5283 5336 "ocamlbuild/ocaml_utils.ml" 150 5283 5340
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 149 5229 5264 "ocamlbuild/ocaml_utils.ml" 149 5229 5268
+)
+"ocamlbuild/ocaml_utils.ml" 150 5283 5312 "ocamlbuild/ocaml_utils.ml" 150 5283 5340
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 151 5344 5357 "ocamlbuild/ocaml_utils.ml" 151 5344 5369
+type(
+  string
+)
+ident(
+  int_ref module_name' "ocamlbuild/ocaml_utils.ml" 150 5283 5297 "ocamlbuild/ocaml_utils.ml" 150 5283 5309
+)
+"ocamlbuild/ocaml_utils.ml" 151 5344 5370 "ocamlbuild/ocaml_utils.ml" 151 5344 5371
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ocamlbuild/ocaml_utils.ml" 151 5344 5372 "ocamlbuild/ocaml_utils.ml" 151 5344 5383
+type(
+  string
+)
+ident(
+  int_ref module_name "ocamlbuild/ocaml_utils.ml" 142 4872 4880 "ocamlbuild/ocaml_utils.ml" 142 4872 4891
+)
+"ocamlbuild/ocaml_utils.ml" 151 5344 5357 "ocamlbuild/ocaml_utils.ml" 151 5344 5383
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 152 5384 5399 "ocamlbuild/ocaml_utils.ml" 152 5384 5409
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref My_std.List.union
+)
+"ocamlbuild/ocaml_utils.ml" 152 5384 5410 "ocamlbuild/ocaml_utils.ml" 152 5384 5414
+type(
+  string list
+)
+ident(
+  int_ref deps "ocamlbuild/ocaml_utils.ml" 149 5229 5270 "ocamlbuild/ocaml_utils.ml" 149 5229 5274
+)
+"ocamlbuild/ocaml_utils.ml" 152 5384 5415 "ocamlbuild/ocaml_utils.ml" 152 5384 5418
+type(
+  string list
+)
+ident(
+  int_ref acc "ocamlbuild/ocaml_utils.ml" 149 5229 5276 "ocamlbuild/ocaml_utils.ml" 149 5229 5279
+)
+"ocamlbuild/ocaml_utils.ml" 152 5384 5399 "ocamlbuild/ocaml_utils.ml" 152 5384 5418
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5434 "ocamlbuild/ocaml_utils.ml" 153 5419 5439
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5456 "ocamlbuild/ocaml_utils.ml" 153 5419 5470
+type(
+  (Pathname.t -> string, unit, string) format -> Pathname.t -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5471 "ocamlbuild/ocaml_utils.ml" 153 5419 5543
+type(
+  (Pathname.t -> string, unit, string) format
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5544 "ocamlbuild/ocaml_utils.ml" 153 5419 5548
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 149 5229 5264 "ocamlbuild/ocaml_utils.ml" 149 5229 5268
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5455 "ocamlbuild/ocaml_utils.ml" 153 5419 5549
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5440 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+type(
+  exn
+)
+"ocamlbuild/ocaml_utils.ml" 153 5419 5434 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 151 5344 5354 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 150 5283 5293 "ocamlbuild/ocaml_utils.ml" 153 5419 5550
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5253 "ocamlbuild/ocaml_utils.ml" 154 5551 5562
+type(
+  Pathname.t * string list -> string list -> string list
+)
+"ocamlbuild/ocaml_utils.ml" 154 5551 5563 "ocamlbuild/ocaml_utils.ml" 154 5551 5578
+type(
+  (Pathname.t * string list) list
+)
+ident(
+  int_ref ocamldep_output "ocamlbuild/ocaml_utils.ml" 145 5008 5018 "ocamlbuild/ocaml_utils.ml" 145 5008 5033
+)
+"ocamlbuild/ocaml_utils.ml" 154 5551 5579 "ocamlbuild/ocaml_utils.ml" 154 5551 5581
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 149 5229 5237 "ocamlbuild/ocaml_utils.ml" 154 5551 5581
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 155 5585 5595 "ocamlbuild/ocaml_utils.ml" 155 5585 5599
+type(
+  string list
+)
+ident(
+  def deps "ocamlbuild/ocaml_utils.ml" 159 5745 5751 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5613 "ocamlbuild/ocaml_utils.ml" 156 5602 5614
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5614 "ocamlbuild/ocaml_utils.ml" 156 5602 5630
+type(
+  bool ref
+)
+ident(
+  ext_ref Options.nostdlib
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5613 "ocamlbuild/ocaml_utils.ml" 156 5602 5630
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5631 "ocamlbuild/ocaml_utils.ml" 156 5602 5633
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5634 "ocamlbuild/ocaml_utils.ml" 156 5602 5637
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5639 "ocamlbuild/ocaml_utils.ml" 156 5602 5647
+type(
+  Tags.elt -> Tags.t -> bool
+)
+ident(
+  ext_ref Tags.mem
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5648 "ocamlbuild/ocaml_utils.ml" 156 5602 5662
+type(
+  Tags.elt
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5664 "ocamlbuild/ocaml_utils.ml" 156 5602 5680
+type(
+  Pathname.t -> Tags.t
+)
+ident(
+  ext_ref Tools.tags_of_pathname
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5681 "ocamlbuild/ocaml_utils.ml" 156 5602 5685
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5663 "ocamlbuild/ocaml_utils.ml" 156 5602 5686
+call(
+  stack
+)
+type(
+  Tags.t
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5638 "ocamlbuild/ocaml_utils.ml" 156 5602 5687
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5634 "ocamlbuild/ocaml_utils.ml" 156 5602 5687
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5613 "ocamlbuild/ocaml_utils.ml" 156 5602 5687
+type(
+  bool
+)
+"ocamlbuild/ocaml_utils.ml" 157 5693 5703 "ocamlbuild/ocaml_utils.ml" 157 5693 5715
+type(
+  string
+)
+"ocamlbuild/ocaml_utils.ml" 157 5693 5719 "ocamlbuild/ocaml_utils.ml" 157 5693 5723
+type(
+  string list
+)
+ident(
+  int_ref deps "ocamlbuild/ocaml_utils.ml" 148 5212 5222 "ocamlbuild/ocaml_utils.ml" 148 5212 5226
+)
+"ocamlbuild/ocaml_utils.ml" 157 5693 5703 "ocamlbuild/ocaml_utils.ml" 157 5693 5723
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 158 5724 5737 "ocamlbuild/ocaml_utils.ml" 158 5724 5741
+type(
+  string list
+)
+ident(
+  int_ref deps "ocamlbuild/ocaml_utils.ml" 148 5212 5222 "ocamlbuild/ocaml_utils.ml" 148 5212 5226
+)
+"ocamlbuild/ocaml_utils.ml" 156 5602 5610 "ocamlbuild/ocaml_utils.ml" 158 5724 5741
+type(
+  string list
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5755 "ocamlbuild/ocaml_utils.ml" 159 5745 5760
+type(
+  ([> `just_try | `mandatory ] * string) list
+)
+ident(
+  def deps' "ocamlbuild/ocaml_utils.ml" 164 5968 5974 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5763 "ocamlbuild/ocaml_utils.ml" 159 5745 5778
+type(
+  (string ->
+   (([> `just_try | `mandatory ] as 'c) * string) list -> ('c * string) list) ->
+  string list -> ('c * string) list -> ('c * string) list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5789 "ocamlbuild/ocaml_utils.ml" 159 5745 5792
+type(
+  string
+)
+ident(
+  def dep "ocamlbuild/ocaml_utils.ml" 159 5745 5793 "ocamlbuild/ocaml_utils.ml" 162 5870 5946
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5793 "ocamlbuild/ocaml_utils.ml" 159 5745 5796
+type(
+  ('c * string) list
+)
+ident(
+  def acc "ocamlbuild/ocaml_utils.ml" 160 5800 5808 "ocamlbuild/ocaml_utils.ml" 162 5870 5946
+)
+"ocamlbuild/ocaml_utils.ml" 160 5800 5814 "ocamlbuild/ocaml_utils.ml" 160 5800 5829
+type(
+  Pathname.t -> string -> [> `ignored | `just_try | `mandatory ]
+)
+ident(
+  int_ref path_importance "ocamlbuild/ocaml_utils.ml" 59 2110 2114 "ocamlbuild/ocaml_utils.ml" 59 2110 2129
+)
+"ocamlbuild/ocaml_utils.ml" 160 5800 5830 "ocamlbuild/ocaml_utils.ml" 160 5800 5834
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+)
+"ocamlbuild/ocaml_utils.ml" 160 5800 5835 "ocamlbuild/ocaml_utils.ml" 160 5800 5838
+type(
+  string
+)
+ident(
+  int_ref dep "ocamlbuild/ocaml_utils.ml" 159 5745 5789 "ocamlbuild/ocaml_utils.ml" 159 5745 5792
+)
+"ocamlbuild/ocaml_utils.ml" 160 5800 5814 "ocamlbuild/ocaml_utils.ml" 160 5800 5838
+call(
+  stack
+)
+type(
+  [> `ignored | `just_try | `mandatory ] as 'd
+)
+"ocamlbuild/ocaml_utils.ml" 161 5844 5854 "ocamlbuild/ocaml_utils.ml" 161 5844 5862
+type(
+  [ `ignored | `just_try | `mandatory ]
+)
+"ocamlbuild/ocaml_utils.ml" 161 5844 5866 "ocamlbuild/ocaml_utils.ml" 161 5844 5869
+type(
+  ('c * string) list
+)
+ident(
+  int_ref acc "ocamlbuild/ocaml_utils.ml" 159 5745 5793 "ocamlbuild/ocaml_utils.ml" 159 5745 5796
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5881 "ocamlbuild/ocaml_utils.ml" 162 5870 5890
+type(
+  [ `ignored | `just_try | `mandatory ]
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5893 "ocamlbuild/ocaml_utils.ml" 162 5870 5903
+type(
+  [ `ignored | `just_try | `mandatory ]
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5880 "ocamlbuild/ocaml_utils.ml" 162 5870 5904
+type(
+  [ `ignored | `just_try | `mandatory ]
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5908 "ocamlbuild/ocaml_utils.ml" 162 5870 5918
+ident(
+  def importance "ocamlbuild/ocaml_utils.ml" 162 5870 5922 "ocamlbuild/ocaml_utils.ml" 162 5870 5946
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5880 "ocamlbuild/ocaml_utils.ml" 162 5870 5918
+type(
+  [ `ignored | `just_try | `mandatory ]
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5923 "ocamlbuild/ocaml_utils.ml" 162 5870 5933
+type(
+  'c
+)
+ident(
+  int_ref importance "ocamlbuild/ocaml_utils.ml" 162 5870 5880 "ocamlbuild/ocaml_utils.ml" 162 5870 5918
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5935 "ocamlbuild/ocaml_utils.ml" 162 5870 5938
+type(
+  string
+)
+ident(
+  int_ref dep "ocamlbuild/ocaml_utils.ml" 159 5745 5789 "ocamlbuild/ocaml_utils.ml" 159 5745 5792
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5922 "ocamlbuild/ocaml_utils.ml" 162 5870 5939
+type(
+  'c * string
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5943 "ocamlbuild/ocaml_utils.ml" 162 5870 5946
+type(
+  ('c * string) list
+)
+ident(
+  int_ref acc "ocamlbuild/ocaml_utils.ml" 159 5745 5793 "ocamlbuild/ocaml_utils.ml" 159 5745 5796
+)
+"ocamlbuild/ocaml_utils.ml" 162 5870 5922 "ocamlbuild/ocaml_utils.ml" 162 5870 5946
+type(
+  ('c * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 160 5800 5808 "ocamlbuild/ocaml_utils.ml" 162 5870 5946
+type(
+  ('c * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5779 "ocamlbuild/ocaml_utils.ml" 163 5947 5956
+type(
+  string -> ('c * string) list -> ('c * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 163 5947 5957 "ocamlbuild/ocaml_utils.ml" 163 5947 5961
+type(
+  string list
+)
+ident(
+  int_ref deps "ocamlbuild/ocaml_utils.ml" 155 5585 5595 "ocamlbuild/ocaml_utils.ml" 155 5585 5599
+)
+"ocamlbuild/ocaml_utils.ml" 163 5947 5962 "ocamlbuild/ocaml_utils.ml" 163 5947 5964
+type(
+  ('c * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5763 "ocamlbuild/ocaml_utils.ml" 163 5947 5964
+call(
+  stack
+)
+type(
+  ('c * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 164 5968 5974 "ocamlbuild/ocaml_utils.ml" 164 5968 5989
+type(
+  (Pathname.t, ('a * string) list) Hashtbl.t ->
+  Pathname.t -> ('a * string) list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/ocaml_utils.ml" 164 5968 5990 "ocamlbuild/ocaml_utils.ml" 164 5968 6007
+type(
+  (Pathname.t, ('a * string) list) Hashtbl.t
+)
+ident(
+  int_ref path_dependencies "ocamlbuild/ocaml_utils.ml" 140 4806 4812 "ocamlbuild/ocaml_utils.ml" 140 4806 4829
+)
+"ocamlbuild/ocaml_utils.ml" 164 5968 6008 "ocamlbuild/ocaml_utils.ml" 164 5968 6012
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6022 "ocamlbuild/ocaml_utils.ml" 165 6013 6032
+type(
+  ('a * string) list -> ('a * string) list -> ('a * string) list
+)
+ident(
+  ext_ref My_std.List.union
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6038 "ocamlbuild/ocaml_utils.ml" 165 6013 6050
+type(
+  (Pathname.t, ('a * string) list) Hashtbl.t ->
+  Pathname.t -> ('a * string) list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6051 "ocamlbuild/ocaml_utils.ml" 165 6013 6068
+type(
+  (Pathname.t, ('a * string) list) Hashtbl.t
+)
+ident(
+  int_ref path_dependencies "ocamlbuild/ocaml_utils.ml" 140 4806 4812 "ocamlbuild/ocaml_utils.ml" 140 4806 4829
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6069 "ocamlbuild/ocaml_utils.ml" 165 6013 6073
+type(
+  Pathname.t
+)
+ident(
+  int_ref path "ocamlbuild/ocaml_utils.ml" 141 4854 4865 "ocamlbuild/ocaml_utils.ml" 141 4854 4869
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6038 "ocamlbuild/ocaml_utils.ml" 165 6013 6073
+call(
+  stack
+)
+type(
+  ('a * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6079 "ocamlbuild/ocaml_utils.ml" 165 6013 6088
+type(
+  exn
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6092 "ocamlbuild/ocaml_utils.ml" 165 6013 6094
+type(
+  ('a * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6033 "ocamlbuild/ocaml_utils.ml" 165 6013 6095
+type(
+  ('a * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6096 "ocamlbuild/ocaml_utils.ml" 165 6013 6101
+type(
+  ('a * string) list
+)
+ident(
+  int_ref deps' "ocamlbuild/ocaml_utils.ml" 159 5745 5755 "ocamlbuild/ocaml_utils.ml" 159 5745 5760
+)
+"ocamlbuild/ocaml_utils.ml" 165 6013 6021 "ocamlbuild/ocaml_utils.ml" 165 6013 6102
+call(
+  stack
+)
+type(
+  ('a * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 164 5968 5974 "ocamlbuild/ocaml_utils.ml" 165 6013 6102
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocaml_utils.ml" 166 6104 6110 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+type(
+  ('b * string) list
+)
+ident(
+  int_ref deps' "ocamlbuild/ocaml_utils.ml" 159 5745 5755 "ocamlbuild/ocaml_utils.ml" 159 5745 5760
+)
+"ocamlbuild/ocaml_utils.ml" 164 5968 5974 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 159 5745 5751 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 155 5585 5591 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 148 5212 5218 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 145 5008 5014 "ocamlbuild/ocaml_utils.ml" 166 6104 6115
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 144 4964 4992 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+type(
+  in_channel -> ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 144 4964 4968 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+call(
+  tail
+)
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 143 4926 4930 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 142 4872 4876 "ocamlbuild/ocaml_utils.ml" 167 6116 6123
+type(
+  ('b * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 168 6124 6129 "ocamlbuild/ocaml_utils.ml" 168 6124 6133
+type(
+  Pathname.t -> (([> `just_try | `mandatory ] as 'e) * string) list
+)
+ident(
+  int_ref read "ocamlbuild/ocaml_utils.ml" 141 4854 4860 "ocamlbuild/ocaml_utils.ml" 141 4854 4864
+)
+"ocamlbuild/ocaml_utils.ml" 141 4854 4856 "ocamlbuild/ocaml_utils.ml" 168 6124 6133
+type(
+  Pathname.t -> ('e * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 140 4806 4808 "ocamlbuild/ocaml_utils.ml" 168 6124 6133
+type(
+  Pathname.t -> ('e * string) list
+)
+"ocamlbuild/ocaml_utils.ml" 170 6135 6139 "ocamlbuild/ocaml_utils.ml" 170 6135 6159
+type(
+  Pathname.t -> ([> `just_try | `mandatory ] * string) list
+)
+ident(
+  def path_dependencies_of "ocamlbuild/ocaml_utils.ml" 170 6135 6189 "_none_" 1 0 -1
+)
+"ocamlbuild/ocaml_utils.ml" 170 6135 6162 "ocamlbuild/ocaml_utils.ml" 170 6135 6166
+type(
+  (Pathname.t -> (([> `just_try | `mandatory ] as 'a) * string) list) ->
+  Pathname.t -> ('a * string) list
+)
+ident(
+  ext_ref My_std.memo
+)
+"ocamlbuild/ocaml_utils.ml" 170 6135 6167 "ocamlbuild/ocaml_utils.ml" 170 6135 6189
+type(
+  Pathname.t -> ('a * string) list
+)
+ident(
+  int_ref read_path_dependencies "ocamlbuild/ocaml_utils.ml" 139 4777 4781 "ocamlbuild/ocaml_utils.ml" 139 4777 4803
+)
+"ocamlbuild/ocaml_utils.ml" 170 6135 6162 "ocamlbuild/ocaml_utils.ml" 170 6135 6189
+call(
+  stack
+)
+type(
+  Pathname.t -> ('a * string) list
+)
